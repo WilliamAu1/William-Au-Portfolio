@@ -1,0 +1,2550 @@
+dex,pokemon,fastmove,chargemove,WeaveDPS,WeaveDPS Percentile,TDO,TDO Percentile,~TDO per CP,~SurvivalTime
+384,rayquaza,dragon tail,outrage,18.44,100,431,59.2,0.07,17.77401
+373,salamence,dragon tail,draco meteor,18.14,98.37,417,57.28,0.07,17.49505
+150,mewtwo,confusion,shadow ball,17.99,97.56,452,62.09,0.07,19.1179
+384,rayquaza,air slash,outrage,17.38,94.25,406,55.77,0.07,17.77401
+150,mewtwo,confusion,hyper beam,17.14,92.95,431,59.2,0.07,19.1179
+149,dragonite,dragon tail,outrage,17,92.19,444,60.99,0.08,19.85675
+150,mewtwo,confusion,focus blast,16.99,92.14,427,58.65,0.07,19.1179
+150,mewtwo,psycho cut,shadow ball,16.9,91.65,425,58.38,0.07,19.1179
+150,mewtwo,confusion,psychic,16.78,91,422,57.97,0.07,19.1179
+149,dragonite,dragon tail,dragon claw,16.77,90.94,438,60.16,0.08,19.85675
+94,gengar,shadow claw,shadow ball,16.63,90.18,235,32.28,0.06,10.73414
+384,rayquaza,dragon tail,aerial ace,16.53,89.64,386,53.02,0.07,17.77401
+65,alakazam,confusion,futuresight,16.51,89.53,264,36.26,0.06,12.15343
+150,mewtwo,psycho cut,hyper beam,16.24,88.07,408,56.04,0.06,19.1179
+94,gengar,shadow claw,sludge bomb,16.19,87.8,229,31.46,0.06,10.73414
+373,salamence,dragon tail,hydro pump,16.15,87.58,372,51.1,0.07,17.49505
+146,moltres,fire spin,overheat,16.1,87.31,383,52.61,0.07,18.10008
+149,dragonite,dragon breath,outrage,16.09,87.26,420,57.69,0.07,19.85675
+257,blaziken,counter,overheat,16.07,87.15,269,36.95,0.06,12.70851
+150,mewtwo,psycho cut,focus blast,15.99,86.71,402,55.22,0.06,19.1179
+149,dragonite,dragon tail,hurricane,15.96,86.55,417,57.28,0.07,19.85675
+381,latios,dragon breath,dragon claw,15.95,86.5,416,57.14,0.07,19.84167
+196,espeon,confusion,futuresight,15.93,86.39,296,40.66,0.06,14.11366
+68,machamp,counter,dynamic punch,15.92,86.33,337,46.29,0.07,16.08896
+382,kyogre,waterfall,hydro pump,15.91,86.28,512,70.33,0.08,24.4746
+373,salamence,fire fang,draco meteor,15.88,86.12,365,50.14,0.07,17.49505
+146,moltres,fire spin,flamethrower,15.86,86.01,378,51.92,0.07,18.10008
+149,dragonite,dragon breath,dragon claw,15.8,85.68,413,56.73,0.07,19.85675
+257,blaziken,fire spin,overheat,15.75,85.41,263,36.13,0.06,12.70851
+385,jirachi,confusion,doom desire,15.74,85.36,468,64.29,0.1,22.58788
+149,dragonite,dragon tail,dragon pulse,15.72,85.25,411,56.46,0.07,19.85675
+136,flareon,fire spin,overheat,15.69,85.09,305,41.9,0.07,14.7922
+149,dragonite,steel wing,outrage,15.69,85.09,410,56.32,0.07,19.85675
+373,salamence,dragon tail,fire blast,15.66,84.92,360,49.45,0.06,17.49505
+257,blaziken,counter,focus blast,15.63,84.76,261,35.85,0.06,12.70851
+150,mewtwo,psycho cut,psychic,15.61,84.65,393,53.98,0.06,19.1179
+381,latios,zen headbutt,dragon claw,15.61,84.65,407,55.91,0.07,19.84167
+94,gengar,hex,sludge bomb,15.6,84.6,220,30.22,0.05,10.73414
+149,dragonite,dragon tail,hyper beam,15.58,84.49,407,55.91,0.07,19.85675
+384,rayquaza,air slash,aerial ace,15.49,84,362,49.73,0.06,17.77401
+286,breloom,counter,dynamic punch,15.48,83.95,215,29.53,0.06,10.54472
+65,alakazam,confusion,shadow ball,15.44,83.73,247,33.93,0.05,12.15343
+243,raikou,thunder shock,wild charge,15.39,83.46,414,56.87,0.08,20.47686
+65,alakazam,confusion,focus blast,15.36,83.3,246,33.79,0.05,12.15343
+149,dragonite,steel wing,dragon claw,15.35,83.24,401,55.08,0.07,19.85675
+94,gengar,sucker punch,sludge bomb,15.33,83.13,216,29.67,0.05,10.73414
+257,blaziken,fire spin,focus blast,15.3,82.97,256,35.16,0.06,12.70851
+65,alakazam,confusion,psychic,15.18,82.32,243,33.38,0.05,12.15343
+244,entei,fire spin,overheat,15.18,82.32,436,59.89,0.08,21.84525
+145,zapdos,thunder shock,thunderbolt,15.15,82.16,368,50.55,0.07,18.46574
+136,flareon,fire spin,flamethrower,15.13,82.05,294,40.38,0.06,14.7922
+94,gengar,shadow claw,focus blast,15.11,81.94,213,29.26,0.05,10.73414
+103,exeggutor,confusion,solar beam,15.09,81.83,328,45.05,0.07,16.53379
+382,kyogre,waterfall,blizzard,15.09,81.83,486,66.76,0.08,24.4746
+94,gengar,shadow claw,sludge wave,15.07,81.72,213,29.26,0.05,10.73414
+297,hariyama,counter,dynamic punch,15.06,81.67,361,49.59,0.08,18.21506
+68,machamp,karate chop,dynamic punch,15.03,81.51,318,43.68,0.07,16.08896
+145,zapdos,thunder shock,zap cannon,15.01,81.4,365,50.14,0.07,18.46574
+382,kyogre,waterfall,thunder,15,81.34,483,66.35,0.07,24.4746
+244,entei,fire spin,flamethrower,14.95,81.07,430,59.07,0.08,21.84525
+146,moltres,fire spin,fire blast,14.9,80.8,355,48.76,0.07,18.10008
+383,groudon,dragon tail,earthquake,14.9,80.8,480,65.93,0.07,24.4746
+243,raikou,volt switch,wild charge,14.89,80.75,401,55.08,0.08,20.47686
+282,gardevoir,confusion,dazzling gleam,14.86,80.59,323,44.37,0.07,16.53944
+244,entei,fire fang,overheat,14.83,80.42,426,58.52,0.08,21.84525
+149,dragonite,dragon breath,dragon pulse,14.8,80.26,387,53.16,0.07,19.85675
+94,gengar,hex,shadow ball,14.79,80.21,209,28.71,0.05,10.73414
+124,jynx,confusion,avalanche,14.79,80.21,259,35.58,0.07,13.29941
+381,latios,dragon breath,solar beam,14.78,80.15,386,53.02,0.07,19.84167
+65,alakazam,psycho cut,shadow ball,14.76,80.04,236,32.42,0.05,12.15343
+286,breloom,counter,seed bomb,14.74,79.93,204,28.02,0.05,10.54472
+149,dragonite,dragon breath,hurricane,14.72,79.83,384,52.75,0.07,19.85675
+196,espeon,zen headbutt,futuresight,14.72,79.83,273,37.5,0.06,14.11366
+145,zapdos,charge beam,thunderbolt,14.7,79.72,357,49.04,0.07,18.46574
+145,zapdos,thunder shock,discharge,14.68,79.61,357,49.04,0.07,18.46574
+248,tyranitar,bite,stone edge,14.68,79.61,440,60.44,0.08,22.78956
+93,haunter,shadow claw,shadow ball,14.66,79.5,119,16.35,0.04,6.174724
+196,espeon,confusion,psychic,14.64,79.39,272,37.36,0.06,14.11366
+244,entei,fire fang,flamethrower,14.64,79.39,421,57.83,0.08,21.84525
+65,alakazam,confusion,dazzling gleam,14.61,79.23,234,32.14,0.05,12.15343
+146,moltres,ember,overheat,14.61,79.23,348,47.8,0.07,18.10008
+65,alakazam,psycho cut,futuresight,14.58,79.07,233,32.01,0.05,12.15343
+94,gengar,sucker punch,shadow ball,14.57,79.01,206,28.3,0.05,10.73414
+146,moltres,ember,flamethrower,14.56,78.96,347,47.66,0.07,18.10008
+136,flareon,fire spin,fire blast,14.53,78.8,283,38.87,0.06,14.7922
+103,exeggutor,extrasensory,solar beam,14.52,78.74,316,43.41,0.07,16.53379
+68,machamp,counter,cross chop,14.49,78.58,307,42.17,0.07,16.08896
+145,zapdos,charge beam,zap cannon,14.49,78.58,352,48.35,0.07,18.46574
+6,charizard,fire spin,overheat,14.45,78.36,289,39.7,0.07,15.22005
+149,dragonite,dragon breath,hyper beam,14.42,78.2,377,51.79,0.07,19.85675
+149,dragonite,steel wing,dragon pulse,14.41,78.15,376,51.65,0.07,19.85675
+383,groudon,dragon tail,solar beam,14.41,78.15,464,63.74,0.07,24.4746
+243,raikou,thunder shock,thunderbolt,14.37,77.93,387,53.16,0.07,20.47686
+68,machamp,counter,close combat,14.35,77.82,304,41.76,0.07,16.08896
+383,groudon,mud shot,solar beam,14.32,77.66,461,63.32,0.07,24.4746
+145,zapdos,charge beam,discharge,14.31,77.6,348,47.8,0.07,18.46574
+93,haunter,shadow claw,sludge bomb,14.3,77.55,116,15.93,0.04,6.174724
+130,gyarados,waterfall,hydro pump,14.29,77.49,381,52.34,0.07,20.28273
+381,latios,zen headbutt,solar beam,14.28,77.44,373,51.24,0.06,19.84167
+385,jirachi,charge beam,doom desire,14.28,77.44,424,58.24,0.09,22.58788
+282,gardevoir,confusion,shadow ball,14.24,77.22,310,42.58,0.07,16.53944
+354,banette,shadow claw,shadow ball,14.23,77.17,177,24.31,0.05,9.434549
+103,exeggutor,confusion,seed bomb,14.22,77.11,309,42.45,0.07,16.53379
+136,flareon,ember,overheat,14.22,77.11,277,38.05,0.06,14.7922
+381,latios,dragon breath,psychic,14.22,77.11,371,50.96,0.06,19.84167
+229,houndoom,fire fang,foul play,14.21,77.06,250,34.34,0.06,13.36915
+149,dragonite,steel wing,hurricane,14.2,77.01,371,50.96,0.07,19.85675
+214,heracross,counter,close combat,14.2,77.01,311,42.72,0.07,16.64405
+217,ursaring,counter,hyper beam,14.19,76.95,270,37.09,0.06,14.4435
+384,rayquaza,dragon tail,ancient power,14.17,76.84,331,45.47,0.06,17.77401
+103,exeggutor,zen headbutt,solar beam,14.13,76.63,307,42.17,0.07,16.53379
+286,breloom,counter,sludge bomb,14.12,76.57,196,26.92,0.05,10.54472
+297,hariyama,counter,close combat,14.05,76.19,337,46.29,0.08,18.21506
+244,entei,fire spin,fire blast,14.04,76.14,403,55.36,0.08,21.84525
+124,jynx,frost breath,avalanche,14,75.92,245,33.65,0.06,13.29941
+68,machamp,karate chop,close combat,13.97,75.76,296,40.66,0.06,16.08896
+229,houndoom,snarl,foul play,13.96,75.7,245,33.65,0.06,13.36915
+103,exeggutor,extrasensory,seed bomb,13.94,75.6,303,41.62,0.07,16.53379
+149,dragonite,steel wing,hyper beam,13.94,75.6,364,50,0.06,19.85675
+243,raikou,volt switch,thunderbolt,13.94,75.6,375,51.51,0.07,20.47686
+68,machamp,bullet punch,dynamic punch,13.93,75.54,295,40.52,0.06,16.08896
+196,espeon,confusion,psybeam,13.93,75.54,259,35.58,0.05,14.11366
+376,metagross,zen headbutt,flash cannon,13.93,75.54,392,53.85,0.07,21.39949
+6,charizard,fire spin,flamethrower,13.92,75.49,279,38.32,0.07,15.22005
+59,arcanine,fire fang,flamethrower,13.9,75.38,301,41.35,0.07,16.45462
+248,tyranitar,bite,crunch,13.89,75.33,416,57.14,0.07,22.78956
+68,machamp,counter,heavy slam,13.85,75.11,293,40.25,0.06,16.08896
+383,groudon,mud shot,earthquake,13.85,75.11,446,61.26,0.07,24.4746
+145,zapdos,thunder shock,thunder,13.84,75.05,336,46.15,0.06,18.46574
+376,metagross,bullet punch,flash cannon,13.84,75.05,390,53.57,0.07,21.39949
+68,machamp,counter,submission,13.83,75,293,40.25,0.06,16.08896
+376,metagross,zen headbutt,psychic,13.81,74.89,389,53.43,0.07,21.39949
+93,haunter,lick,shadow ball,13.78,74.73,112,15.38,0.04,6.174724
+136,flareon,ember,flamethrower,13.78,74.73,268,36.81,0.06,14.7922
+373,salamence,fire fang,hydro pump,13.78,74.73,317,43.54,0.06,17.49505
+146,moltres,fire spin,heat wave,13.77,74.67,328,45.05,0.06,18.10008
+214,heracross,counter,megahorn,13.77,74.67,301,41.35,0.06,16.64405
+376,metagross,bullet punch,psychic,13.72,74.4,386,53.02,0.07,21.39949
+71,victreebel,razor leaf,sludge bomb,13.7,74.3,225,30.91,0.06,12.46254
+244,entei,fire fang,fire blast,13.7,74.3,394,54.12,0.07,21.84525
+257,blaziken,counter,brave bird,13.69,74.24,229,31.46,0.05,12.70851
+6,charizard,air slash,overheat,13.67,74.13,274,37.64,0.06,15.22005
+319,sharpedo,waterfall,crunch,13.67,74.13,127,17.45,0.04,7.038922
+94,gengar,shadow claw,dark pulse,13.66,74.08,193,26.51,0.05,10.73414
+381,latios,zen headbutt,psychic,13.66,74.08,356,48.9,0.06,19.84167
+380,latias,dragon breath,dragon claw,13.65,74.02,415,57.01,0.08,23.12129
+59,arcanine,fire fang,wild charge,13.61,73.81,295,40.52,0.07,16.45462
+124,jynx,pound,avalanche,13.58,73.64,238,32.69,0.06,13.29941
+130,gyarados,waterfall,outrage,13.58,73.64,362,49.73,0.07,20.28273
+64,kadabra,confusion,shadow ball,13.55,73.48,120,16.48,0.04,6.732636
+250,ho oh,steel wing,fire blast,13.53,73.37,500,68.68,0.08,28.0916
+71,victreebel,razor leaf,leaf blade,13.52,73.32,222,30.49,0.06,12.46254
+217,ursaring,metal claw,hyper beam,13.5,73.21,256,35.16,0.06,14.4435
+71,victreebel,acid,sludge bomb,13.49,73.16,221,30.36,0.06,12.46254
+127,pinsir,bug bite,x scissor,13.47,73.05,254,34.89,0.06,14.31722
+196,espeon,zen headbutt,psychic,13.46,72.99,250,34.34,0.05,14.11366
+332,cacturne,sucker punch,grass knot,13.46,72.99,166,22.8,0.05,9.36104
+103,exeggutor,zen headbutt,seed bomb,13.45,72.94,292,40.11,0.06,16.53379
+359,absol,snarl,dark pulse,13.45,72.94,161,22.12,0.04,9.092451
+383,groudon,dragon tail,fire blast,13.45,72.94,433,59.48,0.07,24.4746
+71,victreebel,razor leaf,solar beam,13.44,72.89,220,30.22,0.06,12.46254
+136,flareon,fire spin,heat wave,13.44,72.89,261,35.85,0.06,14.7922
+297,hariyama,bullet punch,dynamic punch,13.44,72.89,322,44.23,0.07,18.21506
+212,scizor,bullet punch,x scissor,13.42,72.78,263,36.13,0.06,14.87607
+310,manectric,charge beam,wild charge,13.42,72.78,181,24.86,0.05,10.23183
+68,machamp,counter,stone edge,13.41,72.72,284,39.01,0.06,16.08896
+6,charizard,wing attack,overheat,13.4,72.67,268,36.81,0.06,15.22005
+135,jolteon,thunder shock,thunderbolt,13.4,72.67,257,35.3,0.06,14.58863
+130,gyarados,dragon tail,hydro pump,13.39,72.61,357,49.04,0.07,20.28273
+254,sceptile,fury cutter,leaf blade,13.38,72.56,248,34.07,0.06,14.07784
+373,salamence,fire fang,fire blast,13.38,72.56,308,42.31,0.05,17.49505
+380,latias,zen headbutt,dragon claw,13.38,72.56,407,55.91,0.08,23.12129
+146,moltres,ember,fire blast,13.37,72.51,318,43.68,0.06,18.10008
+6,charizard,fire spin,fire blast,13.36,72.45,267,36.68,0.06,15.22005
+93,haunter,lick,sludge bomb,13.36,72.45,109,14.97,0.04,6.174724
+124,jynx,confusion,ice punch,13.36,72.45,234,32.14,0.06,13.29941
+254,sceptile,bullet seed,leaf blade,13.35,72.4,247,33.93,0.06,14.07784
+248,tyranitar,iron tail,crunch,13.34,72.34,400,54.95,0.07,22.78956
+68,machamp,karate chop,cross chop,13.32,72.23,282,38.74,0.06,16.08896
+103,exeggutor,confusion,psychic,13.32,72.23,290,39.84,0.06,16.53379
+59,arcanine,fire fang,fire blast,13.31,72.18,288,39.56,0.06,16.45462
+257,blaziken,fire spin,brave bird,13.31,72.18,222,30.49,0.05,12.70851
+65,alakazam,psycho cut,focus blast,13.29,72.07,212,29.12,0.05,12.15343
+71,victreebel,acid,leaf blade,13.28,72.02,218,29.95,0.06,12.46254
+282,gardevoir,confusion,psychic,13.27,71.96,289,39.7,0.06,16.53944
+330,flygon,dragon tail,dragon claw,13.26,71.91,260,35.71,0.07,14.92225
+145,zapdos,charge beam,thunder,13.24,71.8,322,44.23,0.06,18.46574
+135,jolteon,thunder shock,discharge,13.23,71.75,254,34.89,0.06,14.58863
+275,shiftry,razor leaf,leaf blade,13.22,71.69,215,29.53,0.06,12.34097
+6,charizard,air slash,flamethrower,13.21,71.64,264,36.26,0.06,15.22005
+332,cacturne,poison jab,grass knot,13.21,71.64,163,22.39,0.05,9.36104
+384,rayquaza,air slash,ancient power,13.2,71.58,309,42.45,0.05,17.77401
+157,typhlosion,shadow claw,overheat,13.18,71.48,264,36.26,0.06,15.22005
+229,houndoom,fire fang,fire blast,13.18,71.48,232,31.87,0.06,13.36915
+3,venusaur,vine whip,sludge bomb,13.13,71.2,300,41.21,0.07,17.38196
+71,victreebel,acid,solar beam,13.13,71.2,215,29.53,0.06,12.46254
+319,sharpedo,bite,crunch,13.13,71.2,122,16.76,0.04,7.038922
+6,charizard,ember,overheat,13.12,71.15,263,36.13,0.06,15.22005
+157,typhlosion,ember,overheat,13.12,71.15,263,36.13,0.06,15.22005
+217,ursaring,counter,play rough,13.11,71.1,249,34.2,0.06,14.4435
+59,arcanine,snarl,flamethrower,13.1,71.04,284,39.01,0.06,16.45462
+243,raikou,thunder shock,thunder,13.1,71.04,353,48.49,0.07,20.47686
+124,jynx,confusion,psyshock,13.09,70.99,229,31.46,0.06,13.29941
+275,shiftry,razor leaf,foul play,13.08,70.93,212,29.12,0.06,12.34097
+127,pinsir,fury cutter,x scissor,13.07,70.88,246,33.79,0.06,14.31722
+250,ho oh,extrasensory,fire blast,13.07,70.88,483,66.35,0.08,28.0916
+135,jolteon,volt switch,thunderbolt,13.05,70.77,250,34.34,0.06,14.58863
+196,espeon,zen headbutt,psybeam,13.04,70.72,242,33.24,0.05,14.11366
+248,tyranitar,bite,fire blast,13.04,70.72,391,53.71,0.07,22.78956
+136,flareon,ember,fire blast,13.03,70.66,254,34.89,0.06,14.7922
+248,tyranitar,iron tail,stone edge,13.03,70.66,391,53.71,0.07,22.78956
+212,scizor,bullet punch,iron head,13.01,70.55,255,35.03,0.06,14.87607
+65,alakazam,psycho cut,psychic,13,70.5,208,28.57,0.05,12.15343
+212,scizor,fury cutter,x scissor,12.99,70.44,254,34.89,0.06,14.87607
+250,ho oh,steel wing,brave bird,12.98,70.39,480,65.93,0.08,28.0916
+68,machamp,karate chop,heavy slam,12.97,70.34,274,37.64,0.06,16.08896
+6,charizard,wing attack,flamethrower,12.95,70.23,259,35.58,0.06,15.22005
+68,machamp,karate chop,submission,12.95,70.23,274,37.64,0.06,16.08896
+135,jolteon,volt switch,discharge,12.95,70.23,248,34.07,0.06,14.58863
+297,hariyama,counter,heavy slam,12.95,70.23,310,42.58,0.07,18.21506
+214,heracross,counter,earthquake,12.93,70.12,283,38.87,0.06,16.64405
+275,shiftry,feint attack,leaf blade,12.93,70.12,210,28.85,0.06,12.34097
+383,groudon,mud shot,fire blast,12.93,70.12,416,57.14,0.06,24.4746
+103,exeggutor,bullet seed,solar beam,12.92,70.07,281,38.6,0.06,16.53379
+250,ho oh,extrasensory,solar beam,12.92,70.07,477,65.52,0.08,28.0916
+45,vileplume,razor leaf,solar beam,12.91,70.01,241,33.1,0.06,14.21921
+359,absol,snarl,thunder,12.91,70.01,154,21.15,0.04,9.092451
+57,primeape,counter,close combat,12.9,69.96,182,25,0.05,10.72095
+212,scizor,fury cutter,iron head,12.9,69.96,252,34.62,0.06,14.87607
+94,gengar,hex,focus blast,12.86,69.74,182,25,0.04,10.73414
+130,gyarados,dragon tail,outrage,12.85,69.69,343,47.12,0.07,20.28273
+286,breloom,bullet seed,dynamic punch,12.85,69.69,178,24.45,0.05,10.54472
+139,omastar,rock throw,rock slide,12.84,69.63,295,40.52,0.07,17.48846
+229,houndoom,snarl,fire blast,12.8,69.41,225,30.91,0.06,13.36915
+251,celebi,confusion,hyper beam,12.79,69.36,380,52.2,0.08,22.58788
+376,metagross,bullet punch,earthquake,12.79,69.36,360,49.45,0.06,21.39949
+64,kadabra,confusion,dazzling gleam,12.78,69.31,113,15.52,0.04,6.732636
+94,gengar,hex,sludge wave,12.78,69.31,180,24.73,0.04,10.73414
+57,primeape,counter,cross chop,12.77,69.25,180,24.73,0.05,10.72095
+260,swampert,water gun,surf,12.77,69.25,320,43.96,0.07,19.05852
+210,granbull,snarl,play rough,12.76,69.2,232,31.87,0.06,13.8036
+275,shiftry,feint attack,foul play,12.76,69.2,207,28.43,0.06,12.34097
+3,venusaur,razor leaf,sludge bomb,12.75,69.14,291,39.97,0.07,17.38196
+103,exeggutor,bullet seed,seed bomb,12.74,69.09,277,38.05,0.06,16.53379
+250,ho oh,extrasensory,brave bird,12.72,68.98,470,64.56,0.08,28.0916
+6,charizard,fire spin,dragon claw,12.71,68.93,254,34.89,0.06,15.22005
+282,gardevoir,charge beam,dazzling gleam,12.71,68.93,276,37.91,0.06,16.53944
+130,gyarados,waterfall,dragon pulse,12.7,68.87,339,46.57,0.07,20.28273
+139,omastar,rock throw,hydro pump,12.7,68.87,292,40.11,0.07,17.48846
+250,ho oh,steel wing,solar beam,12.7,68.87,469,64.42,0.08,28.0916
+6,charizard,ember,flamethrower,12.69,68.82,254,34.89,0.06,15.22005
+380,latias,dragon breath,psychic,12.68,68.76,386,53.02,0.07,23.12129
+65,alakazam,psycho cut,dazzling gleam,12.67,68.71,203,27.88,0.04,12.15343
+243,raikou,volt switch,thunder,12.67,68.71,341,46.84,0.06,20.47686
+94,gengar,sucker punch,focus blast,12.66,68.66,179,24.59,0.04,10.73414
+354,banette,hex,shadow ball,12.66,68.66,157,21.57,0.05,9.434549
+123,scyther,air slash,x scissor,12.65,68.6,222,30.49,0.06,13.35218
+68,machamp,karate chop,stone edge,12.64,68.55,267,36.68,0.06,16.08896
+124,jynx,frost breath,ice punch,12.64,68.55,221,30.36,0.06,13.29941
+6,charizard,air slash,fire blast,12.63,68.49,253,34.75,0.06,15.22005
+45,vileplume,acid,solar beam,12.63,68.49,236,32.42,0.06,14.21921
+260,swampert,mud shot,surf,12.61,68.38,316,43.41,0.07,19.05852
+342,crawdaunt,waterfall,bubble beam,12.61,68.38,186,25.55,0.05,11.21478
+93,haunter,astonish,shadow ball,12.6,68.33,102,14.01,0.04,6.174724
+210,granbull,bite,play rough,12.6,68.33,229,31.46,0.06,13.8036
+103,exeggutor,extrasensory,psychic,12.59,68.28,274,37.64,0.06,16.53379
+94,gengar,sucker punch,sludge wave,12.57,68.17,177,24.31,0.04,10.73414
+229,houndoom,fire fang,crunch,12.57,68.17,221,30.36,0.06,13.36915
+342,crawdaunt,waterfall,night slash,12.57,68.17,185,25.41,0.05,11.21478
+359,absol,snarl,megahorn,12.57,68.17,150,20.6,0.04,9.092451
+85,dodrio,steel wing,drill peck,12.56,68.11,166,22.8,0.05,10.03958
+89,muk,poison jab,gunk shot,12.56,68.11,345,47.39,0.08,20.89907
+3,venusaur,razor leaf,solar beam,12.53,67.95,286,39.29,0.07,17.38196
+59,arcanine,bite,flamethrower,12.53,67.95,271,37.23,0.06,16.45462
+76,golem,rock throw,stone edge,12.51,67.84,328,45.05,0.07,19.92366
+78,rapidash,fire spin,fire blast,12.5,67.79,202,27.75,0.06,12.28159
+217,ursaring,metal claw,play rough,12.5,67.79,237,32.55,0.05,14.4435
+130,gyarados,bite,hydro pump,12.48,67.68,333,45.74,0.06,20.28273
+130,gyarados,dragon breath,hydro pump,12.48,67.68,333,45.74,0.06,20.28273
+251,celebi,confusion,psychic,12.48,67.68,371,50.96,0.08,22.58788
+310,manectric,snarl,wild charge,12.48,67.68,168,23.08,0.05,10.23183
+385,jirachi,confusion,psychic,12.48,67.68,371,50.96,0.08,22.58788
+3,venusaur,vine whip,solar beam,12.47,67.62,285,39.15,0.07,17.38196
+112,rhydon,mud slap,stone edge,12.47,67.62,381,52.34,0.07,23.22119
+160,feraligatr,waterfall,hydro pump,12.47,67.62,300,41.21,0.07,18.29422
+286,breloom,bullet seed,seed bomb,12.45,67.52,173,23.76,0.05,10.54472
+59,arcanine,snarl,wild charge,12.43,67.41,269,36.95,0.06,16.45462
+124,jynx,frost breath,psyshock,12.43,67.41,217,29.81,0.05,13.29941
+82,magneton,spark,discharge,12.4,67.25,172,23.63,0.05,10.5287
+330,flygon,dragon tail,earthquake,12.4,67.25,243,33.38,0.06,14.92225
+123,scyther,steel wing,x scissor,12.39,67.19,218,29.95,0.06,13.35218
+82,magneton,thunder shock,discharge,12.38,67.14,171,23.49,0.05,10.5287
+376,metagross,zen headbutt,earthquake,12.37,67.08,348,47.8,0.06,21.39949
+127,pinsir,rock smash,x scissor,12.36,67.03,233,32.01,0.05,14.31722
+248,tyranitar,iron tail,fire blast,12.34,66.92,370,50.82,0.06,22.78956
+82,magneton,spark,magnet bomb,12.33,66.87,171,23.49,0.05,10.5287
+59,arcanine,bite,wild charge,12.31,66.76,266,36.54,0.06,16.45462
+134,vaporeon,water gun,hydro pump,12.31,66.76,399,54.81,0.08,24.66026
+306,aggron,iron tail,heavy slam,12.31,66.76,385,52.88,0.08,23.80172
+350,milotic,waterfall,surf,12.31,66.76,398,54.67,0.08,24.60843
+76,golem,rock throw,rock blast,12.3,66.7,322,44.23,0.07,19.92366
+82,magneton,thunder shock,magnet bomb,12.3,66.7,170,23.35,0.05,10.5287
+130,gyarados,waterfall,crunch,12.3,66.7,328,45.05,0.06,20.28273
+354,banette,shadow claw,thunder,12.3,66.7,153,21.02,0.05,9.434549
+76,golem,rock throw,earthquake,12.29,66.65,322,44.23,0.07,19.92366
+169,crobat,air slash,sludge bomb,12.29,66.65,269,36.95,0.07,16.64688
+249,lugia,extrasensory,sky attack,12.29,66.65,580,79.67,0.1,35.88823
+286,breloom,bullet seed,sludge bomb,12.29,66.65,170,23.35,0.04,10.54472
+103,exeggutor,zen headbutt,psychic,12.27,66.54,267,36.68,0.06,16.53379
+112,rhydon,mud slap,surf,12.27,66.54,375,51.51,0.07,23.22119
+112,rhydon,mud slap,earthquake,12.27,66.54,375,51.51,0.07,23.22119
+380,latias,zen headbutt,psychic,12.27,66.54,373,51.24,0.07,23.12129
+229,houndoom,snarl,crunch,12.26,66.49,216,29.67,0.05,13.36915
+89,muk,acid,gunk shot,12.24,66.38,336,46.15,0.08,20.89907
+26,raichu,spark,wild charge,12.23,66.32,182,25,0.06,11.30242
+26,raichu,thunder shock,wild charge,12.23,66.32,182,25,0.06,11.30242
+6,charizard,wing attack,fire blast,12.22,66.27,245,33.65,0.06,15.22005
+249,lugia,extrasensory,futuresight,12.22,66.27,577,79.26,0.1,35.88823
+82,magneton,spark,zap cannon,12.21,66.21,169,23.21,0.05,10.5287
+124,jynx,pound,ice punch,12.2,66.16,213,29.26,0.05,13.29941
+251,celebi,confusion,dazzling gleam,12.2,66.16,362,49.73,0.07,22.58788
+354,banette,shadow claw,dazzling gleam,12.2,66.16,151,20.74,0.05,9.434549
+385,jirachi,confusion,dazzling gleam,12.2,66.16,362,49.73,0.07,22.58788
+82,magneton,thunder shock,zap cannon,12.17,66,169,23.21,0.05,10.5287
+130,gyarados,bite,outrage,12.17,66,325,44.64,0.06,20.28273
+130,gyarados,dragon breath,outrage,12.17,66,325,44.64,0.06,20.28273
+217,ursaring,counter,close combat,12.16,65.94,231,31.73,0.05,14.4435
+380,latias,dragon breath,thunder,12.16,65.94,370,50.82,0.07,23.12129
+64,kadabra,confusion,psybeam,12.15,65.89,108,14.84,0.04,6.732636
+114,tangela,vine whip,grass knot,12.15,65.89,237,32.55,0.07,14.86005
+114,tangela,vine whip,power whip,12.15,65.89,237,32.55,0.07,14.86005
+123,scyther,fury cutter,x scissor,12.15,65.89,213,29.26,0.05,13.35218
+106,hitmonlee,rock smash,close combat,12.13,65.78,193,26.51,0.05,12.08651
+157,typhlosion,shadow claw,fire blast,12.13,65.78,243,33.38,0.06,15.22005
+230,kingdra,dragon breath,outrage,12.11,65.67,256,35.16,0.07,16.07389
+6,charizard,air slash,dragon claw,12.1,65.62,242,33.24,0.06,15.22005
+68,machamp,bullet punch,cross chop,12.1,65.62,256,35.16,0.06,16.08896
+146,moltres,ember,heat wave,12.1,65.62,288,39.56,0.06,18.10008
+45,vileplume,razor leaf,petal blizzard,12.09,65.56,226,31.04,0.06,14.21921
+93,haunter,astonish,sludge bomb,12.09,65.56,98,13.46,0.04,6.174724
+93,haunter,shadow claw,shadow punch,12.05,65.35,98,13.46,0.04,6.174724
+143,snorlax,lick,hyper beam,12.05,65.35,509,69.92,0.1,32.1063
+99,kingler,bubble,x scissor,12.04,65.29,211,28.98,0.05,13.32202
+62,poliwrath,bubble,dynamic punch,12.02,65.18,290,39.84,0.07,18.37433
+6,charizard,ember,fire blast,12,65.08,240,32.97,0.06,15.22005
+82,magneton,charge beam,discharge,12,65.08,166,22.8,0.05,10.5287
+124,jynx,pound,psyshock,12,65.08,210,28.85,0.05,13.29941
+142,aerodactyl,steel wing,hyper beam,12,65.08,230,31.59,0.06,14.59429
+157,typhlosion,ember,fire blast,12,65.08,240,32.97,0.06,15.22005
+157,typhlosion,shadow claw,solar beam,12,65.08,240,32.97,0.06,15.22005
+85,dodrio,feint attack,drill peck,11.99,65.02,158,21.7,0.05,10.03958
+139,omastar,rock throw,rock blast,11.99,65.02,276,37.91,0.06,17.48846
+342,crawdaunt,snarl,bubble beam,11.95,64.8,176,24.18,0.05,11.21478
+64,kadabra,psycho cut,shadow ball,11.93,64.7,106,14.56,0.04,6.732636
+82,magneton,charge beam,magnet bomb,11.93,64.7,165,22.66,0.05,10.5287
+93,haunter,shadow claw,dark pulse,11.93,64.7,97,13.32,0.04,6.174724
+232,donphan,counter,play rough,11.93,64.7,327,44.92,0.07,20.84252
+342,crawdaunt,snarl,night slash,11.93,64.7,176,24.18,0.05,11.21478
+59,arcanine,snarl,fire blast,11.91,64.59,258,35.44,0.06,16.45462
+282,gardevoir,charge beam,shadow ball,11.91,64.59,259,35.58,0.06,16.53944
+330,flygon,dragon tail,stone edge,11.9,64.53,234,32.14,0.06,14.92225
+6,charizard,wing attack,dragon claw,11.89,64.48,238,32.69,0.06,15.22005
+68,machamp,bullet punch,heavy slam,11.89,64.48,252,34.62,0.05,16.08896
+68,machamp,bullet punch,submission,11.89,64.48,252,34.62,0.05,16.08896
+85,dodrio,steel wing,brave bird,11.89,64.48,157,21.57,0.05,10.03958
+130,gyarados,dragon tail,dragon pulse,11.88,64.43,317,43.54,0.06,20.28273
+350,milotic,dragon tail,surf,11.88,64.43,385,52.88,0.08,24.60843
+34,nidoking,poison jab,earthquake,11.87,64.37,221,30.36,0.06,14.18151
+59,arcanine,bite,fire blast,11.87,64.37,257,35.3,0.06,16.45462
+99,kingler,bubble,water pulse,11.86,64.32,208,28.57,0.05,13.32202
+230,kingdra,waterfall,hydro pump,11.86,64.32,251,34.48,0.07,16.07389
+332,cacturne,sucker punch,dynamic punch,11.86,64.32,146,20.05,0.04,9.36104
+157,typhlosion,ember,solar beam,11.85,64.26,237,32.55,0.06,15.22005
+123,scyther,air slash,aerial ace,11.82,64.1,208,28.57,0.05,13.35218
+126,magmar,ember,flamethrower,11.82,64.1,193,26.51,0.05,12.4173
+230,kingdra,waterfall,outrage,11.81,64.05,250,34.34,0.07,16.07389
+297,hariyama,bullet punch,close combat,11.81,64.05,283,38.87,0.06,18.21506
+330,flygon,mud shot,dragon claw,11.81,64.05,232,31.87,0.06,14.92225
+127,pinsir,bug bite,close combat,11.8,63.99,222,30.49,0.05,14.31722
+332,cacturne,sucker punch,dark pulse,11.8,63.99,145,19.92,0.04,9.36104
+136,flareon,ember,heat wave,11.79,63.94,229,31.46,0.05,14.7922
+319,sharpedo,waterfall,poison fang,11.78,63.88,109,14.97,0.03,7.038922
+34,nidoking,poison jab,sludge wave,11.77,63.83,220,30.22,0.06,14.18151
+107,hitmonchan,counter,close combat,11.77,63.83,188,25.82,0.06,12.14023
+67,machoke,karate chop,dynamic punch,11.76,63.77,183,25.14,0.06,11.80662
+134,vaporeon,water gun,aqua tail,11.75,63.72,381,52.34,0.08,24.66026
+323,camerupt,ember,overheat,11.75,63.72,172,23.63,0.05,11.10263
+321,wailord,water gun,surf,11.74,63.67,260,35.71,0.07,16.84761
+332,cacturne,poison jab,dynamic punch,11.74,63.67,145,19.92,0.04,9.36104
+76,golem,rock throw,ancient power,11.73,63.61,307,42.17,0.07,19.92366
+85,dodrio,steel wing,aerial ace,11.73,63.61,155,21.29,0.05,10.03958
+249,lugia,dragon tail,sky attack,11.73,63.61,554,76.1,0.1,35.88823
+3,venusaur,razor leaf,petal blizzard,11.72,63.56,268,36.81,0.07,17.38196
+144,articuno,frost breath,blizzard,11.72,63.56,371,50.96,0.08,24.04203
+139,omastar,water gun,rock slide,11.7,63.45,269,36.95,0.06,17.48846
+332,cacturne,poison jab,dark pulse,11.7,63.45,144,19.78,0.04,9.36104
+380,latias,zen headbutt,thunder,11.7,63.45,356,48.9,0.07,23.12129
+103,exeggutor,bullet seed,psychic,11.69,63.39,254,34.89,0.05,16.53379
+249,lugia,dragon tail,futuresight,11.69,63.39,552,75.82,0.1,35.88823
+45,vileplume,acid,petal blizzard,11.68,63.34,218,29.95,0.06,14.21921
+315,roselia,poison jab,sludge bomb,11.68,63.34,134,18.41,0.05,8.70229
+125,electabuzz,thunder shock,thunderbolt,11.67,63.29,195,26.79,0.06,12.68872
+230,kingdra,water gun,outrage,11.67,63.29,247,33.93,0.06,16.07389
+106,hitmonlee,low kick,close combat,11.66,63.23,185,25.41,0.05,12.08651
+359,absol,psycho cut,dark pulse,11.66,63.23,139,19.09,0.04,9.092451
+57,primeape,karate chop,close combat,11.65,63.18,164,22.53,0.05,10.72095
+57,primeape,karate chop,cross chop,11.65,63.18,164,22.53,0.05,10.72095
+82,magneton,charge beam,zap cannon,11.65,63.18,161,22.12,0.05,10.5287
+106,hitmonlee,rock smash,brick break,11.65,63.18,185,25.41,0.05,12.08651
+123,scyther,air slash,bug buzz,11.65,63.18,205,28.16,0.05,13.35218
+135,jolteon,thunder shock,thunder,11.65,63.18,224,30.77,0.05,14.58863
+232,donphan,counter,heavy slam,11.65,63.18,319,43.82,0.07,20.84252
+121,starmie,water gun,hydro pump,11.64,63.12,191,26.24,0.05,12.50212
+315,roselia,razor leaf,sludge bomb,11.64,63.12,133,18.27,0.05,8.70229
+123,scyther,steel wing,aerial ace,11.63,63.07,204,28.02,0.05,13.35218
+348,armaldo,fury cutter,rock blast,11.63,63.07,233,32.01,0.05,15.22382
+306,aggron,dragon tail,heavy slam,11.62,63.02,364,50,0.08,23.80172
+68,machamp,bullet punch,close combat,11.6,62.91,245,33.65,0.05,16.08896
+130,gyarados,dragon tail,crunch,11.59,62.85,309,42.45,0.06,20.28273
+3,venusaur,vine whip,petal blizzard,11.56,62.69,264,36.26,0.06,17.38196
+112,rhydon,rock smash,stone edge,11.56,62.69,353,48.49,0.07,23.22119
+114,tangela,vine whip,solar beam,11.56,62.69,226,31.04,0.06,14.86005
+178,xatu,air slash,futuresight,11.56,62.69,165,22.66,0.05,10.85666
+6,charizard,ember,dragon claw,11.55,62.64,231,31.73,0.05,15.22005
+78,rapidash,fire spin,heat wave,11.54,62.58,186,25.55,0.05,12.28159
+99,kingler,metal claw,x scissor,11.54,62.58,202,27.75,0.05,13.32202
+126,magmar,karate chop,flamethrower,11.52,62.47,188,25.82,0.05,12.4173
+151,mew,pound,hyper beam,11.5,62.36,342,46.98,0.07,22.58788
+62,poliwrath,rock smash,dynamic punch,11.49,62.31,278,38.19,0.07,18.37433
+365,walrein,frost breath,blizzard,11.49,62.31,317,43.54,0.08,20.94996
+221,piloswine,ice shard,avalanche,11.48,62.26,245,33.65,0.07,16.23504
+306,aggron,iron tail,stone edge,11.48,62.26,359,49.31,0.08,23.80172
+106,hitmonlee,low kick,brick break,11.47,62.2,182,25,0.05,12.08651
+215,sneasel,feint attack,avalanche,11.47,62.2,151,20.74,0.05,9.991518
+70,weepinbell,razor leaf,power whip,11.46,62.15,111,15.25,0.05,7.396098
+169,crobat,bite,sludge bomb,11.45,62.09,251,34.48,0.06,16.64688
+233,porygon2,hidden power,hyper beam,11.45,62.09,257,35.3,0.06,17.08039
+123,scyther,steel wing,bug buzz,11.44,62.04,201,27.61,0.05,13.35218
+142,aerodactyl,steel wing,ancient power,11.44,62.04,220,30.22,0.05,14.59429
+94,gengar,hex,dark pulse,11.43,61.98,161,22.12,0.04,10.73414
+160,feraligatr,waterfall,ice beam,11.43,61.98,275,37.77,0.06,18.29422
+169,crobat,air slash,shadow ball,11.43,61.98,250,34.34,0.06,16.64688
+59,arcanine,fire fang,crunch,11.42,61.93,247,33.93,0.05,16.45462
+232,donphan,counter,earthquake,11.42,61.93,313,42.99,0.07,20.84252
+123,scyther,fury cutter,bug buzz,11.41,61.88,200,27.47,0.05,13.35218
+142,aerodactyl,steel wing,iron head,11.41,61.88,219,30.08,0.05,14.59429
+230,kingdra,dragon breath,hydro pump,11.41,61.88,241,33.1,0.06,16.07389
+365,walrein,waterfall,blizzard,11.4,61.82,314,43.13,0.08,20.94996
+275,shiftry,razor leaf,hurricane,11.39,61.77,185,25.41,0.05,12.34097
+59,arcanine,fire fang,bulldoze,11.38,61.71,246,33.79,0.05,16.45462
+91,cloyster,frost breath,avalanche,11.38,61.71,271,37.23,0.07,18.10291
+337,lunatone,rock throw,rock slide,11.38,61.71,242,33.24,0.07,16.18038
+338,solrock,rock throw,rock slide,11.38,61.71,242,33.24,0.07,16.18038
+67,machoke,low kick,dynamic punch,11.37,61.66,177,24.31,0.06,11.80662
+127,pinsir,bug bite,submission,11.37,61.66,214,29.4,0.05,14.31722
+139,omastar,rock throw,ancient power,11.37,61.66,262,35.99,0.06,17.48846
+106,hitmonlee,rock smash,stomp,11.36,61.61,181,24.86,0.05,12.08651
+221,piloswine,powder snow,avalanche,11.36,61.61,243,33.38,0.07,16.23504
+106,hitmonlee,rock smash,stone edge,11.35,61.55,180,24.73,0.05,12.08651
+135,jolteon,volt switch,thunder,11.35,61.55,218,29.95,0.05,14.58863
+151,mew,pound,focus blast,11.34,61.5,337,46.29,0.07,22.58788
+335,zangoose,shadow claw,close combat,11.33,61.44,155,21.29,0.04,10.4043
+89,muk,lick,gunk shot,11.32,61.39,311,42.72,0.07,20.89907
+160,feraligatr,water gun,hydro pump,11.32,61.39,272,37.36,0.06,18.29422
+181,ampharos,volt switch,zap cannon,11.32,61.39,253,34.75,0.06,17.00311
+217,ursaring,metal claw,close combat,11.32,61.39,215,29.53,0.05,14.4435
+94,gengar,sucker punch,dark pulse,11.31,61.33,160,21.98,0.04,10.73414
+144,articuno,frost breath,ice beam,11.31,61.33,358,49.18,0.08,24.04203
+57,primeape,counter,low sweep,11.3,61.28,159,21.84,0.05,10.72095
+112,rhydon,rock smash,surf,11.3,61.28,345,47.39,0.07,23.22119
+139,omastar,water gun,hydro pump,11.3,61.28,260,35.71,0.06,17.48846
+76,golem,mud slap,rock blast,11.28,61.17,296,40.66,0.06,19.92366
+310,manectric,snarl,thunder,11.27,61.12,152,20.88,0.05,10.23183
+337,lunatone,confusion,rock slide,11.27,61.12,240,32.97,0.07,16.18038
+338,solrock,confusion,rock slide,11.27,61.12,240,32.97,0.07,16.18038
+123,scyther,fury cutter,aerial ace,11.26,61.06,198,27.2,0.05,13.35218
+151,mew,pound,blizzard,11.26,61.06,335,46.02,0.07,22.58788
+192,sunflora,razor leaf,petal blizzard,11.26,61.06,185,25.41,0.06,12.51908
+142,aerodactyl,bite,hyper beam,11.25,61.01,216,29.67,0.05,14.59429
+143,snorlax,zen headbutt,hyper beam,11.25,61.01,475,65.25,0.09,32.1063
+181,ampharos,charge beam,thunder,11.25,61.01,252,34.62,0.06,17.00311
+70,weepinbell,razor leaf,sludge bomb,11.23,60.9,109,14.97,0.05,7.396098
+78,rapidash,ember,fire blast,11.23,60.9,181,24.86,0.05,12.28159
+121,starmie,quick attack,hydro pump,11.23,60.9,185,25.41,0.05,12.50212
+57,primeape,low kick,cross chop,11.22,60.85,158,21.7,0.05,10.72095
+76,golem,mud shot,stone edge,11.21,60.79,294,40.38,0.06,19.92366
+230,kingdra,waterfall,blizzard,11.21,60.79,237,32.55,0.06,16.07389
+321,wailord,zen headbutt,surf,11.21,60.79,248,34.07,0.07,16.84761
+182,bellossom,razor leaf,leaf blade,11.2,60.74,231,31.73,0.07,15.68749
+57,primeape,low kick,close combat,11.19,60.68,158,21.7,0.05,10.72095
+78,rapidash,fire spin,drill run,11.19,60.68,181,24.86,0.05,12.28159
+130,gyarados,bite,dragon pulse,11.19,60.68,299,41.07,0.06,20.28273
+130,gyarados,dragon breath,dragon pulse,11.19,60.68,299,41.07,0.06,20.28273
+126,magmar,ember,fire blast,11.17,60.57,182,25,0.05,12.4173
+126,magmar,karate chop,fire punch,11.17,60.57,182,25,0.05,12.4173
+192,sunflora,razor leaf,sludge bomb,11.17,60.57,184,25.27,0.06,12.51908
+91,cloyster,ice shard,avalanche,11.15,60.47,265,36.4,0.07,18.10291
+126,magmar,ember,fire punch,11.15,60.47,182,25,0.05,12.4173
+70,weepinbell,acid,power whip,11.14,60.41,108,14.84,0.05,7.396098
+89,muk,infestation,gunk shot,11.13,60.36,306,42.03,0.07,20.89907
+64,kadabra,psycho cut,dazzling gleam,11.12,60.3,98,13.46,0.03,6.732636
+22,fearow,peck,sky attack,11.11,60.25,148,20.33,0.05,10.11026
+181,ampharos,charge beam,zap cannon,11.11,60.25,248,34.07,0.06,17.00311
+306,aggron,dragon tail,stone edge,11.11,60.25,348,47.8,0.07,23.80172
+85,dodrio,feint attack,aerial ace,11.1,60.2,147,20.19,0.04,10.03958
+76,golem,mud slap,stone edge,11.09,60.14,291,39.97,0.06,19.92366
+89,muk,acid,sludge wave,11.09,60.14,305,41.9,0.07,20.89907
+107,hitmonchan,counter,brick break,11.09,60.14,177,24.31,0.05,12.14023
+110,weezing,acid,sludge bomb,11.08,60.09,232,31.87,0.07,15.94572
+112,rhydon,mud slap,megahorn,11.08,60.09,338,46.43,0.06,23.22119
+151,mew,pound,psychic,11.08,60.09,329,45.19,0.07,22.58788
+272,ludicolo,razor leaf,solar beam,11.08,60.09,245,33.65,0.07,16.80803
+319,sharpedo,bite,poison fang,11.08,60.09,103,14.15,0.03,7.038922
+350,milotic,waterfall,hyper beam,11.08,60.09,359,49.31,0.08,24.60843
+122,mr mime,confusion,shadow ball,11.07,60.03,159,21.84,0.05,10.94053
+124,jynx,confusion,draining kiss,11.07,60.03,194,26.65,0.05,13.29941
+186,politoed,bubble,surf,11.07,60.03,274,37.64,0.07,18.8314
+114,tangela,infestation,grass knot,11.05,59.92,216,29.67,0.06,14.86005
+114,tangela,infestation,power whip,11.05,59.92,216,29.67,0.06,14.86005
+215,sneasel,feint attack,foul play,11.05,59.92,145,19.92,0.05,9.991518
+38,ninetales,fire spin,overheat,11.04,59.87,239,32.83,0.07,16.43577
+45,vileplume,razor leaf,moonblast,11.04,59.87,206,28.3,0.05,14.21921
+125,electabuzz,low kick,thunderbolt,11.04,59.87,184,25.27,0.05,12.68872
+85,dodrio,feint attack,brave bird,11.03,59.82,146,20.05,0.04,10.03958
+82,magneton,spark,flash cannon,11.02,59.76,153,21.02,0.04,10.5287
+297,hariyama,bullet punch,heavy slam,11.02,59.76,264,36.26,0.06,18.21506
+106,hitmonlee,rock smash,low sweep,11.01,59.71,175,24.04,0.05,12.08651
+130,gyarados,bite,crunch,11,59.65,293,40.25,0.06,20.28273
+130,gyarados,dragon breath,crunch,11,59.65,293,40.25,0.06,20.28273
+212,scizor,bullet punch,night slash,11,59.65,215,29.53,0.05,14.87607
+34,nidoking,poison jab,megahorn,10.99,59.6,205,28.16,0.05,14.18151
+215,sneasel,ice shard,avalanche,10.98,59.54,144,19.78,0.05,9.991518
+82,magneton,thunder shock,flash cannon,10.97,59.49,152,20.88,0.04,10.5287
+249,lugia,extrasensory,hydro pump,10.97,59.49,518,71.15,0.09,35.88823
+350,milotic,waterfall,blizzard,10.96,59.44,355,48.76,0.08,24.60843
+377,regirock,rock throw,stone edge,10.96,59.44,437,60.03,0.09,30.33644
+15,beedrill,bug bite,sludge bomb,10.95,59.38,160,21.98,0.06,11.12807
+76,golem,mud slap,earthquake,10.95,59.38,287,39.42,0.06,19.92366
+151,mew,pound,solar beam,10.94,59.33,325,44.64,0.07,22.58788
+142,aerodactyl,bite,ancient power,10.91,59.16,209,28.71,0.05,14.59429
+89,muk,poison jab,sludge wave,10.9,59.11,300,41.21,0.07,20.89907
+62,poliwrath,mud shot,dynamic punch,10.89,59.06,263,36.13,0.07,18.37433
+70,weepinbell,acid,sludge bomb,10.89,59.06,106,14.56,0.05,7.396098
+160,feraligatr,bite,hydro pump,10.89,59.06,262,35.99,0.06,18.29422
+232,donphan,tackle,play rough,10.89,59.06,299,41.07,0.06,20.84252
+350,milotic,dragon tail,hyper beam,10.89,59.06,352,48.35,0.07,24.60843
+93,haunter,lick,shadow punch,10.88,59,88,12.09,0.03,6.174724
+34,nidoking,iron tail,earthquake,10.87,58.95,203,27.88,0.05,14.18151
+57,primeape,counter,night slash,10.87,58.95,153,21.02,0.05,10.72095
+139,omastar,water gun,rock blast,10.87,58.95,250,34.34,0.06,17.48846
+26,raichu,volt switch,wild charge,10.86,58.89,161,22.12,0.05,11.30242
+122,mr mime,confusion,psychic,10.86,58.89,156,21.43,0.05,10.94053
+55,golduck,confusion,hydro pump,10.85,58.84,207,28.43,0.06,14.5123
+106,hitmonlee,low kick,stomp,10.85,58.84,172,23.63,0.05,12.08651
+260,swampert,water gun,earthquake,10.85,58.84,272,37.36,0.06,19.05852
+306,aggron,iron tail,thunder,10.85,58.84,340,46.7,0.07,23.80172
+76,golem,mud slap,ancient power,10.84,58.79,284,39.01,0.06,19.92366
+338,solrock,rock throw,solar beam,10.83,58.73,230,31.59,0.06,16.18038
+215,sneasel,feint attack,ice punch,10.82,58.68,142,19.51,0.05,9.991518
+319,sharpedo,waterfall,hydro pump,10.82,58.68,100,13.74,0.03,7.038922
+76,golem,mud shot,rock blast,10.8,58.57,283,38.87,0.06,19.92366
+198,murkrow,feint attack,foul play,10.8,58.57,91,12.5,0.04,6.377344
+99,kingler,metal claw,water pulse,10.79,58.51,189,25.96,0.04,13.32202
+93,haunter,lick,dark pulse,10.78,58.46,88,12.09,0.03,6.174724
+106,hitmonlee,low kick,stone edge,10.77,58.41,171,23.49,0.04,12.08651
+127,pinsir,fury cutter,submission,10.77,58.41,203,27.88,0.05,14.31722
+275,shiftry,feint attack,hurricane,10.77,58.41,175,24.04,0.05,12.34097
+277,swellow,steel wing,sky attack,10.77,58.41,129,17.72,0.05,9.092451
+55,golduck,water gun,hydro pump,10.76,58.35,205,28.16,0.06,14.5123
+127,pinsir,rock smash,close combat,10.76,58.35,203,27.88,0.05,14.31722
+230,kingdra,water gun,hydro pump,10.76,58.35,227,31.18,0.06,16.07389
+34,nidoking,iron tail,sludge wave,10.75,58.3,201,27.61,0.05,14.18151
+141,kabutops,rock smash,stone edge,10.75,58.3,194,26.65,0.05,13.70182
+112,rhydon,rock smash,earthquake,10.74,58.24,328,45.05,0.06,23.22119
+126,magmar,karate chop,fire blast,10.74,58.24,175,24.04,0.05,12.4173
+154,meganium,razor leaf,solar beam,10.74,58.24,250,34.34,0.07,17.70992
+15,beedrill,infestation,sludge bomb,10.73,58.19,157,21.57,0.06,11.12807
+377,regirock,rock throw,focus blast,10.73,58.19,428,58.79,0.09,30.33644
+121,starmie,hidden power,hydro pump,10.72,58.13,176,24.18,0.05,12.50212
+121,starmie,tackle,hydro pump,10.72,58.13,176,24.18,0.05,12.50212
+143,snorlax,lick,body slam,10.72,58.13,453,62.23,0.09,32.1063
+310,manectric,charge beam,thunder,10.72,58.13,144,19.78,0.04,10.23183
+359,absol,psycho cut,thunder,10.72,58.13,128,17.58,0.04,9.092451
+378,regice,frost breath,blizzard,10.72,58.13,428,58.79,0.09,30.33644
+151,mew,pound,fire blast,10.71,58.08,318,43.68,0.06,22.58788
+230,kingdra,dragon breath,blizzard,10.71,58.08,226,31.04,0.06,16.07389
+350,milotic,dragon tail,blizzard,10.71,58.08,347,47.66,0.07,24.60843
+80,slowbro,confusion,psychic,10.7,58.03,281,38.6,0.07,19.99435
+127,pinsir,fury cutter,close combat,10.7,58.03,201,27.61,0.05,14.31722
+151,mew,pound,hurricane,10.7,58.03,318,43.68,0.06,22.58788
+199,slowking,confusion,psychic,10.7,58.03,281,38.6,0.07,19.99435
+234,stantler,tackle,stomp,10.7,58.03,155,21.29,0.05,11.00745
+114,tangela,vine whip,sludge bomb,10.69,57.97,209,28.71,0.06,14.86005
+142,aerodactyl,bite,iron head,10.69,57.97,205,28.16,0.05,14.59429
+154,meganium,vine whip,solar beam,10.69,57.97,249,34.2,0.07,17.70992
+203,girafarig,confusion,psychic,10.69,57.97,150,20.6,0.05,10.66723
+15,beedrill,poison jab,sludge bomb,10.68,57.92,156,21.43,0.06,11.12807
+169,crobat,bite,shadow ball,10.67,57.86,234,32.14,0.06,16.64688
+277,swellow,wing attack,sky attack,10.66,57.81,127,17.45,0.05,9.092451
+338,solrock,confusion,solar beam,10.66,57.81,227,31.18,0.06,16.18038
+38,ninetales,fire spin,flamethrower,10.65,57.75,230,31.59,0.07,16.43577
+107,hitmonchan,counter,ice punch,10.65,57.75,170,23.35,0.05,12.14023
+131,lapras,frost breath,surf,10.65,57.75,351,48.21,0.09,25.04759
+139,omastar,mud shot,rock slide,10.65,57.75,245,33.65,0.06,17.48846
+121,starmie,water gun,psychic,10.64,57.7,175,24.04,0.05,12.50212
+367,huntail,water gun,aqua tail,10.64,57.7,170,23.35,0.05,12.15343
+40,wigglytuff,pound,play rough,10.63,57.65,207,28.43,0.07,14.8233
+160,feraligatr,waterfall,crunch,10.63,57.65,256,35.16,0.06,18.29422
+178,xatu,feint attack,futuresight,10.63,57.65,152,20.88,0.05,10.85666
+85,dodrio,steel wing,air cutter,10.62,57.59,140,19.23,0.04,10.03958
+237,hitmontop,counter,close combat,10.62,57.59,171,23.49,0.06,12.24767
+36,clefable,pound,dazzling gleam,10.61,57.54,248,34.07,0.07,17.78343
+185,sudowoodo,rock throw,rock slide,10.6,57.48,214,29.4,0.07,15.38404
+130,gyarados,waterfall,twister,10.59,57.43,283,38.87,0.05,20.28273
+272,ludicolo,bubble,solar beam,10.59,57.43,234,32.14,0.07,16.80803
+377,regirock,rock throw,zap cannon,10.59,57.43,423,58.1,0.09,30.33644
+22,fearow,steel wing,sky attack,10.58,57.38,141,19.37,0.05,10.11026
+127,pinsir,rock smash,submission,10.58,57.38,199,27.34,0.05,14.31722
+178,xatu,air slash,aerial ace,10.58,57.38,151,20.74,0.05,10.85666
+233,porygon2,hidden power,solar beam,10.58,57.38,238,32.69,0.06,17.08039
+323,camerupt,ember,solar beam,10.58,57.38,154,21.15,0.05,11.10263
+59,arcanine,snarl,crunch,10.57,57.32,229,31.46,0.05,16.45462
+123,scyther,air slash,night slash,10.57,57.32,186,25.55,0.05,13.35218
+272,ludicolo,razor leaf,hydro pump,10.57,57.32,234,32.14,0.07,16.80803
+141,kabutops,rock smash,ancient power,10.56,57.27,190,26.1,0.05,13.70182
+68,machamp,bullet punch,stone edge,10.55,57.21,223,30.63,0.05,16.08896
+107,hitmonchan,counter,fire punch,10.55,57.21,168,23.08,0.05,12.14023
+107,hitmonchan,rock smash,close combat,10.55,57.21,168,23.08,0.05,12.14023
+78,rapidash,ember,drill run,10.54,57.16,170,23.35,0.05,12.28159
+110,weezing,infestation,sludge bomb,10.54,57.16,221,30.36,0.06,15.94572
+151,mew,pound,moonblast,10.54,57.16,313,42.99,0.06,22.58788
+337,lunatone,rock throw,psychic,10.53,57.1,224,30.77,0.06,16.18038
+338,solrock,rock throw,psychic,10.53,57.1,224,30.77,0.06,16.18038
+342,crawdaunt,waterfall,vice grip,10.53,57.1,155,21.29,0.04,11.21478
+106,hitmonlee,low kick,low sweep,10.52,57.05,167,22.94,0.04,12.08651
+181,ampharos,volt switch,thunder,10.52,57.05,235,32.28,0.05,17.00311
+215,sneasel,ice shard,foul play,10.52,57.05,138,18.96,0.05,9.991518
+99,kingler,mud shot,x scissor,10.51,57,184,25.27,0.04,13.32202
+62,poliwrath,rock smash,hydro pump,10.5,56.94,254,34.89,0.07,18.37433
+31,nidoqueen,poison jab,earthquake,10.49,56.89,237,32.55,0.06,17.18594
+151,mew,pound,thunder,10.49,56.89,312,42.86,0.06,22.58788
+182,bellossom,acid,leaf blade,10.49,56.89,216,29.67,0.06,15.68749
+232,donphan,tackle,heavy slam,10.49,56.89,288,39.56,0.06,20.84252
+362,glalie,frost breath,avalanche,10.49,56.89,199,27.34,0.06,14.43031
+45,vileplume,acid,moonblast,10.48,56.83,196,26.92,0.05,14.21921
+91,cloyster,frost breath,blizzard,10.48,56.83,250,34.34,0.06,18.10291
+335,zangoose,shadow claw,night slash,10.48,56.83,143,19.64,0.04,10.4043
+89,muk,poison jab,dark pulse,10.47,56.78,288,39.56,0.07,20.89907
+131,lapras,frost breath,blizzard,10.47,56.78,345,47.39,0.08,25.04759
+192,sunflora,bullet seed,solar beam,10.47,56.78,172,23.63,0.05,12.51908
+62,poliwrath,bubble,hydro pump,10.46,56.72,253,34.75,0.07,18.37433
+321,wailord,water gun,blizzard,10.46,56.72,232,31.87,0.06,16.84761
+358,chimecho,extrasensory,shadow ball,10.46,56.72,200,27.47,0.06,14.52832
+117,seadra,water gun,hydro pump,10.45,56.67,157,21.57,0.05,11.45227
+143,snorlax,zen headbutt,body slam,10.45,56.67,441,60.58,0.08,32.1063
+291,ninjask,metal claw,shadow ball,10.45,56.67,113,15.52,0.04,8.202808
+354,banette,hex,dazzling gleam,10.45,56.67,130,17.86,0.04,9.434549
+40,wigglytuff,pound,hyper beam,10.44,56.62,204,28.02,0.07,14.8233
+59,arcanine,bite,crunch,10.44,56.62,226,31.04,0.05,16.45462
+131,lapras,water gun,surf,10.44,56.62,344,47.25,0.08,25.04759
+131,lapras,ice shard,surf,10.44,56.62,344,47.25,0.08,25.04759
+245,suicune,extrasensory,hydro pump,10.44,56.62,345,47.39,0.08,25.10885
+245,suicune,snarl,hydro pump,10.44,56.62,345,47.39,0.08,25.10885
+251,celebi,charge beam,hyper beam,10.44,56.62,310,42.58,0.06,22.58788
+249,lugia,dragon tail,hydro pump,10.43,56.56,492,67.58,0.09,35.88823
+31,nidoqueen,poison jab,sludge wave,10.41,56.45,235,32.28,0.06,17.18594
+40,wigglytuff,pound,dazzling gleam,10.41,56.45,203,27.88,0.07,14.8233
+123,scyther,steel wing,night slash,10.41,56.45,183,25.14,0.05,13.35218
+82,magneton,charge beam,flash cannon,10.4,56.4,144,19.78,0.04,10.5287
+99,kingler,mud shot,water pulse,10.4,56.4,182,25,0.04,13.32202
+289,slaking,yawn,hyper beam,10.39,56.34,364,50,0.05,26.64169
+64,kadabra,psycho cut,psybeam,10.38,56.29,92,12.64,0.03,6.732636
+125,electabuzz,thunder shock,thunder punch,10.38,56.29,173,23.76,0.05,12.68872
+181,ampharos,volt switch,focus blast,10.38,56.29,232,31.87,0.05,17.00311
+215,sneasel,ice shard,ice punch,10.38,56.29,136,18.68,0.05,9.991518
+315,roselia,razor leaf,dazzling gleam,10.38,56.29,119,16.35,0.04,8.70229
+78,rapidash,low kick,fire blast,10.37,56.24,168,23.08,0.05,12.28159
+134,vaporeon,water gun,water pulse,10.37,56.24,336,46.15,0.07,24.66026
+160,feraligatr,water gun,ice beam,10.37,56.24,250,34.34,0.06,18.29422
+224,octillery,water gun,gunk shot,10.37,56.24,163,22.39,0.05,11.97814
+76,golem,mud shot,ancient power,10.35,56.13,271,37.23,0.06,19.92366
+91,cloyster,frost breath,hydro pump,10.35,56.13,246,33.79,0.06,18.10291
+107,hitmonchan,counter,thunder punch,10.35,56.13,165,22.66,0.05,12.14023
+124,jynx,frost breath,draining kiss,10.35,56.13,181,24.86,0.05,13.29941
+151,mew,pound,earthquake,10.35,56.13,307,42.17,0.06,22.58788
+323,camerupt,ember,earthquake,10.35,56.13,151,20.74,0.05,11.10263
+198,murkrow,peck,foul play,10.33,56.02,87,11.95,0.04,6.377344
+203,girafarig,confusion,thunderbolt,10.33,56.02,145,19.92,0.05,10.66723
+337,lunatone,confusion,psychic,10.33,56.02,220,30.22,0.06,16.18038
+338,solrock,confusion,psychic,10.33,56.02,220,30.22,0.06,16.18038
+358,chimecho,extrasensory,psyshock,10.33,56.02,197,27.06,0.06,14.52832
+359,absol,psycho cut,megahorn,10.33,56.02,124,17.03,0.03,9.092451
+367,huntail,bite,aqua tail,10.33,56.02,165,22.66,0.05,12.15343
+139,omastar,water gun,ancient power,10.32,55.97,237,32.55,0.06,17.48846
+212,scizor,fury cutter,night slash,10.32,55.97,202,27.75,0.05,14.87607
+277,swellow,steel wing,brave bird,10.31,55.91,123,16.9,0.04,9.092451
+315,roselia,poison jab,dazzling gleam,10.31,55.91,118,16.21,0.04,8.70229
+122,mr mime,zen headbutt,shadow ball,10.3,55.86,148,20.33,0.05,10.94053
+131,lapras,frost breath,hydro pump,10.3,55.86,339,46.57,0.08,25.04759
+151,mew,pound,dragon pulse,10.3,55.86,306,42.03,0.06,22.58788
+141,kabutops,fury cutter,stone edge,10.29,55.8,185,25.41,0.05,13.70182
+234,stantler,tackle,wild charge,10.29,55.8,149,20.47,0.05,11.00745
+101,electrode,spark,thunderbolt,10.28,55.75,165,22.66,0.05,12.18641
+110,weezing,acid,shadow ball,10.28,55.75,216,29.67,0.06,15.94572
+251,celebi,charge beam,dazzling gleam,10.28,55.75,305,41.9,0.06,22.58788
+362,glalie,ice shard,avalanche,10.28,55.75,195,26.79,0.06,14.43031
+385,jirachi,charge beam,dazzling gleam,10.28,55.75,305,41.9,0.06,22.58788
+59,arcanine,bite,bulldoze,10.27,55.69,222,30.49,0.05,16.45462
+199,slowking,confusion,blizzard,10.27,55.69,270,37.09,0.07,19.99435
+24,arbok,acid,gunk shot,10.24,55.53,146,20.05,0.05,10.86043
+36,clefable,zen headbutt,dazzling gleam,10.24,55.53,240,32.97,0.06,17.78343
+210,granbull,bite,close combat,10.24,55.53,186,25.55,0.05,13.8036
+260,swampert,mud shot,earthquake,10.24,55.53,257,35.3,0.06,19.05852
+306,aggron,dragon tail,thunder,10.24,55.53,321,44.09,0.07,23.80172
+38,ninetales,fire spin,fire blast,10.23,55.48,221,30.36,0.06,16.43577
+70,weepinbell,razor leaf,seed bomb,10.23,55.48,100,13.74,0.04,7.396098
+112,rhydon,rock smash,megahorn,10.23,55.48,312,42.86,0.06,23.22119
+114,tangela,infestation,solar beam,10.23,55.48,200,27.47,0.06,14.86005
+131,lapras,water gun,blizzard,10.23,55.48,337,46.29,0.08,25.04759
+131,lapras,ice shard,blizzard,10.23,55.48,337,46.29,0.08,25.04759
+336,seviper,poison jab,poison fang,10.23,55.48,134,18.41,0.04,9.951937
+15,beedrill,poison jab,x scissor,10.22,55.42,150,20.6,0.05,11.12807
+233,porygon2,charge beam,hyper beam,10.22,55.42,230,31.59,0.06,17.08039
+348,armaldo,fury cutter,cross poison,10.22,55.42,205,28.16,0.05,15.22382
+26,raichu,spark,thunder punch,10.19,55.26,151,20.74,0.05,11.30242
+76,golem,mud shot,earthquake,10.19,55.26,267,36.68,0.06,19.92366
+354,banette,hex,thunder,10.19,55.26,126,17.31,0.04,9.434549
+26,raichu,thunder shock,thunder punch,10.17,55.15,151,20.74,0.05,11.30242
+57,primeape,karate chop,low sweep,10.17,55.15,143,19.64,0.04,10.72095
+182,bellossom,razor leaf,petal blizzard,10.16,55.1,210,28.85,0.06,15.68749
+185,sudowoodo,rock throw,stone edge,10.16,55.1,206,28.3,0.06,15.38404
+210,granbull,snarl,close combat,10.16,55.1,184,25.27,0.05,13.8036
+211,qwilfish,water gun,aqua tail,10.16,55.1,147,20.19,0.05,10.99237
+277,swellow,wing attack,brave bird,10.16,55.1,122,16.76,0.04,9.092451
+59,arcanine,snarl,bulldoze,10.15,55.04,220,30.22,0.05,16.45462
+67,machoke,karate chop,cross chop,10.15,55.04,158,21.7,0.05,11.80662
+78,rapidash,ember,heat wave,10.15,55.04,164,22.53,0.05,12.28159
+91,cloyster,ice shard,blizzard,10.15,55.04,242,33.24,0.06,18.10291
+125,electabuzz,thunder shock,thunder,10.15,55.04,169,23.21,0.05,12.68872
+143,snorlax,lick,heavy slam,10.14,54.99,428,58.79,0.08,32.1063
+107,hitmonchan,rock smash,brick break,10.13,54.93,162,22.25,0.05,12.14023
+234,stantler,zen headbutt,stomp,10.13,54.93,147,20.19,0.05,11.00745
+291,ninjask,fury cutter,shadow ball,10.13,54.93,109,14.97,0.04,8.202808
+326,grumpig,extrasensory,shadow ball,10.13,54.93,246,33.79,0.07,18.44784
+330,flygon,mud shot,earthquake,10.13,54.93,199,27.34,0.05,14.92225
+121,starmie,quick attack,psychic,10.12,54.88,166,22.8,0.05,12.50212
+160,feraligatr,bite,ice beam,10.11,54.83,243,33.38,0.06,18.29422
+233,porygon2,hidden power,zap cannon,10.11,54.83,227,31.18,0.06,17.08039
+38,ninetales,fire spin,solar beam,10.1,54.77,218,29.95,0.06,16.43577
+73,tentacruel,poison jab,hydro pump,10.1,54.77,273,37.5,0.07,20.57959
+89,muk,acid,dark pulse,10.1,54.77,278,38.19,0.06,20.89907
+141,kabutops,fury cutter,ancient power,10.09,54.72,182,25,0.05,13.70182
+89,muk,lick,sludge wave,10.07,54.61,277,38.05,0.06,20.89907
+117,seadra,dragon breath,hydro pump,10.07,54.61,152,20.88,0.05,11.45227
+139,omastar,mud shot,rock blast,10.07,54.61,232,31.87,0.05,17.48846
+181,ampharos,charge beam,focus blast,10.07,54.61,225,30.91,0.05,17.00311
+198,murkrow,feint attack,drill peck,10.07,54.61,84,11.54,0.04,6.377344
+232,donphan,tackle,earthquake,10.07,54.61,276,37.91,0.06,20.84252
+337,lunatone,rock throw,moonblast,10.07,54.61,214,29.4,0.06,16.18038
+365,walrein,waterfall,water pulse,10.07,54.61,277,38.05,0.07,20.94996
+121,starmie,quick attack,power gem,10.06,54.56,165,22.66,0.05,12.50212
+335,zangoose,shadow claw,dig,10.06,54.56,138,18.96,0.04,10.4043
+131,lapras,water gun,hydro pump,10.05,54.5,331,45.47,0.08,25.04759
+131,lapras,ice shard,hydro pump,10.05,54.5,331,45.47,0.08,25.04759
+154,meganium,razor leaf,petal blizzard,10.05,54.5,234,32.14,0.07,17.70992
+291,ninjask,fury cutter,aerial ace,10.05,54.5,108,14.84,0.04,8.202808
+62,poliwrath,bubble,submission,10.04,54.45,243,33.38,0.06,18.37433
+253,grovyle,quick attack,grass knot,10.04,54.45,102,14.01,0.04,7.735369
+128,tauros,tackle,iron head,10.03,54.39,215,29.53,0.05,16.30572
+20,raticate,quick attack,hyper beam,10.02,54.34,122,16.76,0.05,9.231929
+131,lapras,frost breath,ice beam,10.02,54.34,330,45.33,0.08,25.04759
+365,walrein,waterfall,earthquake,10.02,54.34,276,37.91,0.07,20.94996
+38,ninetales,ember,overheat,10.01,54.28,216,29.67,0.06,16.43577
+101,electrode,volt switch,thunderbolt,10.01,54.28,160,21.98,0.05,12.18641
+119,seaking,waterfall,drill run,10.01,54.28,181,24.86,0.06,13.77439
+186,politoed,bubble,hydro pump,10.01,54.28,248,34.07,0.07,18.8314
+279,pelipper,wing attack,hydro pump,10.01,54.28,169,23.21,0.05,12.81783
+282,gardevoir,charge beam,psychic,10.01,54.28,218,29.95,0.05,16.53944
+291,ninjask,metal claw,bug buzz,10.01,54.28,108,14.84,0.04,8.202808
+26,raichu,spark,thunder,10,54.23,149,20.47,0.05,11.30242
+31,nidoqueen,poison jab,stone edge,10,54.23,226,31.04,0.06,17.18594
+34,nidoking,iron tail,megahorn,10,54.23,187,25.69,0.05,14.18151
+75,graveler,rock throw,stone edge,10,54.23,161,22.12,0.06,12.27029
+91,cloyster,ice shard,hydro pump,10,54.23,238,32.69,0.06,18.10291
+122,mr mime,confusion,psybeam,10,54.23,144,19.78,0.05,10.94053
+141,kabutops,mud shot,ancient power,10,54.23,180,24.73,0.05,13.70182
+141,kabutops,mud shot,stone edge,10,54.23,180,24.73,0.05,13.70182
+139,omastar,mud shot,hydro pump,9.99,54.18,230,31.59,0.05,17.48846
+169,crobat,air slash,air cutter,9.99,54.18,219,30.08,0.06,16.64688
+230,kingdra,water gun,blizzard,9.98,54.12,211,28.98,0.05,16.07389
+272,ludicolo,razor leaf,blizzard,9.98,54.12,221,30.36,0.06,16.80803
+368,gorebyss,confusion,psychic,9.98,54.12,160,21.98,0.04,12.15343
+122,mr mime,zen headbutt,psychic,9.97,54.07,143,19.64,0.05,10.94053
+198,murkrow,feint attack,dark pulse,9.97,54.07,84,11.54,0.04,6.377344
+305,lairon,iron tail,heavy slam,9.97,54.07,210,28.85,0.07,16.03807
+368,gorebyss,confusion,water pulse,9.97,54.07,159,21.84,0.04,12.15343
+237,hitmontop,counter,stone edge,9.96,54.01,160,21.98,0.05,12.24767
+272,ludicolo,bubble,hydro pump,9.96,54.01,220,30.22,0.06,16.80803
+277,swellow,wing attack,aerial ace,9.96,54.01,119,16.35,0.04,9.092451
+15,beedrill,bug bite,x scissor,9.95,53.96,146,20.05,0.05,11.12807
+22,fearow,steel wing,aerial ace,9.95,53.96,132,18.13,0.05,10.11026
+26,raichu,thunder shock,thunder,9.95,53.96,148,20.33,0.05,11.30242
+57,primeape,low kick,low sweep,9.95,53.96,140,19.23,0.04,10.72095
+75,graveler,rock throw,rock slide,9.94,53.9,160,21.98,0.06,12.27029
+284,masquerain,air slash,air cutter,9.94,53.9,166,22.8,0.05,12.69909
+70,weepinbell,bullet seed,power whip,9.93,53.85,97,13.32,0.04,7.396098
+121,starmie,quick attack,psybeam,9.93,53.85,163,22.39,0.04,12.50212
+205,forretress,bug bite,heavy slam,9.93,53.85,258,35.44,0.07,19.78324
+186,politoed,bubble,blizzard,9.92,53.8,246,33.79,0.07,18.8314
+62,poliwrath,rock smash,submission,9.91,53.74,239,32.83,0.06,18.37433
+80,slowbro,confusion,ice beam,9.91,53.74,261,35.85,0.07,19.99435
+121,starmie,water gun,power gem,9.91,53.74,163,22.39,0.04,12.50212
+125,electabuzz,low kick,thunder punch,9.91,53.74,165,22.66,0.05,12.68872
+154,meganium,vine whip,petal blizzard,9.91,53.74,231,31.73,0.07,17.70992
+185,sudowoodo,counter,rock slide,9.91,53.74,201,27.61,0.06,15.38404
+55,golduck,confusion,ice beam,9.9,53.69,189,25.96,0.05,14.5123
+251,celebi,charge beam,psychic,9.9,53.69,294,40.38,0.06,22.58788
+385,jirachi,charge beam,psychic,9.9,53.69,294,40.38,0.06,22.58788
+36,clefable,charge beam,dazzling gleam,9.89,53.63,231,31.73,0.06,17.78343
+110,weezing,tackle,sludge bomb,9.89,53.63,207,28.43,0.06,15.94572
+284,masquerain,air slash,silver wind,9.89,53.63,165,22.66,0.05,12.69909
+40,wigglytuff,feint attack,play rough,9.88,53.58,193,26.51,0.06,14.8233
+143,snorlax,zen headbutt,heavy slam,9.88,53.58,417,57.28,0.08,32.1063
+378,regice,frost breath,focus blast,9.88,53.58,394,54.12,0.08,30.33644
+210,granbull,bite,crunch,9.87,53.52,179,24.59,0.05,13.8036
+305,lairon,iron tail,rock slide,9.87,53.52,208,28.57,0.07,16.03807
+324,torkoal,fire spin,overheat,9.87,53.52,234,32.14,0.07,17.99642
+89,muk,infestation,sludge wave,9.86,53.47,271,37.23,0.06,20.89907
+67,machoke,karate chop,submission,9.85,53.42,153,21.02,0.05,11.80662
+178,xatu,feint attack,aerial ace,9.85,53.42,141,19.37,0.05,10.85666
+260,swampert,water gun,sludge wave,9.85,53.42,247,33.93,0.06,19.05852
+321,wailord,water gun,hyper beam,9.85,53.42,218,29.95,0.06,16.84761
+337,lunatone,confusion,moonblast,9.84,53.36,209,28.71,0.06,16.18038
+47,parasect,fury cutter,solar beam,9.83,53.31,131,17.99,0.05,10.10272
+336,seviper,poison jab,crunch,9.83,53.31,129,17.72,0.04,9.951937
+368,gorebyss,water gun,psychic,9.83,53.31,157,21.57,0.04,12.15343
+368,gorebyss,water gun,water pulse,9.83,53.31,157,21.57,0.04,12.15343
+199,slowking,confusion,fire blast,9.82,53.25,258,35.44,0.07,19.99435
+260,swampert,mud shot,sludge wave,9.82,53.25,246,33.79,0.06,19.05852
+78,rapidash,low kick,drill run,9.81,53.2,158,21.7,0.04,12.28159
+131,lapras,water gun,ice beam,9.81,53.2,323,44.37,0.08,25.04759
+131,lapras,ice shard,ice beam,9.81,53.2,323,44.37,0.08,25.04759
+186,politoed,mud shot,surf,9.81,53.2,243,33.38,0.06,18.8314
+267,beautifly,infestation,bug buzz,9.81,53.2,91,12.5,0.04,7.071907
+55,golduck,water gun,ice beam,9.8,53.15,187,25.69,0.05,14.5123
+70,weepinbell,acid,seed bomb,9.8,53.15,95,13.05,0.04,7.396098
+101,electrode,spark,discharge,9.8,53.15,157,21.57,0.05,12.18641
+121,starmie,water gun,psybeam,9.8,53.15,161,22.12,0.04,12.50212
+279,pelipper,water gun,hydro pump,9.8,53.15,165,22.66,0.05,12.81783
+323,camerupt,rock smash,earthquake,9.8,53.15,143,19.64,0.04,11.10263
+346,cradily,acid,grass knot,9.8,53.15,239,32.83,0.07,18.58072
+67,machoke,low kick,cross chop,9.79,53.09,152,20.88,0.05,11.80662
+199,slowking,water gun,blizzard,9.79,53.09,257,35.3,0.07,19.99435
+2,ivysaur,razor leaf,power whip,9.78,53.04,134,18.41,0.05,10.41843
+99,kingler,bubble,vice grip,9.78,53.04,171,23.49,0.04,13.32202
+289,slaking,yawn,play rough,9.78,53.04,343,47.12,0.05,26.64169
+310,manectric,charge beam,flame burst,9.78,53.04,132,18.13,0.04,10.23183
+67,machoke,karate chop,brick break,9.77,52.98,152,20.88,0.05,11.80662
+160,feraligatr,water gun,crunch,9.77,52.98,235,32.28,0.05,18.29422
+182,bellossom,razor leaf,dazzling gleam,9.77,52.98,202,27.75,0.06,15.68749
+44,gloom,razor leaf,sludge bomb,9.76,52.93,124,17.03,0.05,9.660729
+107,hitmonchan,rock smash,ice punch,9.76,52.93,156,21.43,0.05,12.14023
+124,jynx,pound,draining kiss,9.76,52.93,171,23.49,0.04,13.29941
+210,granbull,snarl,crunch,9.76,52.93,177,24.31,0.05,13.8036
+234,stantler,zen headbutt,wild charge,9.76,52.93,141,19.37,0.04,11.00745
+336,seviper,poison jab,wrap,9.76,52.93,128,17.58,0.04,9.951937
+141,kabutops,rock smash,water pulse,9.75,52.87,176,24.18,0.04,13.70182
+57,primeape,karate chop,night slash,9.74,52.82,137,18.82,0.04,10.72095
+73,tentacruel,acid,hydro pump,9.74,52.82,264,36.26,0.07,20.57959
+127,pinsir,bug bite,vice grip,9.74,52.82,183,25.14,0.04,14.31722
+141,kabutops,fury cutter,water pulse,9.74,52.82,176,24.18,0.04,13.70182
+211,qwilfish,poison sting,aqua tail,9.74,52.82,141,19.37,0.05,10.99237
+259,marshtomp,water gun,surf,9.74,52.82,137,18.82,0.05,10.66723
+319,sharpedo,bite,hydro pump,9.74,52.82,90,12.36,0.03,7.038922
+15,beedrill,infestation,x scissor,9.73,52.77,142,19.51,0.05,11.12807
+85,dodrio,feint attack,air cutter,9.73,52.77,128,17.58,0.04,10.03958
+119,seaking,waterfall,megahorn,9.73,52.77,176,24.18,0.05,13.77439
+26,raichu,volt switch,thunder,9.72,52.71,144,19.78,0.04,11.30242
+130,gyarados,dragon tail,twister,9.72,52.71,259,35.58,0.05,20.28273
+139,omastar,mud shot,ancient power,9.72,52.71,224,30.77,0.05,17.48846
+346,cradily,infestation,grass knot,9.72,52.71,238,32.69,0.07,18.58072
+40,wigglytuff,feint attack,dazzling gleam,9.71,52.66,189,25.96,0.06,14.8233
+101,electrode,tackle,thunderbolt,9.71,52.66,156,21.43,0.05,12.18641
+203,girafarig,confusion,mirror coat,9.71,52.66,136,18.68,0.05,10.66723
+254,sceptile,bullet seed,aerial ace,9.71,52.66,180,24.73,0.04,14.07784
+38,ninetales,ember,flamethrower,9.7,52.6,210,28.85,0.06,16.43577
+107,hitmonchan,rock smash,fire punch,9.7,52.6,155,21.29,0.05,12.14023
+227,skarmory,steel wing,sky attack,9.7,52.6,237,32.55,0.07,18.59203
+305,lairon,metal claw,heavy slam,9.7,52.6,205,28.16,0.06,16.03807
+26,raichu,volt switch,thunder punch,9.69,52.55,144,19.78,0.04,11.30242
+117,seadra,water gun,blizzard,9.69,52.55,146,20.05,0.05,11.45227
+121,starmie,hidden power,psychic,9.69,52.55,159,21.84,0.04,12.50212
+121,starmie,tackle,psychic,9.69,52.55,159,21.84,0.04,12.50212
+128,tauros,tackle,horn attack,9.69,52.55,208,28.57,0.05,16.30572
+211,qwilfish,water gun,sludge wave,9.69,52.55,140,19.23,0.05,10.99237
+2,ivysaur,vine whip,power whip,9.68,52.49,133,18.27,0.05,10.41843
+22,fearow,peck,aerial ace,9.68,52.49,129,17.72,0.04,10.11026
+38,ninetales,feint attack,overheat,9.68,52.49,209,28.71,0.06,16.43577
+80,slowbro,confusion,water pulse,9.68,52.49,255,35.03,0.06,19.99435
+369,relicanth,water gun,hydro pump,9.67,52.44,318,43.68,0.08,25.00801
+378,regice,rock smash,blizzard,9.67,52.44,386,53.02,0.08,30.33644
+198,murkrow,peck,drill peck,9.66,52.39,81,11.13,0.04,6.377344
+279,pelipper,wing attack,hurricane,9.66,52.39,163,22.39,0.05,12.81783
+310,manectric,snarl,flame burst,9.66,52.39,130,17.86,0.04,10.23183
+335,zangoose,fury cutter,close combat,9.66,52.39,132,18.13,0.04,10.4043
+18,pidgeot,air slash,hurricane,9.65,52.33,184,25.27,0.06,14.50382
+253,grovyle,quick attack,leaf blade,9.65,52.33,98,13.46,0.04,7.735369
+253,grovyle,bullet seed,grass knot,9.65,52.33,98,13.46,0.04,7.735369
+70,weepinbell,bullet seed,sludge bomb,9.64,52.28,94,12.91,0.04,7.396098
+80,slowbro,water gun,psychic,9.64,52.28,254,34.89,0.06,19.99435
+91,cloyster,frost breath,aurora beam,9.64,52.28,230,31.59,0.06,18.10291
+119,seaking,waterfall,ice beam,9.64,52.28,175,24.04,0.05,13.77439
+199,slowking,water gun,psychic,9.64,52.28,254,34.89,0.06,19.99435
+277,swellow,steel wing,aerial ace,9.64,52.28,115,15.8,0.04,9.092451
+291,ninjask,metal claw,aerial ace,9.63,52.22,104,14.29,0.04,8.202808
+123,scyther,fury cutter,night slash,9.62,52.17,169,23.21,0.04,13.35218
+192,sunflora,bullet seed,sludge bomb,9.62,52.17,158,21.7,0.05,12.51908
+291,ninjask,fury cutter,bug buzz,9.62,52.17,104,14.29,0.04,8.202808
+141,kabutops,mud shot,water pulse,9.61,52.11,173,23.76,0.04,13.70182
+362,glalie,frost breath,shadow ball,9.61,52.11,182,25,0.06,14.43031
+34,nidoking,fury cutter,earthquake,9.6,52.06,179,24.59,0.05,14.18151
+93,haunter,astonish,shadow punch,9.6,52.06,78,10.71,0.03,6.174724
+101,electrode,volt switch,discharge,9.6,52.06,154,21.15,0.05,12.18641
+160,feraligatr,bite,crunch,9.6,52.06,231,31.73,0.05,18.29422
+137,porygon,quick attack,hyper beam,9.59,52.01,131,17.99,0.05,10.38168
+311,plusle,spark,discharge,9.59,52.01,128,17.58,0.05,10.16587
+2,ivysaur,razor leaf,sludge bomb,9.58,51.95,131,17.99,0.05,10.41843
+305,lairon,metal claw,rock slide,9.58,51.95,202,27.75,0.06,16.03807
+75,graveler,rock throw,rock blast,9.57,51.9,154,21.15,0.05,12.27029
+365,walrein,frost breath,water pulse,9.57,51.9,264,36.26,0.06,20.94996
+57,primeape,low kick,night slash,9.56,51.84,135,18.54,0.04,10.72095
+67,machoke,low kick,submission,9.56,51.84,148,20.33,0.05,11.80662
+254,sceptile,fury cutter,aerial ace,9.56,51.84,177,24.31,0.04,14.07784
+336,seviper,iron tail,poison fang,9.56,51.84,125,17.17,0.04,9.951937
+93,haunter,astonish,dark pulse,9.55,51.79,78,10.71,0.03,6.174724
+125,electabuzz,low kick,thunder,9.55,51.79,159,21.84,0.05,12.68872
+198,murkrow,peck,dark pulse,9.55,51.79,80,10.99,0.04,6.377344
+203,girafarig,tackle,psychic,9.55,51.79,134,18.41,0.05,10.66723
+5,charmeleon,fire fang,flamethrower,9.53,51.68,110,15.11,0.05,8.759778
+62,poliwrath,rock smash,ice punch,9.53,51.68,230,31.59,0.06,18.37433
+372,shelgon,dragon breath,flamethrower,9.53,51.68,164,22.53,0.05,13.09584
+237,hitmontop,rock smash,close combat,9.52,51.63,153,21.02,0.05,12.24767
+9,blastoise,water gun,hydro pump,9.51,51.57,227,31.18,0.06,18.15475
+40,wigglytuff,feint attack,hyper beam,9.51,51.57,185,25.41,0.06,14.8233
+372,shelgon,dragon breath,dragon pulse,9.51,51.57,164,22.53,0.05,13.09584
+42,golbat,wing attack,shadow ball,9.5,51.52,161,22.12,0.06,12.90548
+67,machoke,low kick,brick break,9.5,51.52,148,20.33,0.05,11.80662
+144,articuno,frost breath,icy wind,9.5,51.52,300,41.21,0.06,24.04203
+221,piloswine,ice shard,bulldoze,9.5,51.52,203,27.88,0.06,16.23504
+288,vigoroth,scratch,body slam,9.5,51.52,177,24.31,0.06,14.18434
+342,crawdaunt,snarl,vice grip,9.5,51.52,140,19.23,0.04,11.21478
+73,tentacruel,poison jab,sludge wave,9.49,51.46,257,35.3,0.07,20.57959
+73,tentacruel,poison jab,blizzard,9.49,51.46,257,35.3,0.07,20.57959
+115,kangaskhan,low kick,stomp,9.49,51.46,236,32.42,0.06,18.8936
+44,gloom,acid,sludge bomb,9.48,51.41,120,16.48,0.05,9.660729
+47,parasect,bug bite,x scissor,9.48,51.41,126,17.31,0.05,10.10272
+115,kangaskhan,mud slap,stomp,9.48,51.41,236,32.42,0.06,18.8936
+311,plusle,quick attack,discharge,9.48,51.41,127,17.45,0.05,10.16587
+5,charmeleon,fire fang,fire punch,9.47,51.36,109,14.97,0.05,8.759778
+262,mightyena,bite,play rough,9.47,51.36,136,18.68,0.05,10.9575
+2,ivysaur,vine whip,sludge bomb,9.46,51.3,130,17.86,0.05,10.41843
+38,ninetales,fire spin,heat wave,9.46,51.3,205,28.16,0.06,16.43577
+107,hitmonchan,rock smash,thunder punch,9.46,51.3,151,20.74,0.05,12.14023
+119,seaking,waterfall,water pulse,9.46,51.3,171,23.49,0.05,13.77439
+36,clefable,pound,moonblast,9.45,51.25,221,30.36,0.06,17.78343
+107,hitmonchan,bullet punch,close combat,9.45,51.25,151,20.74,0.05,12.14023
+279,pelipper,water gun,hurricane,9.45,51.25,159,21.84,0.05,12.81783
+34,nidoking,fury cutter,sludge wave,9.44,51.19,176,24.18,0.05,14.18151
+99,kingler,metal claw,vice grip,9.44,51.19,165,22.66,0.04,13.32202
+107,hitmonchan,bullet punch,brick break,9.44,51.19,151,20.74,0.05,12.14023
+367,huntail,water gun,ice beam,9.44,51.19,151,20.74,0.04,12.15343
+20,raticate,quick attack,hyper fang,9.43,51.14,115,15.8,0.05,9.231929
+128,tauros,tackle,earthquake,9.43,51.14,202,27.75,0.05,16.30572
+254,sceptile,bullet seed,earthquake,9.43,51.14,175,24.04,0.04,14.07784
+18,pidgeot,steel wing,hurricane,9.42,51.08,180,24.73,0.06,14.50382
+70,weepinbell,bullet seed,seed bomb,9.42,51.08,92,12.64,0.04,7.396098
+49,venomoth,bug bite,bug buzz,9.41,51.03,147,20.19,0.05,11.90086
+114,tangela,infestation,sludge bomb,9.41,51.03,184,25.27,0.05,14.86005
+38,ninetales,feint attack,flamethrower,9.4,50.98,203,27.88,0.06,16.43577
+143,snorlax,lick,earthquake,9.4,50.98,397,54.53,0.07,32.1063
+18,pidgeot,air slash,aerial ace,9.39,50.92,179,24.59,0.06,14.50382
+18,pidgeot,air slash,brave bird,9.39,50.92,179,24.59,0.06,14.50382
+259,marshtomp,mud shot,surf,9.39,50.92,132,18.13,0.05,10.66723
+62,poliwrath,bubble,ice punch,9.38,50.87,227,31.18,0.06,18.37433
+24,arbok,acid,sludge wave,9.37,50.81,134,18.41,0.05,10.86043
+117,seadra,dragon breath,blizzard,9.37,50.81,141,19.37,0.05,11.45227
+192,sunflora,bullet seed,petal blizzard,9.37,50.81,154,21.15,0.05,12.51908
+208,steelix,iron tail,heavy slam,9.37,50.81,330,45.33,0.09,26.81557
+330,flygon,mud shot,stone edge,9.37,50.81,184,25.27,0.05,14.92225
+368,gorebyss,water gun,draining kiss,9.37,50.81,150,20.6,0.04,12.15343
+101,electrode,tackle,discharge,9.36,50.76,150,20.6,0.05,12.18641
+162,furret,quick attack,hyper beam,9.36,50.76,154,21.15,0.06,12.48516
+245,suicune,extrasensory,bubble beam,9.36,50.76,309,42.45,0.07,25.10885
+245,suicune,snarl,bubble beam,9.36,50.76,309,42.45,0.07,25.10885
+362,glalie,ice shard,shadow ball,9.36,50.76,178,24.45,0.06,14.43031
+49,venomoth,confusion,bug buzz,9.35,50.7,146,20.05,0.05,11.90086
+224,octillery,water gun,water pulse,9.35,50.7,147,20.19,0.04,11.97814
+284,masquerain,infestation,silver wind,9.35,50.7,156,21.43,0.05,12.69909
+321,wailord,zen headbutt,hyper beam,9.35,50.7,207,28.43,0.06,16.84761
+91,cloyster,ice shard,aurora beam,9.34,50.65,222,30.49,0.06,18.10291
+18,pidgeot,wing attack,hurricane,9.33,50.6,178,24.45,0.06,14.50382
+22,fearow,steel wing,drill run,9.33,50.6,124,17.03,0.04,10.11026
+24,arbok,bite,gunk shot,9.33,50.6,133,18.27,0.05,10.86043
+110,weezing,infestation,shadow ball,9.32,50.54,195,26.79,0.06,15.94572
+185,sudowoodo,rock throw,earthquake,9.31,50.49,188,25.82,0.06,15.38404
+203,girafarig,tackle,thunderbolt,9.31,50.49,131,17.99,0.04,10.66723
+284,masquerain,infestation,air cutter,9.31,50.49,156,21.43,0.05,12.69909
+288,vigoroth,counter,body slam,9.31,50.49,174,23.9,0.06,14.18434
+234,stantler,tackle,megahorn,9.3,50.43,135,18.54,0.04,11.00745
+171,lanturn,water gun,thunderbolt,9.29,50.38,243,33.38,0.07,19.90387
+253,grovyle,bullet seed,leaf blade,9.29,50.38,95,13.05,0.04,7.735369
+47,parasect,fury cutter,x scissor,9.28,50.33,123,16.9,0.05,10.10272
+274,nuzleaf,razor leaf,grass knot,9.28,50.33,81,11.13,0.05,6.676091
+127,pinsir,rock smash,vice grip,9.27,50.27,175,24.04,0.04,14.31722
+178,xatu,air slash,ominous wind,9.27,50.27,132,18.13,0.04,10.85666
+233,porygon2,charge beam,solar beam,9.27,50.27,208,28.57,0.05,17.08039
+336,seviper,iron tail,crunch,9.27,50.27,121,16.62,0.04,9.951937
+357,tropius,razor leaf,leaf blade,9.27,50.27,218,29.95,0.07,17.88144
+28,sandslash,metal claw,earthquake,9.26,50.22,203,27.88,0.06,16.69211
+122,mr mime,zen headbutt,psybeam,9.26,50.22,133,18.27,0.04,10.94053
+164,noctowl,wing attack,sky attack,9.26,50.22,237,32.55,0.07,19.46188
+185,sudowoodo,counter,stone edge,9.26,50.22,187,25.69,0.06,15.38404
+279,pelipper,wing attack,blizzard,9.26,50.22,156,21.43,0.05,12.81783
+326,grumpig,extrasensory,psychic,9.26,50.22,225,30.91,0.06,18.44784
+262,mightyena,bite,crunch,9.25,50.16,133,18.27,0.05,10.9575
+78,rapidash,low kick,heat wave,9.24,50.11,149,20.47,0.04,12.28159
+115,kangaskhan,mud slap,outrage,9.24,50.11,230,31.59,0.06,18.8936
+128,tauros,zen headbutt,iron head,9.24,50.11,198,27.2,0.05,16.30572
+137,porygon,hidden power,hyper beam,9.24,50.11,126,17.31,0.05,10.38168
+137,porygon,tackle,hyper beam,9.24,50.11,126,17.31,0.05,10.38168
+284,masquerain,air slash,ominous wind,9.24,50.11,154,21.15,0.05,12.69909
+367,huntail,water gun,crunch,9.24,50.11,148,20.33,0.04,12.15343
+89,muk,lick,dark pulse,9.23,50.05,254,34.89,0.06,20.89907
+242,blissey,pound,hyper beam,9.23,50.05,728,100,0.14,60
+311,plusle,spark,thunderbolt,9.23,50.05,123,16.9,0.05,10.16587
+367,huntail,bite,ice beam,9.23,50.05,148,20.33,0.04,12.15343
+28,sandslash,metal claw,bulldoze,9.22,50,202,27.75,0.05,16.69211
+169,crobat,bite,air cutter,9.22,50,202,27.75,0.05,16.64688
+369,relicanth,water gun,aqua tail,9.22,50,303,41.62,0.07,25.00801
+115,kangaskhan,low kick,outrage,9.21,49.95,229,31.46,0.06,18.8936
+128,tauros,zen headbutt,horn attack,9.21,49.95,198,27.2,0.05,16.30572
+262,mightyena,fire fang,crunch,9.21,49.95,133,18.27,0.05,10.9575
+272,ludicolo,bubble,blizzard,9.21,49.95,204,28.02,0.06,16.80803
+31,nidoqueen,bite,earthquake,9.19,49.84,208,28.57,0.06,17.18594
+55,golduck,confusion,psychic,9.19,49.84,175,24.04,0.05,14.5123
+321,wailord,zen headbutt,blizzard,9.19,49.84,204,28.02,0.06,16.84761
+44,gloom,acid,petal blizzard,9.18,49.78,117,16.07,0.05,9.660729
+110,weezing,tackle,shadow ball,9.18,49.78,193,26.51,0.06,15.94572
+326,grumpig,charge beam,shadow ball,9.18,49.78,223,30.63,0.06,18.44784
+365,walrein,frost breath,earthquake,9.18,49.78,253,34.75,0.06,20.94996
+38,ninetales,ember,fire blast,9.17,49.73,198,27.2,0.06,16.43577
+148,dragonair,dragon breath,dragon pulse,9.17,49.73,117,16.07,0.05,9.740835
+254,sceptile,fury cutter,earthquake,9.17,49.73,170,23.35,0.04,14.07784
+348,armaldo,fury cutter,water pulse,9.17,49.73,184,25.27,0.04,15.22382
+18,pidgeot,steel wing,brave bird,9.16,49.67,175,24.04,0.06,14.50382
+75,graveler,mud shot,rock slide,9.16,49.67,148,20.33,0.05,12.27029
+171,lanturn,water gun,hydro pump,9.16,49.67,240,32.97,0.07,19.90387
+335,zangoose,fury cutter,night slash,9.16,49.67,125,17.17,0.04,10.4043
+368,gorebyss,confusion,draining kiss,9.16,49.67,146,20.05,0.04,12.15343
+9,blastoise,bite,hydro pump,9.15,49.62,218,29.95,0.06,18.15475
+18,pidgeot,wing attack,aerial ace,9.15,49.62,175,24.04,0.06,14.50382
+378,regice,frost breath,earthquake,9.15,49.62,365,50.14,0.07,30.33644
+49,venomoth,infestation,bug buzz,9.13,49.51,143,19.64,0.05,11.90086
+154,meganium,razor leaf,earthquake,9.13,49.51,213,29.26,0.06,17.70992
+237,hitmontop,counter,gyro ball,9.13,49.51,147,20.19,0.05,12.24767
+130,gyarados,bite,twister,9.12,49.46,243,33.38,0.05,20.28273
+130,gyarados,dragon breath,twister,9.12,49.46,243,33.38,0.05,20.28273
+211,qwilfish,poison sting,sludge wave,9.12,49.46,132,18.13,0.04,10.99237
+228,houndour,feint attack,flamethrower,9.12,49.46,63,8.65,0.04,5.243615
+256,combusken,ember,flamethrower,9.12,49.46,98,13.46,0.04,8.145321
+75,graveler,rock throw,dig,9.1,49.35,147,20.19,0.05,12.27029
+121,starmie,hidden power,power gem,9.1,49.35,150,20.6,0.04,12.50212
+121,starmie,tackle,power gem,9.1,49.35,150,20.6,0.04,12.50212
+311,plusle,quick attack,thunderbolt,9.1,49.35,122,16.76,0.05,10.16587
+34,nidoking,fury cutter,megahorn,9.09,49.3,170,23.35,0.04,14.18151
+73,tentacruel,acid,sludge wave,9.09,49.3,246,33.79,0.07,20.57959
+73,tentacruel,acid,blizzard,9.09,49.3,246,33.79,0.07,20.57959
+97,hypno,confusion,futuresight,9.09,49.3,237,32.55,0.07,19.85487
+119,seaking,poison jab,ice beam,9.09,49.3,165,22.66,0.05,13.77439
+358,chimecho,astonish,psyshock,9.09,49.3,174,23.9,0.05,14.52832
+369,relicanth,zen headbutt,hydro pump,9.09,49.3,299,41.07,0.07,25.00801
+119,seaking,poison jab,drill run,9.08,49.24,165,22.66,0.05,13.77439
+279,pelipper,water gun,blizzard,9.08,49.24,153,21.02,0.05,12.81783
+357,tropius,air slash,leaf blade,9.08,49.24,214,29.4,0.07,17.88144
+367,huntail,bite,crunch,9.08,49.24,145,19.92,0.04,12.15343
+31,nidoqueen,bite,sludge wave,9.07,49.19,205,28.16,0.06,17.18594
+38,ninetales,ember,solar beam,9.07,49.19,196,26.92,0.06,16.43577
+110,weezing,acid,dark pulse,9.07,49.19,190,26.1,0.05,15.94572
+224,octillery,mud shot,gunk shot,9.07,49.19,143,19.64,0.04,11.97814
+18,pidgeot,steel wing,aerial ace,9.06,49.13,173,23.76,0.05,14.50382
+143,snorlax,zen headbutt,earthquake,9.06,49.13,383,52.61,0.07,32.1063
+326,grumpig,extrasensory,mirror coat,9.06,49.13,220,30.22,0.06,18.44784
+55,golduck,water gun,psychic,9.05,49.08,173,23.76,0.05,14.5123
+80,slowbro,water gun,ice beam,9.05,49.08,238,32.69,0.06,19.99435
+88,grimer,poison jab,sludge bomb,9.05,49.08,101,13.87,0.05,8.527
+221,piloswine,ice shard,stone edge,9.05,49.08,193,26.51,0.05,16.23504
+324,torkoal,fire spin,solar beam,9.05,49.08,214,29.4,0.07,17.99642
+227,skarmory,air slash,sky attack,9.04,49.02,221,30.36,0.07,18.59203
+5,charmeleon,fire fang,flame burst,9.03,48.97,104,14.29,0.04,8.759778
+18,pidgeot,wing attack,brave bird,9.03,48.97,172,23.63,0.05,14.50382
+89,muk,infestation,dark pulse,9.03,48.97,248,34.07,0.06,20.89907
+107,hitmonchan,bullet punch,ice punch,9.03,48.97,144,19.78,0.04,12.14023
+36,clefable,zen headbutt,moonblast,9.02,48.92,211,28.98,0.06,17.78343
+241,miltank,tackle,body slam,9.02,48.92,257,35.3,0.07,21.6285
+377,regirock,rock smash,stone edge,9.02,48.92,360,49.45,0.07,30.33644
+33,nidorino,poison jab,sludge bomb,9.01,48.86,96,13.19,0.05,8.07464
+62,poliwrath,mud shot,hydro pump,9.01,48.86,218,29.95,0.06,18.37433
+121,starmie,hidden power,psybeam,9.01,48.86,148,20.33,0.04,12.50212
+121,starmie,tackle,psybeam,9.01,48.86,148,20.33,0.04,12.50212
+49,venomoth,bug bite,silver wind,9,48.81,141,19.37,0.05,11.90086
+80,slowbro,water gun,water pulse,9,48.81,237,32.55,0.06,19.99435
+97,hypno,confusion,shadow ball,8.98,48.7,235,32.28,0.07,19.85487
+171,lanturn,charge beam,thunderbolt,8.98,48.7,235,32.28,0.07,19.90387
+302,sableye,shadow claw,foul play,8.98,48.7,98,13.46,0.05,8.326265
+358,chimecho,astonish,shadow ball,8.98,48.7,172,23.63,0.05,14.52832
+28,sandslash,mud shot,bulldoze,8.97,48.64,197,27.06,0.05,16.69211
+75,graveler,mud slap,rock slide,8.97,48.64,145,19.92,0.05,12.27029
+211,qwilfish,water gun,ice beam,8.97,48.64,130,17.86,0.04,10.99237
+274,nuzleaf,feint attack,grass knot,8.97,48.64,79,10.85,0.04,6.676091
+49,venomoth,confusion,silver wind,8.96,48.59,140,19.23,0.05,11.90086
+98,krabby,bubble,bubble beam,8.96,48.59,70,9.62,0.03,5.927811
+208,steelix,dragon tail,heavy slam,8.96,48.59,316,43.41,0.08,26.81557
+227,skarmory,steel wing,brave bird,8.96,48.59,219,30.08,0.07,18.59203
+28,sandslash,mud shot,earthquake,8.95,48.54,196,26.92,0.05,16.69211
+84,doduo,quick attack,drill peck,8.95,48.54,48,6.59,0.03,4.03732
+91,cloyster,frost breath,icy wind,8.95,48.54,213,29.26,0.05,18.10291
+336,seviper,iron tail,wrap,8.95,48.54,117,16.07,0.04,9.951937
+168,ariados,infestation,cross poison,8.94,48.48,121,16.62,0.05,10.3044
+182,bellossom,acid,petal blizzard,8.94,48.48,184,25.27,0.06,15.68749
+101,electrode,spark,hyper beam,8.93,48.43,143,19.64,0.05,12.18641
+324,torkoal,ember,overheat,8.93,48.43,211,28.98,0.07,17.99642
+22,fearow,peck,drill run,8.92,48.37,119,16.35,0.04,10.11026
+377,regirock,rock smash,focus blast,8.92,48.37,356,48.9,0.07,30.33644
+378,regice,rock smash,focus blast,8.92,48.37,356,48.9,0.07,30.33644
+237,hitmontop,rock smash,stone edge,8.91,48.32,144,19.78,0.05,12.24767
+241,miltank,tackle,stomp,8.91,48.32,253,34.75,0.07,21.6285
+164,noctowl,extrasensory,sky attack,8.9,48.26,228,31.32,0.07,19.46188
+274,nuzleaf,razor leaf,leaf blade,8.9,48.26,78,10.71,0.04,6.676091
+274,nuzleaf,razor leaf,foul play,8.9,48.26,78,10.71,0.04,6.676091
+312,minun,spark,thunderbolt,8.9,48.26,134,18.41,0.05,11.42871
+20,raticate,bite,hyper fang,8.88,48.16,108,14.84,0.04,9.231929
+75,graveler,mud slap,stone edge,8.88,48.16,143,19.64,0.05,12.27029
+5,charmeleon,ember,fire punch,8.87,48.1,102,14.01,0.04,8.759778
+317,swalot,infestation,sludge bomb,8.87,48.1,204,28.02,0.07,17.4451
+227,skarmory,steel wing,flash cannon,8.86,48.05,217,29.81,0.07,18.59203
+38,ninetales,feint attack,fire blast,8.85,47.99,191,26.24,0.06,16.43577
+119,seaking,poison jab,water pulse,8.85,47.99,160,21.98,0.05,13.77439
+334,altaria,dragon breath,sky attack,8.85,47.99,200,27.47,0.07,17.15578
+97,hypno,confusion,psyshock,8.84,47.94,231,31.73,0.07,19.85487
+128,tauros,zen headbutt,earthquake,8.84,47.94,190,26.1,0.05,16.30572
+26,raichu,spark,brick break,8.83,47.89,131,17.99,0.04,11.30242
+62,poliwrath,mud shot,submission,8.83,47.89,213,29.26,0.06,18.37433
+245,suicune,extrasensory,water pulse,8.83,47.89,292,40.11,0.07,25.10885
+245,suicune,snarl,water pulse,8.83,47.89,292,40.11,0.07,25.10885
+267,beautifly,infestation,air cutter,8.83,47.89,82,11.26,0.03,7.071907
+305,lairon,iron tail,body slam,8.83,47.89,186,25.55,0.06,16.03807
+12,butterfree,bug bite,bug buzz,8.82,47.83,121,16.62,0.04,10.41843
+154,meganium,vine whip,earthquake,8.82,47.83,205,28.16,0.06,17.70992
+262,mightyena,fire fang,play rough,8.82,47.83,127,17.45,0.05,10.9575
+91,cloyster,ice shard,icy wind,8.81,47.78,210,28.85,0.05,18.10291
+127,pinsir,fury cutter,vice grip,8.81,47.78,166,22.8,0.04,14.31722
+182,bellossom,acid,dazzling gleam,8.81,47.78,182,25,0.05,15.68749
+377,regirock,rock smash,zap cannon,8.81,47.78,352,48.35,0.07,30.33644
+15,beedrill,poison jab,aerial ace,8.8,47.72,129,17.72,0.05,11.12807
+12,butterfree,bug bite,signal beam,8.79,47.67,120,16.48,0.04,10.41843
+267,beautifly,infestation,silver wind,8.79,47.67,82,11.26,0.03,7.071907
+295,exploud,bite,fire blast,8.79,47.67,189,25.96,0.05,16.31891
+5,charmeleon,ember,flamethrower,8.78,47.61,101,13.87,0.04,8.759778
+26,raichu,thunder shock,brick break,8.78,47.61,131,17.99,0.04,11.30242
+49,venomoth,infestation,silver wind,8.78,47.61,137,18.82,0.04,11.90086
+84,doduo,peck,drill peck,8.78,47.61,47,6.46,0.03,4.03732
+148,dragonair,iron tail,dragon pulse,8.78,47.61,112,15.38,0.04,9.740835
+156,quilava,ember,flamethrower,8.78,47.61,101,13.87,0.04,8.759778
+171,lanturn,charge beam,hydro pump,8.78,47.61,230,31.59,0.07,19.90387
+369,relicanth,zen headbutt,aqua tail,8.78,47.61,289,39.7,0.07,25.00801
+49,venomoth,bug bite,psychic,8.77,47.56,137,18.82,0.04,11.90086
+81,magnemite,spark,discharge,8.77,47.56,49,6.73,0.03,4.282349
+312,minun,quick attack,thunderbolt,8.77,47.56,132,18.13,0.05,11.42871
+12,butterfree,confusion,bug buzz,8.76,47.51,120,16.48,0.04,10.41843
+38,ninetales,feint attack,solar beam,8.76,47.51,189,25.96,0.06,16.43577
+88,grimer,acid,sludge bomb,8.76,47.51,98,13.46,0.05,8.527
+107,hitmonchan,bullet punch,fire punch,8.76,47.51,140,19.23,0.04,12.14023
+49,venomoth,bug bite,poison fang,8.75,47.45,137,18.82,0.04,11.90086
+137,porygon,quick attack,solar beam,8.75,47.45,119,16.35,0.05,10.38168
+199,slowking,water gun,fire blast,8.75,47.45,230,31.59,0.06,19.99435
+224,octillery,water gun,aurora beam,8.75,47.45,138,18.96,0.04,11.97814
+137,porygon,zen headbutt,hyper beam,8.74,47.4,119,16.35,0.05,10.38168
+9,blastoise,water gun,ice beam,8.73,47.34,208,28.57,0.06,18.15475
+81,magnemite,thunder shock,discharge,8.73,47.34,49,6.73,0.03,4.282349
+284,masquerain,infestation,ominous wind,8.73,47.34,146,20.05,0.04,12.69909
+101,electrode,volt switch,hyper beam,8.72,47.29,140,19.23,0.05,12.18641
+117,seadra,water gun,dragon pulse,8.72,47.29,131,17.99,0.04,11.45227
+148,dragonair,dragon breath,aqua tail,8.72,47.29,112,15.38,0.04,9.740835
+228,houndour,ember,flamethrower,8.72,47.29,60,8.24,0.03,5.243615
+334,altaria,peck,sky attack,8.72,47.29,197,27.06,0.07,17.15578
+358,chimecho,extrasensory,energy ball,8.72,47.29,167,22.94,0.05,14.52832
+12,butterfree,confusion,signal beam,8.71,47.23,119,16.35,0.04,10.41843
+75,graveler,mud slap,rock blast,8.71,47.23,141,19.37,0.05,12.27029
+18,pidgeot,air slash,air cutter,8.7,47.18,166,22.8,0.05,14.50382
+49,venomoth,confusion,psychic,8.7,47.18,136,18.68,0.04,11.90086
+234,stantler,zen headbutt,megahorn,8.7,47.18,126,17.31,0.04,11.00745
+49,venomoth,confusion,poison fang,8.69,47.13,136,18.68,0.04,11.90086
+203,girafarig,tackle,mirror coat,8.69,47.13,122,16.76,0.04,10.66723
+26,raichu,volt switch,brick break,8.68,47.07,129,17.72,0.04,11.30242
+233,porygon2,charge beam,zap cannon,8.68,47.07,195,26.79,0.05,17.08039
+51,dugtrio,mud slap,mud bomb,8.66,46.96,73,10.03,0.03,6.372632
+303,mawile,bite,play rough,8.65,46.91,103,14.15,0.04,9.078315
+107,hitmonchan,bullet punch,thunder punch,8.64,46.85,138,18.96,0.04,12.14023
+208,steelix,iron tail,earthquake,8.64,46.85,305,41.9,0.08,26.81557
+221,piloswine,powder snow,bulldoze,8.64,46.85,184,25.27,0.05,16.23504
+131,lapras,frost breath,dragon pulse,8.63,46.8,284,39.01,0.07,25.04759
+186,politoed,mud shot,hydro pump,8.62,46.75,214,29.4,0.06,18.8314
+31,nidoqueen,bite,stone edge,8.61,46.69,195,26.79,0.05,17.18594
+171,lanturn,water gun,thunder,8.61,46.69,225,30.91,0.07,19.90387
+43,oddish,razor leaf,sludge bomb,8.6,46.64,72,9.89,0.04,6.370747
+162,furret,sucker punch,hyper beam,8.6,46.64,141,19.37,0.05,12.48516
+186,politoed,mud shot,blizzard,8.6,46.64,213,29.26,0.06,18.8314
+195,quagsire,water gun,sludge bomb,8.59,46.58,180,24.73,0.06,15.95703
+168,ariados,poison sting,cross poison,8.57,46.48,116,15.93,0.04,10.3044
+259,marshtomp,water gun,mud bomb,8.57,46.48,120,16.48,0.05,10.66723
+117,seadra,dragon breath,dragon pulse,8.56,46.42,129,17.72,0.04,11.45227
+219,magcargo,rock throw,stone edge,8.56,46.42,135,18.54,0.06,11.97908
+274,nuzleaf,feint attack,leaf blade,8.56,46.42,75,10.3,0.04,6.676091
+18,pidgeot,steel wing,air cutter,8.55,46.37,163,22.39,0.05,14.50382
+168,ariados,infestation,megahorn,8.55,46.37,116,15.93,0.04,10.3044
+274,nuzleaf,feint attack,foul play,8.55,46.37,75,10.3,0.04,6.676091
+5,charmeleon,scratch,flamethrower,8.54,46.31,98,13.46,0.04,8.759778
+186,politoed,bubble,earthquake,8.54,46.31,212,29.12,0.06,18.8314
+221,piloswine,powder snow,stone edge,8.54,46.31,182,25,0.05,16.23504
+347,anorith,scratch,ancient power,8.54,46.31,63,8.65,0.03,5.586655
+24,arbok,bite,sludge wave,8.53,46.26,122,16.76,0.04,10.86043
+317,swalot,infestation,gunk shot,8.52,46.2,195,26.79,0.07,17.4451
+9,blastoise,bite,ice beam,8.51,46.15,203,27.88,0.06,18.15475
+241,miltank,zen headbutt,body slam,8.51,46.15,242,33.24,0.07,21.6285
+302,sableye,feint attack,foul play,8.51,46.15,93,12.77,0.05,8.326265
+379,registeel,metal claw,hyper beam,8.51,46.15,274,37.64,0.08,24.51513
+195,quagsire,mud shot,sludge bomb,8.5,46.1,178,24.45,0.06,15.95703
+335,zangoose,fury cutter,dig,8.5,46.1,116,15.93,0.03,10.4043
+340,whiscash,water gun,mud bomb,8.5,46.1,192,26.37,0.06,17.20102
+346,cradily,acid,stone edge,8.5,46.1,208,28.57,0.06,18.58072
+369,relicanth,water gun,ancient power,8.5,46.1,280,38.46,0.07,25.00801
+42,golbat,bite,shadow ball,8.49,46.04,144,19.78,0.05,12.90548
+119,seaking,poison jab,megahorn,8.49,46.04,154,21.15,0.05,13.77439
+49,venomoth,infestation,poison fang,8.48,45.99,133,18.27,0.04,11.90086
+119,seaking,peck,ice beam,8.48,45.99,154,21.15,0.05,13.77439
+97,hypno,confusion,focus blast,8.47,45.93,221,30.36,0.07,19.85487
+312,minun,spark,discharge,8.47,45.93,127,17.45,0.05,11.42871
+178,xatu,feint attack,ominous wind,8.46,45.88,121,16.62,0.04,10.85666
+256,combusken,peck,flamethrower,8.46,45.88,91,12.5,0.04,8.145321
+24,arbok,acid,dark pulse,8.45,45.82,121,16.62,0.04,10.86043
+119,seaking,peck,drill run,8.44,45.77,153,21.02,0.05,13.77439
+119,seaking,waterfall,icy wind,8.44,45.77,153,21.02,0.05,13.77439
+211,qwilfish,poison sting,ice beam,8.44,45.77,122,16.76,0.04,10.99237
+97,hypno,zen headbutt,shadow ball,8.43,45.72,220,30.22,0.07,19.85487
+101,electrode,tackle,hyper beam,8.43,45.72,135,18.54,0.04,12.18641
+238,smoochum,pound,ice beam,8.43,45.72,71,9.75,0.04,6.370747
+49,venomoth,infestation,psychic,8.42,45.66,132,18.13,0.04,11.90086
+185,sudowoodo,counter,earthquake,8.42,45.66,170,23.35,0.05,15.38404
+295,exploud,bite,crunch,8.42,45.66,181,24.86,0.05,16.31891
+379,registeel,metal claw,focus blast,8.42,45.66,271,37.23,0.08,24.51513
+53,persian,scratch,play rough,8.39,45.5,115,15.8,0.05,10.38168
+97,hypno,zen headbutt,futuresight,8.39,45.5,219,30.08,0.07,19.85487
+264,linoone,tackle,grass knot,8.39,45.5,126,17.31,0.05,11.37499
+317,swalot,rock smash,sludge bomb,8.39,45.5,193,26.51,0.07,17.4451
+97,hypno,zen headbutt,psyshock,8.38,45.44,219,30.08,0.07,19.85487
+131,lapras,water gun,dragon pulse,8.38,45.44,276,37.91,0.07,25.04759
+131,lapras,ice shard,dragon pulse,8.38,45.44,276,37.91,0.07,25.04759
+137,porygon,quick attack,zap cannon,8.38,45.44,114,15.66,0.05,10.38168
+53,persian,scratch,foul play,8.37,45.39,114,15.66,0.05,10.38168
+97,hypno,confusion,psychic,8.37,45.39,219,30.08,0.07,19.85487
+305,lairon,metal claw,body slam,8.37,45.39,177,24.31,0.06,16.03807
+312,minun,quick attack,discharge,8.37,45.39,126,17.31,0.05,11.42871
+208,steelix,dragon tail,earthquake,8.36,45.34,295,40.52,0.08,26.81557
+36,clefable,charge beam,moonblast,8.35,45.28,195,26.79,0.05,17.78343
+43,oddish,acid,sludge bomb,8.35,45.28,70,9.62,0.04,6.370747
+148,dragonair,iron tail,aqua tail,8.35,45.28,107,14.7,0.04,9.740835
+219,magcargo,ember,overheat,8.35,45.28,132,18.13,0.05,11.97908
+18,pidgeot,wing attack,air cutter,8.34,45.23,159,21.84,0.05,14.50382
+87,dewgong,frost breath,blizzard,8.34,45.23,199,27.34,0.07,18.10008
+340,whiscash,mud shot,mud bomb,8.34,45.23,189,25.96,0.06,17.20102
+379,registeel,metal claw,flash cannon,8.34,45.23,269,36.95,0.08,24.51513
+99,kingler,mud shot,vice grip,8.33,45.17,146,20.05,0.03,13.32202
+47,parasect,bug bite,cross poison,8.32,45.12,111,15.25,0.04,10.10272
+115,kangaskhan,mud slap,crunch,8.32,45.12,207,28.43,0.05,18.8936
+237,hitmontop,rock smash,gyro ball,8.32,45.12,134,18.41,0.04,12.24767
+36,clefable,pound,psychic,8.31,45.07,194,26.65,0.05,17.78343
+62,poliwrath,mud shot,ice punch,8.31,45.07,201,27.61,0.05,18.37433
+84,doduo,quick attack,aerial ace,8.31,45.07,44,6.04,0.03,4.03732
+197,umbreon,snarl,foul play,8.31,45.07,277,38.05,0.09,25.37744
+38,ninetales,ember,heat wave,8.3,45.01,179,24.59,0.05,16.43577
+180,flaaffy,charge beam,discharge,8.3,45.01,100,13.74,0.05,9.143342
+324,torkoal,fire spin,earthquake,8.3,45.01,196,26.92,0.06,17.99642
+372,shelgon,ember,flamethrower,8.29,44.96,143,19.64,0.05,13.09584
+5,charmeleon,ember,flame burst,8.28,44.9,95,13.05,0.04,8.759778
+56,mankey,karate chop,cross chop,8.28,44.9,49,6.73,0.03,4.473659
+241,miltank,zen headbutt,stomp,8.28,44.9,236,32.42,0.06,21.6285
+372,shelgon,ember,dragon pulse,8.28,44.9,143,19.64,0.05,13.09584
+75,graveler,mud shot,stone edge,8.27,44.85,133,18.27,0.05,12.27029
+334,altaria,dragon breath,dragon pulse,8.27,44.85,187,25.69,0.06,17.15578
+115,kangaskhan,low kick,crunch,8.26,44.79,205,28.16,0.05,18.8936
+117,seadra,water gun,aurora beam,8.26,44.79,124,17.03,0.04,11.45227
+137,porygon,charge beam,hyper beam,8.26,44.79,113,15.52,0.05,10.38168
+228,houndour,feint attack,crunch,8.26,44.79,57,7.83,0.03,5.243615
+344,claydol,confusion,earthquake,8.26,44.79,171,23.49,0.06,15.78551
+378,regice,rock smash,earthquake,8.26,44.79,330,45.33,0.07,30.33644
+180,flaaffy,tackle,discharge,8.25,44.74,99,13.6,0.04,9.143342
+256,combusken,ember,rock slide,8.25,44.74,88,12.09,0.04,8.145321
+346,cradily,infestation,stone edge,8.25,44.74,202,27.75,0.06,18.58072
+242,blissey,zen headbutt,hyper beam,8.24,44.69,650,89.29,0.13,60
+352,kecleon,lick,foul play,8.24,44.69,155,21.29,0.05,14.2701
+12,butterfree,bug bite,psychic,8.23,44.63,113,15.52,0.04,10.41843
+74,geodude,rock throw,rock slide,8.23,44.63,85,11.68,0.05,7.839977
+197,umbreon,feint attack,foul play,8.23,44.63,275,37.77,0.08,25.37744
+331,cacnea,sucker punch,seed bomb,8.23,44.63,51,7.01,0.03,4.72717
+75,graveler,mud shot,rock blast,8.22,44.58,133,18.27,0.05,12.27029
+119,seaking,peck,water pulse,8.22,44.58,149,20.47,0.05,13.77439
+259,marshtomp,mud shot,mud bomb,8.22,44.58,115,15.8,0.04,10.66723
+75,graveler,mud slap,dig,8.21,44.52,132,18.13,0.05,12.27029
+315,roselia,razor leaf,petal blizzard,8.21,44.52,94,12.91,0.03,8.70229
+195,quagsire,water gun,earthquake,8.2,44.47,172,23.63,0.06,15.95703
+226,mantine,bubble,aerial ace,8.2,44.47,201,27.61,0.06,18.59203
+288,vigoroth,scratch,brick break,8.2,44.47,153,21.02,0.05,14.18434
+308,medicham,counter,dynamic punch,8.2,44.47,113,15.52,0.06,10.48158
+77,ponyta,ember,stomp,8.18,44.36,84,11.54,0.04,7.842805
+137,porygon,quick attack,discharge,8.17,44.31,112,15.38,0.05,10.38168
+192,sunflora,razor leaf,solar beam,8.17,44.31,135,18.54,0.04,12.51908
+216,teddiursa,scratch,play rough,8.17,44.31,73,10.03,0.04,6.756196
+224,octillery,mud shot,water pulse,8.17,44.31,129,17.72,0.04,11.97814
+326,grumpig,charge beam,psychic,8.17,44.31,198,27.2,0.05,18.44784
+369,relicanth,zen headbutt,ancient power,8.17,44.31,269,36.95,0.07,25.00801
+12,butterfree,confusion,psychic,8.16,44.25,112,15.38,0.04,10.41843
+15,beedrill,bug bite,aerial ace,8.16,44.25,119,16.35,0.04,11.12807
+88,grimer,poison jab,sludge,8.16,44.25,92,12.64,0.05,8.527
+200,misdreavus,hex,ominous wind,8.16,44.25,123,16.9,0.04,11.42871
+226,mantine,wing attack,aerial ace,8.16,44.25,200,27.47,0.06,18.59203
+352,kecleon,sucker punch,foul play,8.16,44.25,153,21.02,0.05,14.2701
+227,skarmory,air slash,brave bird,8.15,44.2,199,27.34,0.06,18.59203
+375,metang,metal claw,psyshock,8.15,44.2,135,18.54,0.05,12.56526
+362,glalie,frost breath,gyro ball,8.14,44.14,154,21.15,0.05,14.43031
+115,kangaskhan,mud slap,brick break,8.13,44.09,202,27.75,0.05,18.8936
+117,seadra,dragon breath,aurora beam,8.13,44.09,122,16.76,0.04,11.45227
+156,quilava,tackle,flamethrower,8.13,44.09,94,12.91,0.04,8.759778
+171,lanturn,charge beam,thunder,8.13,44.09,213,29.26,0.06,19.90387
+5,charmeleon,scratch,fire punch,8.12,44.03,94,12.91,0.04,8.759778
+115,kangaskhan,low kick,brick break,8.12,44.03,202,27.75,0.05,18.8936
+137,porygon,hidden power,zap cannon,8.12,44.03,111,15.25,0.04,10.38168
+137,porygon,tackle,zap cannon,8.12,44.03,111,15.25,0.04,10.38168
+9,blastoise,water gun,flash cannon,8.11,43.98,194,26.65,0.05,18.15475
+42,golbat,wing attack,air cutter,8.11,43.98,138,18.96,0.05,12.90548
+324,torkoal,ember,solar beam,8.11,43.98,192,26.37,0.06,17.99642
+340,whiscash,water gun,blizzard,8.11,43.98,183,25.14,0.06,17.20102
+344,claydol,confusion,psychic,8.11,43.98,168,23.08,0.06,15.78551
+5,charmeleon,scratch,flame burst,8.09,43.87,93,12.77,0.04,8.759778
+115,kangaskhan,mud slap,earthquake,8.09,43.87,201,27.61,0.05,18.8936
+238,smoochum,pound,psyshock,8.09,43.87,68,9.34,0.04,6.370747
+347,anorith,scratch,cross poison,8.09,43.87,59,8.1,0.03,5.586655
+87,dewgong,ice shard,blizzard,8.08,43.82,192,26.37,0.06,18.10008
+168,ariados,poison sting,megahorn,8.07,43.76,109,14.97,0.04,10.3044
+227,skarmory,air slash,flash cannon,8.07,43.76,197,27.06,0.06,18.59203
+357,tropius,razor leaf,aerial ace,8.07,43.76,190,26.1,0.07,17.88144
+53,persian,feint attack,foul play,8.05,43.66,110,15.11,0.05,10.38168
+77,ponyta,ember,flame wheel,8.05,43.66,83,11.4,0.03,7.842805
+153,bayleef,razor leaf,grass knot,8.05,43.66,113,15.52,0.06,10.671
+238,smoochum,pound,ice punch,8.05,43.66,67,9.2,0.03,6.370747
+240,magby,ember,fire punch,8.05,43.66,63,8.65,0.03,5.978701
+240,magby,ember,flame burst,8.05,43.66,63,8.65,0.03,5.978701
+372,shelgon,dragon breath,twister,8.05,43.66,139,19.09,0.04,13.09584
+51,dugtrio,mud shot,mud bomb,8.04,43.6,67,9.2,0.03,6.372632
+262,mightyena,bite,poison fang,8.04,43.6,116,15.93,0.04,10.9575
+87,dewgong,iron tail,blizzard,8.03,43.55,191,26.24,0.06,18.10008
+51,dugtrio,sucker punch,mud bomb,8.02,43.49,67,9.2,0.03,6.372632
+193,yanma,wing attack,aerial ace,8.02,43.49,77,10.58,0.04,7.328244
+219,magcargo,rock throw,heat wave,8.02,43.49,126,17.31,0.05,11.97908
+334,altaria,dragon breath,dazzling gleam,8.02,43.49,181,24.86,0.06,17.15578
+209,snubbull,bite,dazzling gleam,8.01,43.44,69,9.48,0.04,6.503628
+110,weezing,infestation,dark pulse,7.99,43.33,168,23.08,0.05,15.94572
+137,porygon,hidden power,discharge,7.99,43.33,109,14.97,0.04,10.38168
+137,porygon,tackle,discharge,7.99,43.33,109,14.97,0.04,10.38168
+115,kangaskhan,low kick,earthquake,7.98,43.28,198,27.2,0.05,18.8936
+28,sandslash,metal claw,rock tomb,7.97,43.22,175,24.04,0.05,16.69211
+110,weezing,tackle,dark pulse,7.97,43.22,167,22.94,0.05,15.94572
+303,mawile,bite,iron head,7.97,43.22,95,13.05,0.04,9.078315
+38,ninetales,feint attack,heat wave,7.96,43.17,172,23.63,0.05,16.43577
+352,kecleon,lick,flamethrower,7.96,43.17,149,20.47,0.05,14.2701
+77,ponyta,ember,flame charge,7.95,43.11,82,11.26,0.03,7.842805
+288,vigoroth,counter,brick break,7.95,43.11,148,20.33,0.05,14.18434
+320,wailmer,water gun,heavy slam,7.95,43.11,111,15.25,0.05,10.58713
+53,persian,scratch,power gem,7.94,43.06,108,14.84,0.04,10.38168
+33,nidorino,poison sting,sludge bomb,7.93,43,84,11.54,0.04,8.07464
+228,houndour,ember,crunch,7.93,43,55,7.55,0.03,5.243615
+375,metang,zen headbutt,psyshock,7.93,43,131,17.99,0.05,12.56526
+180,flaaffy,charge beam,thunderbolt,7.92,42.95,95,13.05,0.04,9.143342
+208,steelix,iron tail,crunch,7.92,42.95,279,38.32,0.07,26.81557
+264,linoone,shadow claw,grass knot,7.92,42.95,118,16.21,0.05,11.37499
+15,beedrill,infestation,aerial ace,7.91,42.9,116,15.93,0.04,11.12807
+36,clefable,zen headbutt,psychic,7.9,42.84,185,25.41,0.05,17.78343
+88,grimer,acid,sludge,7.9,42.84,89,12.23,0.04,8.527
+180,flaaffy,tackle,thunderbolt,7.9,42.84,95,13.05,0.04,9.143342
+205,forretress,bug bite,earthquake,7.9,42.84,206,28.3,0.06,19.78324
+352,kecleon,lick,ice beam,7.9,42.84,148,20.33,0.05,14.2701
+315,roselia,poison jab,petal blizzard,7.89,42.79,90,12.36,0.03,8.70229
+352,kecleon,sucker punch,flamethrower,7.89,42.79,148,20.33,0.05,14.2701
+1,bulbasaur,vine whip,power whip,7.88,42.73,67,9.2,0.04,6.468759
+43,oddish,razor leaf,seed bomb,7.88,42.73,66,9.07,0.04,6.370747
+207,gligar,wing attack,aerial ace,7.88,42.73,153,21.02,0.06,14.7922
+334,altaria,peck,dragon pulse,7.88,42.73,178,24.45,0.06,17.15578
+9,blastoise,bite,flash cannon,7.87,42.68,188,25.82,0.05,18.15475
+42,golbat,wing attack,poison fang,7.87,42.68,134,18.41,0.05,12.90548
+56,mankey,scratch,cross chop,7.86,42.62,46,6.32,0.03,4.473659
+66,machop,rock smash,cross chop,7.86,42.62,77,10.58,0.04,7.401753
+88,grimer,mud slap,sludge bomb,7.86,42.62,88,12.09,0.04,8.527
+58,growlithe,ember,flamethrower,7.85,42.57,66,9.07,0.04,6.427292
+362,glalie,ice shard,gyro ball,7.85,42.57,149,20.47,0.05,14.43031
+200,misdreavus,astonish,ominous wind,7.84,42.52,118,16.21,0.04,11.42871
+352,kecleon,sucker punch,ice beam,7.84,42.52,147,20.19,0.05,14.2701
+357,tropius,razor leaf,stomp,7.84,42.52,184,25.27,0.06,17.88144
+42,golbat,bite,air cutter,7.83,42.46,133,18.27,0.05,12.90548
+66,machop,rock smash,brick break,7.83,42.46,76,10.44,0.04,7.401753
+303,mawile,astonish,play rough,7.83,42.46,93,12.77,0.04,9.078315
+344,claydol,extrasensory,earthquake,7.83,42.46,163,22.39,0.06,15.78551
+242,blissey,pound,dazzling gleam,7.82,42.41,617,84.75,0.12,60
+288,vigoroth,counter,bulldoze,7.82,42.41,146,20.05,0.05,14.18434
+302,sableye,shadow claw,power gem,7.82,42.41,86,11.81,0.04,8.326265
+24,arbok,bite,dark pulse,7.81,42.35,112,15.38,0.04,10.86043
+97,hypno,zen headbutt,focus blast,7.81,42.35,204,28.02,0.06,19.85487
+288,vigoroth,scratch,bulldoze,7.81,42.35,146,20.05,0.05,14.18434
+295,exploud,astonish,crunch,7.81,42.35,168,23.08,0.05,16.31891
+357,tropius,air slash,aerial ace,7.81,42.35,184,25.27,0.06,17.88144
+148,dragonair,dragon breath,wrap,7.8,42.3,100,13.74,0.04,9.740835
+331,cacnea,poison sting,seed bomb,7.79,42.25,48,6.59,0.03,4.72717
+375,metang,metal claw,psychic,7.77,42.14,128,17.58,0.05,12.56526
+56,mankey,karate chop,brick break,7.76,42.08,46,6.32,0.03,4.473659
+105,marowak,mud slap,earthquake,7.75,42.03,138,18.96,0.05,13.51239
+138,omanyte,water gun,rock blast,7.75,42.03,76,10.44,0.04,7.441334
+195,quagsire,mud shot,earthquake,7.74,41.97,162,22.25,0.05,15.95703
+47,parasect,fury cutter,cross poison,7.73,41.92,103,14.15,0.04,10.10272
+317,swalot,rock smash,gunk shot,7.73,41.92,177,24.31,0.06,17.4451
+340,whiscash,water gun,water pulse,7.73,41.92,175,24.04,0.06,17.20102
+66,machop,karate chop,brick break,7.72,41.87,75,10.3,0.04,7.401753
+105,marowak,mud slap,bone club,7.72,41.87,137,18.82,0.05,13.51239
+226,mantine,bubble,ice beam,7.72,41.87,189,25.96,0.06,18.59203
+1,bulbasaur,vine whip,sludge bomb,7.71,41.81,66,9.07,0.04,6.468759
+66,machop,karate chop,cross chop,7.71,41.81,75,10.3,0.04,7.401753
+98,krabby,mud shot,bubble beam,7.71,41.81,60,8.24,0.03,5.927811
+138,omanyte,water gun,brine,7.69,41.7,75,10.3,0.04,7.441334
+195,quagsire,water gun,stone edge,7.69,41.7,161,22.12,0.05,15.95703
+226,mantine,wing attack,ice beam,7.69,41.7,188,25.82,0.06,18.59203
+241,miltank,tackle,gyro ball,7.69,41.7,219,30.08,0.06,21.6285
+256,combusken,ember,flame charge,7.69,41.7,82,11.26,0.04,8.145321
+97,hypno,zen headbutt,psychic,7.68,41.65,201,27.61,0.06,19.85487
+209,snubbull,tackle,dazzling gleam,7.68,41.65,66,9.07,0.04,6.503628
+240,magby,karate chop,fire punch,7.68,41.65,60,8.24,0.03,5.978701
+176,togetic,extrasensory,dazzling gleam,7.67,41.59,121,16.62,0.05,11.97814
+240,magby,karate chop,flame burst,7.67,41.59,60,8.24,0.03,5.978701
+58,growlithe,bite,flamethrower,7.66,41.54,65,8.93,0.04,6.427292
+137,porygon,zen headbutt,zap cannon,7.66,41.54,105,14.42,0.04,10.38168
+216,teddiursa,scratch,cross chop,7.66,41.54,68,9.34,0.04,6.756196
+247,pupitar,bite,dig,7.66,41.54,107,14.7,0.04,10.66723
+344,claydol,extrasensory,psychic,7.66,41.54,159,21.84,0.06,15.78551
+351,castform,bite,stomp,7.66,41.54,112,15.38,0.05,11.10263
+28,sandslash,mud shot,rock tomb,7.65,41.49,168,23.08,0.05,16.69211
+36,clefable,charge beam,psychic,7.65,41.49,179,24.59,0.05,17.78343
+137,porygon,zen headbutt,discharge,7.65,41.49,104,14.29,0.04,10.38168
+326,grumpig,charge beam,mirror coat,7.65,41.49,186,25.55,0.05,18.44784
+340,whiscash,mud shot,blizzard,7.64,41.43,173,23.76,0.05,17.20102
+238,smoochum,powder snow,ice beam,7.63,41.38,64,8.79,0.03,6.370747
+53,persian,scratch,night slash,7.62,41.32,104,14.29,0.04,10.38168
+75,graveler,mud shot,dig,7.62,41.32,123,16.9,0.04,12.27029
+256,combusken,peck,rock slide,7.62,41.32,82,11.26,0.04,8.145321
+42,golbat,wing attack,ominous wind,7.61,41.27,129,17.72,0.04,12.90548
+42,golbat,bite,poison fang,7.61,41.27,129,17.72,0.04,12.90548
+119,seaking,peck,megahorn,7.61,41.27,138,18.96,0.04,13.77439
+197,umbreon,snarl,dark pulse,7.61,41.27,254,34.89,0.08,25.37744
+295,exploud,bite,disarming voice,7.61,41.27,163,22.39,0.05,16.31891
+138,omanyte,water gun,bubble beam,7.6,41.21,74,10.16,0.03,7.441334
+295,exploud,astonish,fire blast,7.6,41.21,163,22.39,0.05,16.31891
+334,altaria,peck,dazzling gleam,7.6,41.21,171,23.49,0.06,17.15578
+53,persian,feint attack,play rough,7.58,41.11,104,14.29,0.04,10.38168
+197,umbreon,feint attack,dark pulse,7.57,41.05,253,34.75,0.08,25.37744
+224,octillery,mud shot,aurora beam,7.57,41.05,119,16.35,0.04,11.97814
+255,torchic,ember,flamethrower,7.57,41.05,52,7.14,0.03,5.194609
+271,lombre,razor leaf,grass knot,7.57,41.05,89,12.23,0.05,8.966167
+193,yanma,quick attack,aerial ace,7.56,41,73,10.03,0.03,7.328244
+43,oddish,acid,seed bomb,7.55,40.94,63,8.65,0.04,6.370747
+66,machop,low kick,brick break,7.55,40.94,74,10.16,0.04,7.401753
+87,dewgong,frost breath,aurora beam,7.55,40.94,180,24.73,0.06,18.10008
+119,seaking,poison jab,icy wind,7.55,40.94,137,18.82,0.04,13.77439
+177,natu,peck,drill peck,7.55,40.94,45,6.18,0.03,4.562247
+159,croconaw,water gun,ice punch,7.54,40.89,111,15.25,0.04,11.19593
+259,marshtomp,water gun,sludge,7.54,40.89,106,14.56,0.04,10.66723
+308,medicham,counter,psychic,7.54,40.89,104,14.29,0.05,10.48158
+22,fearow,steel wing,twister,7.53,40.84,100,13.74,0.03,10.11026
+138,omanyte,water gun,ancient power,7.53,40.84,74,10.16,0.03,7.441334
+375,metang,metal claw,gyro ball,7.52,40.78,124,17.03,0.05,12.56526
+148,dragonair,iron tail,wrap,7.51,40.73,96,13.19,0.04,9.740835
+226,mantine,bubble,water pulse,7.51,40.73,184,25.27,0.06,18.59203
+247,pupitar,rock smash,dig,7.51,40.73,105,14.42,0.04,10.66723
+66,machop,low kick,cross chop,7.5,40.67,73,10.03,0.04,7.401753
+164,noctowl,wing attack,psychic,7.5,40.67,192,26.37,0.06,19.46188
+200,misdreavus,hex,dark pulse,7.5,40.67,113,15.52,0.04,11.42871
+219,magcargo,ember,stone edge,7.5,40.67,118,16.21,0.05,11.97908
+247,pupitar,bite,ancient power,7.5,40.67,105,14.42,0.04,10.66723
+357,tropius,air slash,stomp,7.5,40.67,176,24.18,0.06,17.88144
+193,yanma,wing attack,silver wind,7.49,40.62,72,9.89,0.03,7.328244
+30,nidorina,poison sting,sludge bomb,7.48,40.56,100,13.74,0.05,10.15927
+205,forretress,bug bite,rock tomb,7.48,40.56,195,26.79,0.05,19.78324
+226,mantine,wing attack,water pulse,7.48,40.56,183,25.14,0.06,18.59203
+344,claydol,confusion,gyro ball,7.48,40.56,155,21.29,0.06,15.78551
+351,castform,rock smash,stomp,7.48,40.56,109,14.97,0.05,11.10263
+56,mankey,scratch,brick break,7.47,40.51,44,6.04,0.03,4.473659
+109,koffing,acid,sludge bomb,7.46,40.46,77,10.58,0.04,7.884271
+137,porygon,charge beam,solar beam,7.46,40.46,102,14.01,0.04,10.38168
+375,metang,zen headbutt,psychic,7.46,40.46,123,16.9,0.05,12.56526
+77,ponyta,tackle,stomp,7.45,40.4,77,10.58,0.03,7.842805
+88,grimer,poison jab,mud bomb,7.44,40.35,83,11.4,0.04,8.527
+156,quilava,ember,flame charge,7.44,40.35,86,11.81,0.04,8.759778
+320,wailmer,water gun,body slam,7.43,40.29,103,14.15,0.05,10.58713
+138,omanyte,water gun,rock tomb,7.42,40.24,73,10.03,0.03,7.441334
+208,steelix,dragon tail,crunch,7.42,40.24,262,35.99,0.07,26.81557
+77,ponyta,tackle,flame charge,7.41,40.18,76,10.44,0.03,7.842805
+87,dewgong,iron tail,aurora beam,7.41,40.18,176,24.18,0.06,18.10008
+162,furret,quick attack,brick break,7.41,40.18,122,16.76,0.05,12.48516
+264,linoone,shadow claw,thunder,7.4,40.13,111,15.25,0.05,11.37499
+77,ponyta,tackle,flame wheel,7.39,40.08,76,10.44,0.03,7.842805
+137,porygon,quick attack,signal beam,7.39,40.08,101,13.87,0.04,10.38168
+242,blissey,pound,psychic,7.39,40.08,583,80.08,0.11,60
+255,torchic,scratch,flamethrower,7.39,40.08,50,6.87,0.03,5.194609
+262,mightyena,fire fang,poison fang,7.39,40.08,107,14.7,0.04,10.9575
+313,volbeat,tackle,signal beam,7.39,40.08,122,16.76,0.05,12.55301
+8,wartortle,water gun,hydro pump,7.38,40.02,102,14.01,0.05,10.51173
+159,croconaw,scratch,ice punch,7.37,39.97,109,14.97,0.04,11.19593
+352,kecleon,lick,aerial ace,7.37,39.97,138,18.96,0.05,14.2701
+177,natu,peck,psyshock,7.36,39.91,44,6.04,0.03,4.562247
+247,pupitar,rock smash,ancient power,7.36,39.91,103,14.15,0.04,10.66723
+364,sealeo,water gun,aurora beam,7.36,39.91,129,17.72,0.05,13.34653
+74,geodude,rock throw,rock tomb,7.35,39.86,76,10.44,0.04,7.839977
+184,azumarill,bubble,play rough,7.35,39.86,162,22.25,0.07,16.73923
+253,grovyle,quick attack,aerial ace,7.35,39.86,75,10.3,0.03,7.735369
+340,whiscash,mud shot,water pulse,7.35,39.86,166,22.8,0.05,17.20102
+20,raticate,quick attack,dig,7.34,39.8,89,12.23,0.04,9.231929
+352,kecleon,lick,thunder,7.34,39.8,138,18.96,0.05,14.2701
+176,togetic,hidden power,dazzling gleam,7.33,39.75,115,15.8,0.05,11.97814
+239,elekid,thunder shock,discharge,7.33,39.75,59,8.1,0.03,6.076713
+87,dewgong,frost breath,water pulse,7.32,39.7,174,23.9,0.06,18.10008
+87,dewgong,ice shard,aurora beam,7.32,39.7,174,23.9,0.06,18.10008
+241,miltank,zen headbutt,gyro ball,7.32,39.7,208,28.57,0.06,21.6285
+302,sableye,feint attack,power gem,7.32,39.7,80,10.99,0.04,8.326265
+352,kecleon,sucker punch,aerial ace,7.32,39.7,137,18.82,0.04,14.2701
+252,treecko,bullet seed,grass knot,7.31,39.64,50,6.87,0.03,5.226652
+42,golbat,bite,ominous wind,7.28,39.48,124,17.03,0.04,12.90548
+105,marowak,mud slap,dig,7.28,39.48,129,17.72,0.05,13.51239
+238,smoochum,powder snow,psyshock,7.28,39.48,61,8.38,0.03,6.370747
+358,chimecho,astonish,energy ball,7.28,39.48,139,19.09,0.04,14.52832
+375,metang,zen headbutt,gyro ball,7.28,39.48,120,16.48,0.05,12.56526
+111,rhyhorn,mud slap,stomp,7.27,39.43,134,18.41,0.05,14.02036
+216,teddiursa,lick,play rough,7.27,39.43,65,8.93,0.03,6.756196
+313,volbeat,tackle,thunderbolt,7.27,39.43,120,16.48,0.05,12.55301
+324,torkoal,ember,earthquake,7.27,39.43,172,23.63,0.05,17.99642
+352,kecleon,sucker punch,thunder,7.27,39.43,136,18.68,0.04,14.2701
+98,krabby,bubble,vice grip,7.26,39.37,57,7.83,0.03,5.927811
+264,linoone,tackle,thunder,7.26,39.37,109,14.97,0.04,11.37499
+137,porygon,hidden power,signal beam,7.25,39.32,99,13.6,0.04,10.38168
+137,porygon,tackle,signal beam,7.25,39.32,99,13.6,0.04,10.38168
+200,misdreavus,hex,shadow sneak,7.25,39.32,109,14.97,0.04,11.42871
+207,gligar,fury cutter,aerial ace,7.25,39.32,141,19.37,0.05,14.7922
+105,marowak,rock smash,bone club,7.24,39.26,129,17.72,0.05,13.51239
+159,croconaw,water gun,crunch,7.24,39.26,107,14.7,0.04,11.19593
+159,croconaw,water gun,water pulse,7.24,39.26,107,14.7,0.04,11.19593
+341,corphish,bubble,bubble beam,7.24,39.26,57,7.83,0.03,5.984356
+379,registeel,rock smash,flash cannon,7.24,39.26,233,32.01,0.07,24.51513
+176,togetic,extrasensory,aerial ace,7.23,39.21,114,15.66,0.05,11.97814
+177,natu,quick attack,drill peck,7.23,39.21,43,5.91,0.03,4.562247
+56,mankey,karate chop,low sweep,7.22,39.15,42,5.77,0.03,4.473659
+105,marowak,rock smash,earthquake,7.21,39.1,128,17.58,0.05,13.51239
+63,abra,zen headbutt,psyshock,7.2,39.05,33,4.53,0.02,3.528414
+63,abra,zen headbutt,signal beam,7.2,39.05,33,4.53,0.02,3.528414
+63,abra,zen headbutt,shadow ball,7.2,39.05,33,4.53,0.02,3.528414
+87,dewgong,iron tail,water pulse,7.19,38.99,171,23.49,0.06,18.10008
+216,teddiursa,scratch,crunch,7.19,38.99,64,8.79,0.03,6.756196
+238,smoochum,powder snow,ice punch,7.19,38.99,60,8.24,0.03,6.370747
+88,grimer,mud slap,sludge,7.18,38.94,81,11.13,0.04,8.527
+186,politoed,mud shot,earthquake,7.18,38.94,178,24.45,0.05,18.8314
+207,gligar,wing attack,dig,7.18,38.94,140,19.23,0.05,14.7922
+271,lombre,bubble,grass knot,7.18,38.94,85,11.68,0.05,8.966167
+22,fearow,peck,twister,7.17,38.88,95,13.05,0.03,10.11026
+88,grimer,acid,mud bomb,7.17,38.88,80,10.99,0.04,8.527
+111,rhyhorn,mud slap,bulldoze,7.17,38.88,132,18.13,0.05,14.02036
+256,combusken,peck,flame charge,7.17,38.88,77,10.58,0.03,8.145321
+137,porygon,charge beam,discharge,7.16,38.83,98,13.46,0.04,10.38168
+195,quagsire,mud shot,stone edge,7.16,38.83,150,20.6,0.05,15.95703
+308,medicham,psycho cut,dynamic punch,7.16,38.83,99,13.6,0.05,10.48158
+20,raticate,bite,dig,7.15,38.77,87,11.95,0.04,9.231929
+364,sealeo,water gun,body slam,7.15,38.77,126,17.31,0.05,13.34653
+156,quilava,ember,dig,7.14,38.72,82,11.26,0.03,8.759778
+325,spoink,zen headbutt,shadow ball,7.14,38.72,94,12.91,0.05,10.03958
+159,croconaw,scratch,crunch,7.13,38.67,105,14.42,0.04,11.19593
+259,marshtomp,mud shot,sludge,7.13,38.67,100,13.74,0.04,10.66723
+66,machop,karate chop,low sweep,7.12,38.61,69,9.48,0.04,7.401753
+140,kabuto,scratch,ancient power,7.12,38.61,57,7.83,0.03,6.137028
+164,noctowl,extrasensory,psychic,7.12,38.61,182,25,0.06,19.46188
+200,misdreavus,astonish,dark pulse,7.12,38.61,107,14.7,0.04,11.42871
+61,poliwhirl,bubble,bubble beam,7.11,38.56,91,12.5,0.04,9.770992
+159,croconaw,scratch,water pulse,7.11,38.56,105,14.42,0.04,11.19593
+53,persian,feint attack,power gem,7.1,38.5,97,13.32,0.04,10.38168
+239,elekid,low kick,discharge,7.1,38.5,57,7.83,0.03,6.076713
+302,sableye,shadow claw,shadow sneak,7.1,38.5,78,10.71,0.04,8.326265
+364,sealeo,water gun,water pulse,7.1,38.5,125,17.17,0.05,13.34653
+242,blissey,zen headbutt,dazzling gleam,7.09,38.45,560,76.92,0.11,60
+344,claydol,extrasensory,gyro ball,7.09,38.45,147,20.19,0.05,15.78551
+190,aipom,scratch,swift,7.08,38.39,69,9.48,0.04,7.362171
+87,dewgong,ice shard,water pulse,7.07,38.34,168,23.08,0.06,18.10008
+87,dewgong,frost breath,icy wind,7.06,38.29,168,23.08,0.06,18.10008
+193,yanma,quick attack,silver wind,7.06,38.29,68,9.34,0.03,7.328244
+301,delcatty,feint attack,wild charge,7.06,38.29,98,13.46,0.04,10.59467
+317,swalot,rock smash,ice beam,7.06,38.29,162,22.25,0.05,17.4451
+225,delibird,ice shard,ice punch,7.05,38.23,47,6.46,0.03,5.096598
+247,pupitar,bite,crunch,7.05,38.23,99,13.6,0.04,10.66723
+289,slaking,yawn,earthquake,7.05,38.23,247,33.93,0.03,26.64169
+83,farfetchd,air slash,leaf blade,7.04,38.18,68,9.34,0.04,7.339553
+177,natu,quick attack,psyshock,7.04,38.18,42,5.77,0.03,4.562247
+308,medicham,counter,ice punch,7.03,38.12,97,13.32,0.05,10.48158
+153,bayleef,razor leaf,energy ball,7.02,38.07,99,13.6,0.05,10.671
+379,registeel,rock smash,hyper beam,7.02,38.07,226,31.04,0.06,24.51513
+56,mankey,scratch,low sweep,7.01,38.02,41,5.63,0.03,4.473659
+318,carvanha,bite,aqua jet,7.01,38.02,24,3.3,0.02,2.597305
+318,carvanha,bite,crunch,7.01,38.02,24,3.3,0.02,2.597305
+318,carvanha,bite,poison fang,7.01,38.02,24,3.3,0.02,2.597305
+66,machop,rock smash,low sweep,7,37.96,68,9.34,0.04,7.401753
+66,machop,low kick,low sweep,7,37.96,68,9.34,0.04,7.401753
+137,porygon,charge beam,zap cannon,7,37.96,96,13.19,0.04,10.38168
+347,anorith,scratch,aqua jet,7,37.96,51,7.01,0.02,5.586655
+1,bulbasaur,vine whip,seed bomb,6.98,37.85,59,8.1,0.04,6.468759
+253,grovyle,bullet seed,aerial ace,6.98,37.85,71,9.75,0.03,7.735369
+304,aron,metal claw,iron head,6.98,37.85,90,12.36,0.05,9.776647
+33,nidorino,poison jab,horn attack,6.97,37.8,74,10.16,0.04,8.07464
+33,nidorino,poison jab,dig,6.97,37.8,74,10.16,0.04,8.07464
+303,mawile,astonish,iron head,6.97,37.8,83,11.4,0.04,9.078315
+79,slowpoke,confusion,psyshock,6.96,37.74,103,14.15,0.05,11.24399
+119,seaking,peck,icy wind,6.96,37.74,126,17.31,0.04,13.77439
+120,staryu,water gun,bubble beam,6.96,37.74,40,5.49,0.03,4.393554
+153,bayleef,tackle,grass knot,6.96,37.74,98,13.46,0.05,10.671
+206,dunsparce,bite,rock slide,6.96,37.74,134,18.41,0.05,14.62162
+240,magby,ember,brick break,6.96,37.74,55,7.55,0.03,5.978701
+294,loudred,bite,flamethrower,6.96,37.74,75,10.3,0.04,8.147206
+346,cradily,acid,bulldoze,6.96,37.74,170,23.35,0.05,18.58072
+200,misdreavus,astonish,shadow sneak,6.95,37.69,104,14.29,0.04,11.42871
+207,gligar,fury cutter,dig,6.95,37.69,135,18.54,0.05,14.7922
+176,togetic,hidden power,aerial ace,6.94,37.64,109,14.97,0.04,11.97814
+345,lileep,acid,grass knot,6.94,37.64,105,14.42,0.06,11.55782
+1,bulbasaur,tackle,power whip,6.93,37.58,59,8.1,0.04,6.468759
+156,quilava,tackle,flame charge,6.93,37.58,80,10.99,0.03,8.759778
+219,magcargo,ember,heat wave,6.93,37.58,109,14.97,0.04,11.97908
+313,volbeat,tackle,bug buzz,6.93,37.58,114,15.66,0.04,12.55301
+314,illumise,tackle,bug buzz,6.93,37.58,114,15.66,0.04,12.55301
+372,shelgon,ember,twister,6.93,37.58,119,16.35,0.04,13.09584
+379,registeel,rock smash,focus blast,6.93,37.58,223,30.63,0.06,24.51513
+30,nidorina,bite,sludge bomb,6.92,37.53,92,12.64,0.05,10.15927
+301,delcatty,zen headbutt,wild charge,6.92,37.53,96,13.19,0.04,10.59467
+309,electrike,spark,discharge,6.92,37.53,37,5.08,0.03,4.075016
+320,wailmer,water gun,water pulse,6.92,37.53,96,13.19,0.04,10.58713
+193,yanma,wing attack,ancient power,6.91,37.47,67,9.2,0.03,7.328244
+247,pupitar,rock smash,crunch,6.91,37.47,97,13.32,0.04,10.66723
+317,swalot,infestation,ice beam,6.91,37.47,159,21.84,0.05,17.4451
+207,gligar,wing attack,night slash,6.9,37.42,134,18.41,0.05,14.7922
+53,persian,feint attack,night slash,6.88,37.31,94,12.91,0.04,10.38168
+87,dewgong,iron tail,icy wind,6.88,37.31,164,22.53,0.05,18.10008
+189,jumpluff,infestation,solar beam,6.88,37.31,148,20.33,0.06,16.30572
+190,aipom,scratch,aerial ace,6.88,37.31,67,9.2,0.04,7.362171
+46,paras,bug bite,seed bomb,6.87,37.26,40,5.49,0.03,4.472717
+105,marowak,rock smash,dig,6.87,37.26,122,16.76,0.05,13.51239
+44,gloom,razor leaf,petal blizzard,6.86,37.2,87,11.95,0.04,9.660729
+44,gloom,razor leaf,moonblast,6.86,37.2,87,11.95,0.04,9.660729
+87,dewgong,ice shard,icy wind,6.86,37.2,163,22.39,0.05,18.10008
+102,exeggcute,confusion,seed bomb,6.86,37.2,88,12.09,0.05,9.723871
+137,porygon,zen headbutt,signal beam,6.86,37.2,94,12.91,0.04,10.38168
+206,dunsparce,bite,drill run,6.86,37.2,132,18.13,0.05,14.62162
+341,corphish,rock smash,bubble beam,6.86,37.2,54,7.42,0.03,5.984356
+353,shuppet,feint attack,ominous wind,6.86,37.2,35,4.81,0.03,3.845066
+137,porygon,quick attack,psybeam,6.85,37.15,94,12.91,0.04,10.38168
+164,noctowl,wing attack,night shade,6.84,37.09,175,24.04,0.05,19.46188
+309,electrike,quick attack,discharge,6.84,37.09,37,5.08,0.03,4.075016
+46,paras,bug bite,x scissor,6.83,37.04,40,5.49,0.03,4.472717
+162,furret,sucker punch,brick break,6.83,37.04,112,15.38,0.04,12.48516
+184,azumarill,bubble,hydro pump,6.83,37.04,150,20.6,0.06,16.73923
+345,lileep,infestation,grass knot,6.83,37.04,104,14.29,0.06,11.55782
+74,geodude,tackle,rock slide,6.82,36.98,70,9.62,0.04,7.839977
+83,farfetchd,air slash,aerial ace,6.82,36.98,66,9.07,0.04,7.339553
+184,azumarill,rock smash,play rough,6.82,36.98,150,20.6,0.06,16.73923
+79,slowpoke,confusion,psychic,6.81,36.93,101,13.87,0.05,11.24399
+138,omanyte,mud shot,rock blast,6.81,36.93,67,9.2,0.03,7.441334
+162,furret,quick attack,dig,6.81,36.93,112,15.38,0.04,12.48516
+179,mareep,thunder shock,thunderbolt,6.81,36.93,50,6.87,0.04,5.609273
+294,loudred,rock smash,flamethrower,6.81,36.93,73,10.03,0.04,8.147206
+331,cacnea,sucker punch,brick break,6.8,36.88,42,5.77,0.02,4.72717
+371,bagon,bite,flamethrower,6.8,36.88,53,7.28,0.03,5.929696
+189,jumpluff,bullet seed,solar beam,6.79,36.82,146,20.05,0.06,16.30572
+111,rhyhorn,rock smash,stomp,6.78,36.77,125,17.17,0.05,14.02036
+314,illumise,tackle,silver wind,6.78,36.77,112,15.38,0.04,12.55301
+2,ivysaur,razor leaf,solar beam,6.77,36.71,93,12.77,0.04,10.41843
+301,delcatty,feint attack,play rough,6.77,36.71,94,12.91,0.04,10.59467
+314,illumise,tackle,dazzling gleam,6.77,36.71,112,15.38,0.04,12.55301
+111,rhyhorn,rock smash,bulldoze,6.75,36.61,124,17.03,0.05,14.02036
+137,porygon,hidden power,psybeam,6.75,36.61,92,12.64,0.04,10.38168
+137,porygon,tackle,psybeam,6.75,36.61,92,12.64,0.04,10.38168
+225,delibird,ice shard,aerial ace,6.74,36.55,45,6.18,0.03,5.096598
+1,bulbasaur,tackle,sludge bomb,6.73,36.5,57,7.83,0.04,6.468759
+225,delibird,quick attack,ice punch,6.73,36.5,45,6.18,0.03,5.096598
+54,psyduck,water gun,aqua tail,6.72,36.44,52,7.14,0.03,5.908962
+239,elekid,thunder shock,thunder punch,6.72,36.44,54,7.42,0.03,6.076713
+311,plusle,spark,swift,6.72,36.44,90,12.36,0.03,10.16587
+87,dewgong,frost breath,aqua jet,6.7,36.33,160,21.98,0.05,18.10008
+58,growlithe,ember,body slam,6.69,36.28,57,7.83,0.03,6.427292
+295,exploud,astonish,disarming voice,6.69,36.28,144,19.78,0.04,16.31891
+58,growlithe,ember,flame wheel,6.68,36.23,56,7.69,0.03,6.427292
+138,omanyte,mud shot,ancient power,6.68,36.23,65,8.93,0.03,7.441334
+138,omanyte,mud shot,brine,6.68,36.23,65,8.93,0.03,7.441334
+271,lombre,razor leaf,bubble beam,6.68,36.23,79,10.85,0.05,8.966167
+351,castform,bite,crunch,6.68,36.23,98,13.46,0.04,11.10263
+364,sealeo,powder snow,aurora beam,6.68,36.23,117,16.07,0.05,13.34653
+83,farfetchd,cut,leaf blade,6.67,36.17,64,8.79,0.04,7.339553
+180,flaaffy,tackle,power gem,6.67,36.17,80,10.99,0.04,9.143342
+366,clamperl,water gun,ice beam,6.66,36.12,57,7.83,0.03,6.451795
+87,dewgong,iron tail,aqua jet,6.65,36.06,158,21.7,0.05,18.10008
+109,koffing,infestation,sludge bomb,6.65,36.06,69,9.48,0.04,7.884271
+116,horsea,bubble,bubble beam,6.65,36.06,42,5.77,0.03,4.846857
+301,delcatty,zen headbutt,play rough,6.65,36.06,93,12.77,0.04,10.59467
+264,linoone,shadow claw,dig,6.64,36.01,99,13.6,0.04,11.37499
+138,omanyte,mud shot,bubble beam,6.63,35.95,65,8.93,0.03,7.441334
+46,paras,scratch,seed bomb,6.62,35.9,39,5.36,0.03,4.472717
+222,corsola,bubble,power gem,6.62,35.9,86,11.81,0.04,9.933088
+156,quilava,tackle,dig,6.61,35.85,76,10.44,0.03,8.759778
+302,sableye,feint attack,shadow sneak,6.61,35.85,72,9.89,0.03,8.326265
+311,plusle,quick attack,swift,6.61,35.85,88,12.09,0.03,10.16587
+120,staryu,quick attack,bubble beam,6.6,35.79,38,5.22,0.03,4.393554
+346,cradily,infestation,bulldoze,6.6,35.79,161,22.12,0.05,18.58072
+58,growlithe,bite,body slam,6.59,35.74,56,7.69,0.03,6.427292
+61,poliwhirl,bubble,mud bomb,6.58,35.68,85,11.68,0.04,9.770992
+61,poliwhirl,bubble,scald,6.58,35.68,85,11.68,0.04,9.770992
+102,exeggcute,confusion,psychic,6.58,35.68,84,11.54,0.05,9.723871
+222,corsola,bubble,rock blast,6.58,35.68,86,11.81,0.04,9.933088
+58,growlithe,bite,flame wheel,6.57,35.63,56,7.69,0.03,6.427292
+109,koffing,tackle,sludge bomb,6.57,35.63,68,9.34,0.04,7.884271
+216,teddiursa,lick,cross chop,6.57,35.63,58,7.97,0.03,6.756196
+46,paras,scratch,x scissor,6.56,35.57,39,5.36,0.03,4.472717
+111,rhyhorn,mud slap,horn attack,6.56,35.57,121,16.62,0.05,14.02036
+179,mareep,tackle,thunderbolt,6.56,35.57,48,6.59,0.03,5.609273
+180,flaaffy,charge beam,power gem,6.56,35.57,79,10.85,0.04,9.143342
+116,horsea,water gun,bubble beam,6.55,35.52,42,5.77,0.03,4.846857
+170,chinchou,bubble,thunderbolt,6.55,35.52,80,10.99,0.05,9.273396
+304,aron,metal claw,body slam,6.55,35.52,84,11.54,0.04,9.776647
+329,vibrava,mud shot,bulldoze,6.55,35.52,52,7.14,0.03,6.070116
+164,noctowl,extrasensory,night shade,6.54,35.47,167,22.94,0.05,19.46188
+190,aipom,scratch,low sweep,6.51,35.3,63,8.65,0.03,7.362171
+88,grimer,mud slap,mud bomb,6.5,35.25,73,10.03,0.04,8.527
+108,lickitung,lick,hyper beam,6.5,35.25,118,16.21,0.06,13.8036
+168,ariados,infestation,shadow sneak,6.5,35.25,88,12.09,0.03,10.3044
+239,elekid,low kick,thunder punch,6.5,35.25,52,7.14,0.03,6.076713
+240,magby,karate chop,brick break,6.5,35.25,51,7.01,0.03,5.978701
+366,clamperl,water gun,water pulse,6.5,35.25,55,7.55,0.03,6.451795
+61,poliwhirl,bubble,water pulse,6.49,35.2,83,11.4,0.04,9.770992
+83,farfetchd,air slash,air cutter,6.49,35.2,63,8.65,0.04,7.339553
+79,slowpoke,water gun,psyshock,6.48,35.14,96,13.19,0.05,11.24399
+264,linoone,tackle,dig,6.48,35.14,97,13.32,0.04,11.37499
+109,koffing,acid,sludge,6.47,35.09,67,9.2,0.04,7.884271
+193,yanma,quick attack,ancient power,6.47,35.09,62,8.52,0.03,7.328244
+364,sealeo,powder snow,body slam,6.47,35.09,114,15.66,0.04,13.34653
+87,dewgong,ice shard,aqua jet,6.46,35.03,154,21.15,0.05,18.10008
+138,omanyte,mud shot,rock tomb,6.46,35.03,63,8.65,0.03,7.441334
+83,farfetchd,cut,aerial ace,6.45,34.98,62,8.52,0.04,7.339553
+222,corsola,bubble,bubble beam,6.45,34.98,84,11.54,0.04,9.933088
+269,dustox,confusion,sludge bomb,6.45,34.98,100,13.74,0.06,11.74442
+219,magcargo,rock throw,overheat,6.44,34.92,101,13.87,0.04,11.97908
+120,staryu,tackle,bubble beam,6.43,34.87,37,5.08,0.03,4.393554
+140,kabuto,mud shot,ancient power,6.43,34.87,52,7.14,0.03,6.137028
+353,shuppet,astonish,ominous wind,6.42,34.82,32,4.4,0.02,3.845066
+17,pidgeotto,steel wing,aerial ace,6.41,34.76,68,9.34,0.04,8.048252
+147,dratini,dragon breath,aqua tail,6.41,34.76,41,5.63,0.03,4.885496
+179,mareep,thunder shock,discharge,6.41,34.76,47,6.46,0.03,5.609273
+209,snubbull,bite,crunch,6.41,34.76,55,7.55,0.03,6.503628
+225,delibird,quick attack,aerial ace,6.41,34.76,43,5.91,0.03,5.096598
+366,clamperl,water gun,body slam,6.41,34.76,54,7.42,0.03,6.451795
+54,psyduck,zen headbutt,aqua tail,6.4,34.71,50,6.87,0.03,5.908962
+140,kabuto,scratch,aqua jet,6.4,34.71,52,7.14,0.03,6.137028
+271,lombre,razor leaf,ice beam,6.4,34.71,75,10.3,0.04,8.966167
+371,bagon,ember,flamethrower,6.4,34.71,50,6.87,0.03,5.929696
+100,voltorb,spark,thunderbolt,6.39,34.65,48,6.59,0.04,5.669588
+108,lickitung,zen headbutt,hyper beam,6.39,34.65,116,15.93,0.06,13.8036
+137,porygon,zen headbutt,psybeam,6.39,34.65,87,11.95,0.04,10.38168
+242,blissey,zen headbutt,psychic,6.38,34.6,503,69.09,0.1,60
+258,mudkip,water gun,stomp,6.38,34.6,48,6.59,0.03,5.747809
+364,sealeo,powder snow,water pulse,6.38,34.6,112,15.38,0.04,13.34653
+318,carvanha,snarl,aqua jet,6.37,34.54,22,3.02,0.02,2.597305
+318,carvanha,snarl,crunch,6.37,34.54,22,3.02,0.02,2.597305
+318,carvanha,snarl,poison fang,6.37,34.54,22,3.02,0.02,2.597305
+325,spoink,zen headbutt,psybeam,6.37,34.54,84,11.54,0.04,10.03958
+325,spoink,zen headbutt,mirror coat,6.36,34.49,84,11.54,0.04,10.03958
+209,snubbull,bite,brick break,6.34,34.38,54,7.42,0.03,6.503628
+303,mawile,bite,vice grip,6.34,34.38,76,10.44,0.03,9.078315
+304,aron,metal claw,rock tomb,6.34,34.38,82,11.26,0.04,9.776647
+8,wartortle,water gun,ice beam,6.33,34.33,88,12.09,0.04,10.51173
+331,cacnea,poison sting,brick break,6.33,34.33,39,5.36,0.02,4.72717
+341,corphish,bubble,aqua jet,6.33,34.33,50,6.87,0.03,5.984356
+92,gastly,lick,night shade,6.32,34.27,24,3.3,0.02,2.929036
+92,gastly,lick,dark pulse,6.32,34.27,24,3.3,0.02,2.929036
+92,gastly,lick,sludge bomb,6.32,34.27,24,3.3,0.02,2.929036
+92,gastly,lick,ominous wind,6.32,34.27,24,3.3,0.02,2.929036
+152,chikorita,vine whip,grass knot,6.32,34.27,55,7.55,0.04,6.664782
+323,camerupt,rock smash,overheat,6.32,34.27,92,12.64,0.03,11.10263
+323,camerupt,rock smash,solar beam,6.32,34.27,92,12.64,0.03,11.10263
+27,sandshrew,scratch,dig,6.31,34.22,71,9.75,0.04,8.541137
+133,eevee,quick attack,body slam,6.31,34.22,65,8.93,0.04,7.888041
+294,loudred,bite,crunch,6.31,34.22,68,9.34,0.03,8.147206
+108,lickitung,lick,power whip,6.3,34.16,114,15.66,0.05,13.8036
+322,numel,ember,bulldoze,6.3,34.16,50,6.87,0.03,6.061634
+27,sandshrew,scratch,rock slide,6.29,34.11,71,9.75,0.04,8.541137
+61,poliwhirl,mud shot,bubble beam,6.29,34.11,81,11.13,0.04,9.770992
+216,teddiursa,lick,crunch,6.29,34.11,56,7.69,0.03,6.756196
+162,furret,sucker punch,dig,6.28,34.06,103,14.15,0.04,12.48516
+170,chinchou,spark,thunderbolt,6.27,34,76,10.44,0.05,9.273396
+206,dunsparce,astonish,rock slide,6.27,34,121,16.62,0.05,14.62162
+308,medicham,psycho cut,psychic,6.27,34,86,11.81,0.04,10.48158
+108,lickitung,lick,stomp,6.26,33.95,114,15.66,0.05,13.8036
+168,ariados,poison sting,shadow sneak,6.26,33.95,85,11.68,0.03,10.3044
+184,azumarill,rock smash,hydro pump,6.26,33.95,138,18.96,0.06,16.73923
+312,minun,spark,swift,6.26,33.95,94,12.91,0.04,11.42871
+179,mareep,tackle,discharge,6.24,33.84,46,6.32,0.03,5.609273
+351,castform,rock smash,crunch,6.24,33.84,91,12.5,0.04,11.10263
+25,pikachu,thunder shock,discharge,6.23,33.79,37,5.08,0.03,4.55188
+371,bagon,bite,crunch,6.23,33.79,49,6.73,0.03,5.929696
+108,lickitung,zen headbutt,power whip,6.22,33.73,113,15.52,0.05,13.8036
+140,kabuto,mud shot,rock tomb,6.22,33.73,50,6.87,0.03,6.137028
+176,togetic,extrasensory,ancient power,6.22,33.73,98,13.46,0.04,11.97814
+271,lombre,bubble,bubble beam,6.22,33.73,73,10.03,0.04,8.966167
+17,pidgeotto,wing attack,aerial ace,6.21,33.68,66,9.07,0.04,8.048252
+118,goldeen,peck,aqua tail,6.21,33.68,52,7.14,0.03,6.321742
+8,wartortle,bite,ice beam,6.2,33.62,86,11.81,0.04,10.51173
+109,koffing,acid,dark pulse,6.2,33.62,64,8.79,0.04,7.884271
+294,loudred,rock smash,crunch,6.2,33.62,66,9.07,0.03,8.147206
+25,pikachu,quick attack,discharge,6.19,33.57,37,5.08,0.03,4.55188
+153,bayleef,razor leaf,ancient power,6.19,33.57,87,11.95,0.04,10.671
+352,kecleon,lick,shadow sneak,6.18,33.51,116,15.93,0.04,14.2701
+111,rhyhorn,rock smash,horn attack,6.17,33.46,114,15.66,0.04,14.02036
+296,makuhita,rock smash,cross chop,6.17,33.46,41,5.63,0.04,5.062671
+312,minun,quick attack,swift,6.17,33.46,93,12.77,0.04,11.42871
+98,krabby,bubble,water pulse,6.16,33.41,48,6.59,0.02,5.927811
+147,dratini,iron tail,aqua tail,6.16,33.41,40,5.49,0.03,4.885496
+206,dunsparce,astonish,drill run,6.16,33.41,118,16.21,0.05,14.62162
+74,geodude,rock throw,dig,6.15,33.35,63,8.65,0.03,7.839977
+184,azumarill,bubble,ice beam,6.15,33.35,135,18.54,0.06,16.73923
+352,kecleon,sucker punch,shadow sneak,6.15,33.35,115,15.8,0.04,14.2701
+133,eevee,tackle,body slam,6.14,33.3,64,8.79,0.04,7.888041
+207,gligar,fury cutter,night slash,6.14,33.3,119,16.35,0.04,14.7922
+54,psyduck,water gun,cross chop,6.13,33.24,48,6.59,0.03,5.908962
+79,slowpoke,confusion,water pulse,6.13,33.24,91,12.5,0.05,11.24399
+189,jumpluff,infestation,energy ball,6.13,33.24,131,17.99,0.05,16.30572
+322,numel,ember,stomp,6.13,33.24,49,6.73,0.03,6.061634
+351,castform,bite,ancient power,6.13,33.24,90,12.36,0.04,11.10263
+51,dugtrio,mud slap,earthquake,6.12,33.19,51,7.01,0.02,6.372632
+51,dugtrio,mud slap,stone edge,6.12,33.19,51,7.01,0.02,6.372632
+137,porygon,charge beam,signal beam,6.12,33.19,84,11.54,0.03,10.38168
+189,jumpluff,infestation,dazzling gleam,6.12,33.19,131,17.99,0.05,16.30572
+293,whismur,pound,stomp,6.12,33.19,30,4.12,0.03,3.747055
+109,koffing,infestation,sludge,6.11,33.13,63,8.65,0.04,7.884271
+356,dusclops,feint attack,shadow punch,6.11,33.13,88,12.09,0.04,10.98483
+79,slowpoke,water gun,psychic,6.1,33.08,90,12.36,0.05,11.24399
+100,voltorb,tackle,thunderbolt,6.1,33.08,45,6.18,0.03,5.669588
+17,pidgeotto,steel wing,air cutter,6.09,33.03,64,8.79,0.04,8.048252
+225,delibird,ice shard,icy wind,6.09,33.03,41,5.63,0.03,5.096598
+2,ivysaur,vine whip,solar beam,6.08,32.97,83,11.4,0.03,10.41843
+341,corphish,rock smash,aqua jet,6.08,32.97,48,6.59,0.03,5.984356
+1,bulbasaur,tackle,seed bomb,6.07,32.92,52,7.14,0.03,6.468759
+27,sandshrew,mud shot,dig,6.07,32.92,68,9.34,0.04,8.541137
+83,farfetchd,cut,air cutter,6.07,32.92,59,8.1,0.03,7.339553
+100,voltorb,spark,discharge,6.07,32.92,45,6.18,0.03,5.669588
+189,jumpluff,bullet seed,energy ball,6.06,32.86,130,17.86,0.05,16.30572
+356,dusclops,hex,shadow punch,6.06,32.86,88,12.09,0.04,10.98483
+189,jumpluff,bullet seed,dazzling gleam,6.05,32.81,130,17.86,0.05,16.30572
+222,corsola,tackle,rock blast,6.05,32.81,79,10.85,0.04,9.933088
+27,sandshrew,mud shot,rock slide,6.04,32.75,68,9.34,0.04,8.541137
+209,snubbull,tackle,crunch,6.03,32.7,52,7.14,0.03,6.503628
+222,corsola,tackle,power gem,6.02,32.65,79,10.85,0.04,9.933088
+258,mudkip,water gun,sludge,6.01,32.59,45,6.18,0.03,5.747809
+98,krabby,mud shot,vice grip,6,32.54,47,6.46,0.02,5.927811
+351,castform,rock smash,ancient power,6,32.54,88,12.09,0.04,11.10263
+356,dusclops,feint attack,ice punch,6,32.54,87,11.95,0.04,10.98483
+170,chinchou,bubble,bubble beam,5.99,32.48,73,10.03,0.04,9.273396
+176,togetic,hidden power,ancient power,5.99,32.48,94,12.91,0.04,11.97814
+27,sandshrew,scratch,sand tomb,5.98,32.43,67,9.2,0.04,8.541137
+304,aron,tackle,iron head,5.98,32.43,77,10.58,0.04,9.776647
+308,medicham,psycho cut,ice punch,5.98,32.43,82,11.26,0.04,10.48158
+356,dusclops,feint attack,fire punch,5.98,32.43,86,11.81,0.04,10.98483
+83,farfetchd,fury cutter,leaf blade,5.97,32.38,58,7.97,0.03,7.339553
+108,lickitung,zen headbutt,stomp,5.97,32.38,108,14.84,0.05,13.8036
+296,makuhita,rock smash,heavy slam,5.97,32.38,40,5.49,0.03,5.062671
+166,ledian,bug bite,aerial ace,5.96,32.32,102,14.01,0.05,13.02987
+43,oddish,razor leaf,moonblast,5.95,32.27,50,6.87,0.03,6.370747
+206,dunsparce,bite,dig,5.95,32.27,114,15.66,0.04,14.62162
+46,paras,bug bite,cross poison,5.94,32.21,35,4.81,0.03,4.472717
+102,exeggcute,bullet seed,seed bomb,5.94,32.21,76,10.44,0.04,9.723871
+44,gloom,acid,moonblast,5.93,32.16,75,10.3,0.03,9.660729
+118,goldeen,mud shot,aqua tail,5.93,32.16,49,6.73,0.03,6.321742
+356,dusclops,hex,ice punch,5.93,32.16,86,11.81,0.04,10.98483
+147,dratini,dragon breath,wrap,5.92,32.1,38,5.22,0.03,4.885496
+74,geodude,tackle,rock tomb,5.91,32.05,61,8.38,0.03,7.839977
+356,dusclops,hex,fire punch,5.91,32.05,85,11.68,0.04,10.98483
+33,nidorino,poison sting,dig,5.9,32,63,8.65,0.03,8.07464
+153,bayleef,tackle,energy ball,5.9,32,83,11.4,0.04,10.671
+167,spinarak,bug bite,cross poison,5.9,32,30,4.12,0.03,3.853548
+209,snubbull,tackle,brick break,5.9,32,50,6.87,0.03,6.503628
+222,corsola,tackle,bubble beam,5.9,32,77,10.58,0.04,9.933088
+239,elekid,thunder shock,brick break,5.9,32,47,6.46,0.03,6.076713
+33,nidorino,poison sting,horn attack,5.89,31.94,63,8.65,0.03,8.07464
+322,numel,tackle,bulldoze,5.87,31.83,47,6.46,0.03,6.061634
+158,totodile,water gun,water pulse,5.86,31.78,54,7.42,0.03,6.983319
+8,wartortle,water gun,aqua jet,5.85,31.72,81,11.13,0.04,10.51173
+17,pidgeotto,wing attack,air cutter,5.85,31.72,62,8.52,0.04,8.048252
+100,voltorb,tackle,discharge,5.85,31.72,44,6.04,0.03,5.669588
+371,bagon,ember,crunch,5.85,31.72,46,6.32,0.03,5.929696
+258,mudkip,tackle,stomp,5.84,31.67,44,6.04,0.03,5.747809
+271,lombre,bubble,ice beam,5.83,31.62,69,9.48,0.04,8.966167
+166,ledian,bug bite,bug buzz,5.82,31.56,100,13.74,0.05,13.02987
+228,houndour,feint attack,dark pulse,5.82,31.56,40,5.49,0.02,5.243615
+246,larvitar,bite,ancient power,5.82,31.56,44,6.04,0.03,5.747809
+61,poliwhirl,mud shot,mud bomb,5.81,31.51,75,10.3,0.04,9.770992
+77,ponyta,ember,fire blast,5.81,31.51,60,8.24,0.03,7.842805
+341,corphish,bubble,vice grip,5.81,31.51,46,6.32,0.03,5.984356
+39,jigglypuff,pound,play rough,5.79,31.4,51,7.01,0.05,6.668552
+184,azumarill,rock smash,ice beam,5.79,31.4,127,17.45,0.05,16.73923
+252,treecko,pound,aerial ace,5.79,31.4,40,5.49,0.03,5.226652
+54,psyduck,zen headbutt,cross chop,5.77,31.29,45,6.18,0.03,5.908962
+8,wartortle,bite,aqua jet,5.76,31.24,80,10.99,0.04,10.51173
+158,totodile,scratch,water pulse,5.76,31.24,53,7.28,0.03,6.983319
+246,larvitar,bite,stomp,5.76,31.24,44,6.04,0.03,5.747809
+371,bagon,bite,twister,5.76,31.24,45,6.18,0.03,5.929696
+46,paras,scratch,cross poison,5.75,31.18,34,4.67,0.03,4.472717
+170,chinchou,spark,bubble beam,5.75,31.18,70,9.62,0.04,9.273396
+225,delibird,quick attack,icy wind,5.75,31.18,39,5.36,0.03,5.096598
+239,elekid,low kick,brick break,5.74,31.13,46,6.32,0.03,6.076713
+294,loudred,bite,disarming voice,5.73,31.07,61,8.38,0.03,8.147206
+61,poliwhirl,mud shot,scald,5.72,31.02,74,10.16,0.04,9.770992
+83,farfetchd,fury cutter,aerial ace,5.72,31.02,55,7.55,0.03,7.339553
+96,drowzee,confusion,psyshock,5.72,31.02,82,11.26,0.05,10.86043
+246,larvitar,rock smash,ancient power,5.72,31.02,43,5.91,0.03,5.747809
+304,aron,tackle,body slam,5.72,31.02,74,10.16,0.04,9.776647
+147,dratini,dragon breath,twister,5.71,30.97,37,5.08,0.03,4.885496
+27,sandshrew,mud shot,sand tomb,5.7,30.91,64,8.79,0.03,8.541137
+118,goldeen,peck,water pulse,5.67,30.75,47,6.46,0.03,6.321742
+30,nidorina,bite,poison fang,5.66,30.69,76,10.44,0.04,10.15927
+48,venonat,bug bite,signal beam,5.66,30.69,55,7.55,0.04,7.324475
+47,parasect,bug bite,solar beam,5.65,30.64,75,10.3,0.03,10.10272
+52,meowth,scratch,body slam,5.65,30.64,31,4.26,0.03,4.207897
+109,koffing,tackle,sludge,5.65,30.64,59,8.1,0.03,7.884271
+231,phanpy,tackle,rock slide,5.65,30.64,82,11.26,0.04,11.06116
+37,vulpix,ember,flamethrower,5.64,30.59,43,5.91,0.04,5.7676
+39,jigglypuff,pound,dazzling gleam,5.64,30.59,49,6.73,0.04,6.668552
+69,bellsprout,vine whip,power whip,5.64,30.59,31,4.26,0.02,4.189992
+69,bellsprout,vine whip,sludge bomb,5.64,30.59,31,4.26,0.02,4.189992
+69,bellsprout,vine whip,wrap,5.64,30.59,31,4.26,0.02,4.189992
+48,venonat,confusion,signal beam,5.63,30.53,54,7.42,0.04,7.324475
+361,snorunt,hex,avalanche,5.63,30.53,43,5.91,0.04,5.855245
+246,larvitar,rock smash,stomp,5.62,30.48,42,5.77,0.03,5.747809
+294,loudred,rock smash,disarming voice,5.62,30.48,60,8.24,0.03,8.147206
+322,numel,tackle,stomp,5.61,30.42,45,6.18,0.03,6.061634
+329,vibrava,dragon breath,sand tomb,5.61,30.42,45,6.18,0.03,6.070116
+329,vibrava,dragon breath,bulldoze,5.61,30.42,45,6.18,0.03,6.070116
+329,vibrava,dragon breath,bug buzz,5.61,30.42,45,6.18,0.03,6.070116
+61,poliwhirl,mud shot,water pulse,5.6,30.37,72,9.89,0.03,9.770992
+361,snorunt,powder snow,avalanche,5.6,30.37,43,5.91,0.04,5.855245
+23,ekans,acid,poison fang,5.59,30.31,34,4.67,0.03,4.591462
+137,porygon,charge beam,psybeam,5.59,30.31,76,10.44,0.03,10.38168
+35,clefairy,pound,body slam,5.58,30.26,69,9.48,0.04,9.433607
+54,psyduck,water gun,psybeam,5.58,30.26,43,5.91,0.03,5.908962
+140,kabuto,mud shot,aqua jet,5.58,30.26,45,6.18,0.02,6.137028
+166,ledian,bug bite,silver wind,5.58,30.26,96,13.19,0.05,13.02987
+341,corphish,rock smash,vice grip,5.58,30.26,44,6.04,0.03,5.984356
+27,sandshrew,scratch,rock tomb,5.57,30.21,63,8.65,0.03,8.541137
+39,jigglypuff,pound,body slam,5.57,30.21,49,6.73,0.04,6.668552
+158,totodile,water gun,crunch,5.56,30.15,51,7.01,0.03,6.983319
+96,drowzee,confusion,psychic,5.55,30.1,79,10.85,0.05,10.86043
+152,chikorita,tackle,grass knot,5.55,30.1,49,6.73,0.04,6.664782
+206,dunsparce,astonish,dig,5.54,30.04,107,14.7,0.04,14.62162
+258,mudkip,tackle,sludge,5.54,30.04,42,5.77,0.03,5.747809
+20,raticate,bite,hyper beam,5.53,29.99,67,9.2,0.03,9.231929
+79,slowpoke,water gun,water pulse,5.52,29.93,82,11.26,0.04,11.24399
+345,lileep,acid,ancient power,5.52,29.93,84,11.54,0.05,11.55782
+158,totodile,scratch,crunch,5.5,29.83,51,7.01,0.03,6.983319
+225,delibird,present,ice punch,5.49,29.77,37,5.08,0.03,5.096598
+281,kirlia,confusion,shadow sneak,5.49,29.77,35,4.81,0.03,4.834606
+188,skiploom,tackle,grass knot,5.48,29.72,59,8.1,0.04,8.23862
+60,poliwag,bubble,bubble beam,5.47,29.66,31,4.26,0.03,4.252191
+167,spinarak,poison sting,cross poison,5.47,29.66,28,3.85,0.03,3.853548
+179,mareep,thunder shock,body slam,5.47,29.66,40,5.49,0.03,5.609273
+246,larvitar,bite,crunch,5.47,29.66,41,5.63,0.03,5.747809
+296,makuhita,tackle,cross chop,5.47,29.66,36,4.95,0.03,5.062671
+170,chinchou,bubble,water pulse,5.46,29.61,67,9.2,0.04,9.273396
+188,skiploom,bullet seed,grass knot,5.46,29.61,59,8.1,0.04,8.23862
+190,aipom,astonish,swift,5.46,29.61,53,7.28,0.03,7.362171
+231,phanpy,rock smash,body slam,5.46,29.61,79,10.85,0.04,11.06116
+304,aron,tackle,rock tomb,5.46,29.61,70,9.62,0.04,9.776647
+29,nidoran female,bite,sludge bomb,5.44,29.5,45,6.18,0.04,6.310433
+69,bellsprout,acid,power whip,5.44,29.5,30,4.12,0.02,4.189992
+69,bellsprout,acid,sludge bomb,5.44,29.5,30,4.12,0.02,4.189992
+69,bellsprout,acid,wrap,5.44,29.5,30,4.12,0.02,4.189992
+102,exeggcute,confusion,ancient power,5.44,29.5,70,9.62,0.04,9.723871
+231,phanpy,rock smash,bulldoze,5.44,29.5,79,10.85,0.04,11.06116
+30,nidorina,poison sting,poison fang,5.43,29.45,73,10.03,0.04,10.15927
+84,doduo,peck,aerial ace,5.43,29.45,29,3.98,0.02,4.03732
+84,doduo,peck,brave bird,5.43,29.45,29,3.98,0.02,4.03732
+84,doduo,peck,swift,5.43,29.45,29,3.98,0.02,4.03732
+84,doduo,quick attack,brave bird,5.43,29.45,29,3.98,0.02,4.03732
+84,doduo,quick attack,swift,5.43,29.45,29,3.98,0.02,4.03732
+95,onix,rock throw,stone edge,5.43,29.45,85,11.68,0.05,11.95363
+95,onix,rock throw,rock slide,5.43,29.45,85,11.68,0.05,11.95363
+231,phanpy,rock smash,rock slide,5.43,29.45,79,10.85,0.04,11.06116
+301,delcatty,feint attack,disarming voice,5.43,29.45,76,10.44,0.03,10.59467
+37,vulpix,quick attack,flamethrower,5.41,29.34,41,5.63,0.03,5.7676
+35,clefairy,zen headbutt,body slam,5.39,29.23,67,9.2,0.04,9.433607
+90,shellder,ice shard,bubble beam,5.39,29.23,45,6.18,0.03,6.346244
+90,shellder,tackle,bubble beam,5.39,29.23,45,6.18,0.03,6.346244
+269,dustox,confusion,bug buzz,5.39,29.23,83,11.4,0.05,11.74442
+30,nidorina,bite,dig,5.38,29.18,72,9.89,0.04,10.15927
+72,tentacool,bubble,bubble beam,5.38,29.18,61,8.38,0.04,8.681557
+118,goldeen,mud shot,water pulse,5.38,29.18,45,6.18,0.03,6.321742
+296,makuhita,rock smash,low sweep,5.38,29.18,36,4.95,0.03,5.062671
+109,koffing,tackle,dark pulse,5.37,29.12,56,7.69,0.03,7.884271
+39,jigglypuff,feint attack,play rough,5.36,29.07,47,6.46,0.04,6.668552
+246,larvitar,rock smash,crunch,5.36,29.07,41,5.63,0.03,5.747809
+301,delcatty,zen headbutt,disarming voice,5.36,29.07,75,10.3,0.03,10.59467
+371,bagon,ember,twister,5.35,29.01,42,5.77,0.03,5.929696
+7,squirtle,bubble,aqua tail,5.34,28.96,46,6.32,0.04,6.536613
+29,nidoran female,poison sting,sludge bomb,5.34,28.96,44,6.04,0.04,6.310433
+339,barboach,water gun,aqua tail,5.34,28.96,37,5.08,0.03,5.21063
+179,mareep,tackle,body slam,5.33,28.9,39,5.36,0.03,5.609273
+190,aipom,astonish,aerial ace,5.33,28.9,52,7.14,0.03,7.362171
+109,koffing,infestation,dark pulse,5.32,28.85,55,7.55,0.03,7.884271
+345,lileep,infestation,ancient power,5.32,28.85,81,11.13,0.04,11.55782
+299,nosepass,rock throw,rock slide,5.31,28.8,61,8.38,0.05,8.717369
+158,totodile,water gun,aqua jet,5.3,28.74,49,6.73,0.03,6.983319
+231,phanpy,tackle,body slam,5.3,28.74,77,10.58,0.04,11.06116
+296,makuhita,tackle,heavy slam,5.3,28.74,35,4.81,0.03,5.062671
+102,exeggcute,bullet seed,psychic,5.29,28.69,68,9.34,0.04,9.723871
+204,pineco,bug bite,gyro ball,5.28,28.63,60,8.24,0.04,8.594854
+303,mawile,astonish,vice grip,5.28,28.63,63,8.65,0.03,9.078315
+137,porygon,hidden power,solar beam,5.27,28.58,72,9.89,0.03,10.38168
+137,porygon,tackle,solar beam,5.27,28.58,72,9.89,0.03,10.38168
+292,shedinja,bite,shadow sneak,5.27,28.58,5,0.69,0.01,0.708699
+292,shedinja,bite,aerial ace,5.27,28.58,5,0.69,0.01,0.708699
+292,shedinja,bite,dig,5.27,28.58,5,0.69,0.01,0.708699
+83,farfetchd,fury cutter,air cutter,5.26,28.52,51,7.01,0.03,7.339553
+92,gastly,sucker punch,night shade,5.26,28.52,20,2.75,0.01,2.929036
+92,gastly,sucker punch,dark pulse,5.26,28.52,20,2.75,0.01,2.929036
+92,gastly,sucker punch,sludge bomb,5.26,28.52,20,2.75,0.01,2.929036
+92,gastly,sucker punch,ominous wind,5.26,28.52,20,2.75,0.01,2.929036
+96,drowzee,pound,psyshock,5.26,28.52,75,10.3,0.05,10.86043
+231,phanpy,tackle,bulldoze,5.25,28.47,76,10.44,0.04,11.06116
+39,jigglypuff,feint attack,dazzling gleam,5.24,28.42,46,6.32,0.04,6.668552
+60,poliwag,bubble,body slam,5.24,28.42,29,3.98,0.03,4.252191
+158,totodile,scratch,aqua jet,5.24,28.42,48,6.59,0.03,6.983319
+228,houndour,ember,dark pulse,5.24,28.42,36,4.95,0.02,5.243615
+252,treecko,bullet seed,aerial ace,5.24,28.42,36,4.95,0.02,5.226652
+27,sandshrew,mud shot,rock tomb,5.23,28.36,59,8.1,0.03,8.541137
+190,aipom,astonish,low sweep,5.22,28.31,51,7.01,0.03,7.362171
+225,delibird,present,aerial ace,5.22,28.31,35,4.81,0.02,5.096598
+52,meowth,bite,body slam,5.21,28.25,29,3.98,0.03,4.207897
+133,eevee,quick attack,swift,5.21,28.25,54,7.42,0.04,7.888041
+39,jigglypuff,feint attack,body slam,5.2,28.2,46,6.32,0.04,6.668552
+339,barboach,water gun,mud bomb,5.2,28.2,36,4.95,0.03,5.21063
+170,chinchou,spark,water pulse,5.17,28.04,63,8.65,0.04,9.273396
+281,kirlia,confusion,psychic,5.17,28.04,33,4.53,0.02,4.834606
+281,kirlia,confusion,disarming voice,5.17,28.04,33,4.53,0.02,4.834606
+363,spheal,water gun,body slam,5.17,28.04,51,7.01,0.04,7.546885
+48,venonat,bug bite,poison fang,5.16,27.98,50,6.87,0.04,7.324475
+43,oddish,acid,moonblast,5.15,27.93,43,5.91,0.03,6.370747
+48,venonat,confusion,poison fang,5.15,27.93,50,6.87,0.04,7.324475
+100,voltorb,spark,signal beam,5.15,27.93,38,5.22,0.03,5.669588
+35,clefairy,pound,disarming voice,5.13,27.82,64,8.79,0.04,9.433607
+86,seel,water gun,aqua tail,5.13,27.82,65,8.93,0.05,9.635284
+95,onix,rock throw,heavy slam,5.12,27.77,80,10.99,0.05,11.95363
+133,eevee,tackle,swift,5.12,27.77,53,7.28,0.03,7.888041
+140,kabuto,scratch,rock tomb,5.12,27.77,41,5.63,0.02,6.137028
+167,spinarak,bug bite,night slash,5.12,27.77,26,3.57,0.02,3.853548
+363,spheal,water gun,aurora beam,5.1,27.66,51,7.01,0.04,7.546885
+30,nidorina,poison sting,dig,5.09,27.6,68,9.34,0.04,10.15927
+60,poliwag,bubble,mud bomb,5.08,27.55,28,3.85,0.03,4.252191
+361,snorunt,hex,shadow ball,5.08,27.55,39,5.36,0.03,5.855245
+153,bayleef,tackle,ancient power,5.07,27.49,71,9.75,0.03,10.671
+300,skitty,tackle,wild charge,5.07,27.49,35,4.81,0.03,5.264348
+327,spinda,sucker punch,dig,5.07,27.49,55,7.55,0.03,8.208463
+96,drowzee,confusion,psybeam,5.06,27.44,72,9.89,0.05,10.86043
+339,barboach,mud shot,aqua tail,5.06,27.44,35,4.81,0.03,5.21063
+32,nidoran male,poison sting,body slam,5.05,27.39,30,4.12,0.03,4.495335
+283,surskit,bug bite,bubble beam,5.05,27.39,33,4.53,0.03,4.916596
+17,pidgeotto,steel wing,twister,5.04,27.33,53,7.28,0.03,8.048252
+152,chikorita,vine whip,body slam,5.04,27.33,44,6.04,0.03,6.664782
+283,surskit,bubble,bubble beam,5.04,27.33,33,4.53,0.03,4.916596
+104,cubone,mud slap,bone club,5.03,27.28,64,8.79,0.04,9.615493
+299,nosepass,rock throw,thunderbolt,5.03,27.28,58,7.97,0.04,8.717369
+72,tentacool,poison sting,bubble beam,5.02,27.22,57,7.83,0.04,8.681557
+361,snorunt,powder snow,shadow ball,5.01,27.17,39,5.36,0.03,5.855245
+118,goldeen,peck,horn attack,4.99,27.06,41,5.63,0.03,6.321742
+293,whismur,astonish,stomp,4.99,27.06,25,3.43,0.03,3.747055
+32,nidoran male,peck,body slam,4.98,27.01,29,3.98,0.02,4.495335
+204,pineco,bug bite,rock tomb,4.98,27.01,56,7.69,0.03,8.594854
+35,clefairy,zen headbutt,disarming voice,4.97,26.95,62,8.52,0.04,9.433607
+133,eevee,quick attack,dig,4.97,26.95,52,7.14,0.03,7.888041
+95,onix,rock throw,iron head,4.96,26.9,78,10.71,0.05,11.95363
+363,spheal,water gun,water pulse,4.95,26.84,49,6.73,0.04,7.546885
+86,seel,lick,aqua tail,4.94,26.79,63,8.65,0.04,9.635284
+299,nosepass,rock throw,rock blast,4.94,26.79,57,7.83,0.04,8.717369
+72,tentacool,bubble,water pulse,4.93,26.74,56,7.69,0.04,8.681557
+269,dustox,confusion,silver wind,4.93,26.74,76,10.44,0.04,11.74442
+339,barboach,mud shot,mud bomb,4.93,26.74,34,4.67,0.03,5.21063
+363,spheal,rock smash,aurora beam,4.93,26.74,49,6.73,0.04,7.546885
+300,skitty,feint attack,wild charge,4.92,26.68,34,4.67,0.03,5.264348
+133,eevee,tackle,dig,4.91,26.63,51,7.01,0.03,7.888041
+327,spinda,sucker punch,rock tomb,4.9,26.57,53,7.28,0.03,8.208463
+23,ekans,poison sting,poison fang,4.89,26.52,30,4.12,0.02,4.591462
+174,igglybuff,pound,wild charge,4.89,26.52,28,3.85,0.04,4.387899
+7,squirtle,bubble,water pulse,4.88,26.46,42,5.77,0.03,6.536613
+96,drowzee,pound,psychic,4.88,26.46,70,9.62,0.04,10.86043
+7,squirtle,tackle,aqua tail,4.87,26.41,42,5.77,0.03,6.536613
+52,meowth,scratch,night slash,4.86,26.36,27,3.71,0.03,4.207897
+204,pineco,bug bite,sand tomb,4.86,26.36,55,7.55,0.03,8.594854
+345,lileep,acid,mirror coat,4.86,26.36,74,10.16,0.04,11.55782
+81,magnemite,spark,magnet bomb,4.85,26.3,27,3.71,0.02,4.282349
+81,magnemite,spark,thunderbolt,4.85,26.3,27,3.71,0.02,4.282349
+37,vulpix,ember,body slam,4.84,26.25,37,5.08,0.03,5.7676
+77,ponyta,tackle,fire blast,4.84,26.25,50,6.87,0.02,7.842805
+104,cubone,mud slap,dig,4.83,26.19,61,8.38,0.04,9.615493
+104,cubone,mud slap,bulldoze,4.83,26.19,61,8.38,0.04,9.615493
+113,chansey,pound,hyper beam,4.83,26.19,292,40.11,0.13,46.01828
+16,pidgey,quick attack,aerial ace,4.82,26.14,25,3.43,0.03,3.986429
+86,seel,ice shard,aqua tail,4.82,26.14,61,8.38,0.04,9.635284
+95,onix,rock throw,sand tomb,4.82,26.14,76,10.44,0.05,11.95363
+327,spinda,psycho cut,dig,4.8,26.03,52,7.14,0.03,8.208463
+137,porygon,zen headbutt,solar beam,4.79,25.98,65,8.93,0.03,10.38168
+204,pineco,tackle,gyro ball,4.78,25.92,54,7.42,0.03,8.594854
+37,vulpix,ember,flame charge,4.77,25.87,36,4.95,0.03,5.7676
+60,poliwag,mud shot,bubble beam,4.77,25.87,27,3.71,0.02,4.252191
+120,staryu,water gun,swift,4.77,25.87,28,3.85,0.02,4.393554
+120,staryu,water gun,power gem,4.77,25.87,28,3.85,0.02,4.393554
+147,dratini,iron tail,wrap,4.77,25.87,31,4.26,0.02,4.885496
+147,dratini,iron tail,twister,4.77,25.87,31,4.26,0.02,4.885496
+363,spheal,rock smash,water pulse,4.77,25.87,47,6.46,0.03,7.546885
+51,dugtrio,sucker punch,earthquake,4.76,25.81,40,5.49,0.02,6.372632
+51,dugtrio,sucker punch,stone edge,4.76,25.81,40,5.49,0.02,6.372632
+51,dugtrio,mud shot,earthquake,4.76,25.81,40,5.49,0.02,6.372632
+51,dugtrio,mud shot,stone edge,4.76,25.81,40,5.49,0.02,6.372632
+48,venonat,confusion,psybeam,4.75,25.76,46,6.32,0.03,7.324475
+23,ekans,poison sting,wrap,4.74,25.7,29,3.98,0.02,4.591462
+104,cubone,rock smash,bone club,4.73,25.65,60,8.24,0.04,9.615493
+167,spinarak,poison sting,night slash,4.73,25.65,24,3.3,0.02,3.853548
+296,makuhita,tackle,low sweep,4.73,25.65,31,4.26,0.03,5.062671
+17,pidgeotto,wing attack,twister,4.72,25.6,50,6.87,0.03,8.048252
+48,venonat,bug bite,psybeam,4.72,25.6,45,6.18,0.03,7.324475
+81,magnemite,thunder shock,magnet bomb,4.71,25.54,27,3.71,0.02,4.282349
+81,magnemite,thunder shock,thunderbolt,4.71,25.54,27,3.71,0.02,4.282349
+363,spheal,rock smash,body slam,4.71,25.54,47,6.46,0.03,7.546885
+316,gulpin,pound,sludge,4.7,25.49,51,7.01,0.04,8.199981
+177,natu,peck,night shade,4.67,25.33,28,3.85,0.02,4.562247
+118,goldeen,mud shot,horn attack,4.66,25.27,39,5.36,0.02,6.321742
+285,shroomish,tackle,grass knot,4.66,25.27,48,6.59,0.04,7.829611
+285,shroomish,bullet seed,grass knot,4.64,25.16,48,6.59,0.04,7.829611
+327,spinda,sucker punch,icy wind,4.64,25.16,50,6.87,0.03,8.208463
+218,slugma,rock throw,flame burst,4.63,25.11,23,3.16,0.02,3.764961
+218,slugma,rock throw,flame charge,4.63,25.11,23,3.16,0.02,3.764961
+218,slugma,rock throw,rock slide,4.63,25.11,23,3.16,0.02,3.764961
+328,trapinch,mud shot,sand tomb,4.63,25.11,27,3.71,0.02,4.508529
+328,trapinch,mud shot,dig,4.63,25.11,27,3.71,0.02,4.508529
+328,trapinch,mud shot,crunch,4.63,25.11,27,3.71,0.02,4.508529
+225,delibird,present,icy wind,4.62,25.05,31,4.26,0.02,5.096598
+188,skiploom,tackle,dazzling gleam,4.61,25,50,6.87,0.04,8.23862
+188,skiploom,tackle,energy ball,4.61,25,50,6.87,0.04,8.23862
+327,spinda,psycho cut,rock tomb,4.61,25,50,6.87,0.03,8.208463
+92,gastly,astonish,night shade,4.59,24.89,18,2.47,0.01,2.929036
+92,gastly,astonish,dark pulse,4.59,24.89,18,2.47,0.01,2.929036
+92,gastly,astonish,sludge bomb,4.59,24.89,18,2.47,0.01,2.929036
+92,gastly,astonish,ominous wind,4.59,24.89,18,2.47,0.01,2.929036
+104,cubone,rock smash,dig,4.57,24.78,58,7.97,0.04,9.615493
+37,vulpix,quick attack,body slam,4.56,24.73,35,4.81,0.03,5.7676
+345,lileep,infestation,mirror coat,4.56,24.73,69,9.48,0.04,11.55782
+72,tentacool,poison sting,water pulse,4.55,24.67,52,7.14,0.03,8.681557
+90,shellder,ice shard,icy wind,4.55,24.67,38,5.22,0.03,6.346244
+90,shellder,tackle,icy wind,4.55,24.67,38,5.22,0.03,6.346244
+255,torchic,scratch,flame charge,4.55,24.67,31,4.26,0.02,5.194609
+255,torchic,scratch,rock tomb,4.55,24.67,31,4.26,0.02,5.194609
+255,torchic,ember,flame charge,4.55,24.67,31,4.26,0.02,5.194609
+255,torchic,ember,rock tomb,4.55,24.67,31,4.26,0.02,5.194609
+39,jigglypuff,pound,gyro ball,4.54,24.62,40,5.49,0.04,6.668552
+60,poliwag,mud shot,body slam,4.54,24.62,25,3.43,0.02,4.252191
+104,cubone,rock smash,bulldoze,4.54,24.62,57,7.83,0.04,9.615493
+307,meditite,confusion,ice punch,4.54,24.62,25,3.43,0.03,4.219206
+116,horsea,water gun,dragon pulse,4.52,24.51,29,3.98,0.02,4.846857
+116,horsea,water gun,flash cannon,4.52,24.51,29,3.98,0.02,4.846857
+116,horsea,bubble,dragon pulse,4.52,24.51,29,3.98,0.02,4.846857
+116,horsea,bubble,flash cannon,4.52,24.51,29,3.98,0.02,4.846857
+173,cleffa,pound,grass knot,4.52,24.51,34,4.67,0.03,5.640373
+174,igglybuff,feint attack,wild charge,4.52,24.51,26,3.57,0.03,4.387899
+188,skiploom,bullet seed,dazzling gleam,4.52,24.51,49,6.73,0.04,8.23862
+188,skiploom,bullet seed,energy ball,4.52,24.51,49,6.73,0.04,8.23862
+37,vulpix,quick attack,flame charge,4.51,24.46,34,4.67,0.03,5.7676
+72,tentacool,bubble,wrap,4.51,24.46,51,7.01,0.03,8.681557
+204,pineco,tackle,rock tomb,4.5,24.4,51,7.01,0.03,8.594854
+343,baltoy,confusion,psybeam,4.5,24.4,38,5.22,0.04,6.42258
+32,nidoran male,poison sting,horn attack,4.48,24.3,26,3.57,0.02,4.495335
+96,drowzee,pound,psybeam,4.48,24.3,64,8.79,0.04,10.86043
+331,cacnea,sucker punch,grass knot,4.47,24.24,28,3.85,0.02,4.72717
+307,meditite,confusion,low sweep,4.46,24.19,25,3.43,0.03,4.219206
+7,squirtle,tackle,water pulse,4.45,24.13,38,5.22,0.03,6.536613
+95,onix,tackle,rock slide,4.45,24.13,70,9.62,0.04,11.95363
+223,remoraid,water gun,aurora beam,4.45,24.13,19,2.61,0.02,3.28527
+223,remoraid,water gun,water pulse,4.45,24.13,19,2.61,0.02,3.28527
+223,remoraid,water gun,rock blast,4.45,24.13,19,2.61,0.02,3.28527
+32,nidoran male,peck,horn attack,4.44,24.08,26,3.57,0.02,4.495335
+52,meowth,bite,night slash,4.44,24.08,25,3.43,0.02,4.207897
+353,shuppet,feint attack,night shade,4.44,24.08,22,3.02,0.02,3.845066
+353,shuppet,feint attack,shadow sneak,4.44,24.08,22,3.02,0.02,3.845066
+270,lotad,razor leaf,bubble beam,4.43,24.02,26,3.57,0.03,4.429366
+8,wartortle,bite,hydro pump,4.42,23.97,61,8.38,0.03,10.51173
+258,mudkip,water gun,dig,4.42,23.97,33,4.53,0.02,5.747809
+23,ekans,acid,wrap,4.41,23.92,27,3.71,0.02,4.591462
+23,ekans,acid,sludge bomb,4.41,23.92,27,3.71,0.02,4.591462
+23,ekans,acid,gunk shot,4.41,23.92,27,3.71,0.02,4.591462
+39,jigglypuff,pound,disarming voice,4.41,23.92,39,5.36,0.03,6.668552
+60,poliwag,mud shot,mud bomb,4.41,23.92,25,3.43,0.02,4.252191
+204,pineco,tackle,sand tomb,4.41,23.92,50,6.87,0.03,8.594854
+7,squirtle,bubble,aqua jet,4.4,23.86,38,5.22,0.03,6.536613
+29,nidoran female,bite,body slam,4.4,23.86,37,5.08,0.03,6.310433
+283,surskit,bug bite,aqua jet,4.4,23.86,28,3.85,0.03,4.916596
+285,shroomish,bullet seed,seed bomb,4.4,23.86,45,6.18,0.04,7.829611
+283,surskit,bubble,aqua jet,4.39,23.81,28,3.85,0.03,4.916596
+102,exeggcute,bullet seed,ancient power,4.38,23.75,56,7.69,0.03,9.723871
+327,spinda,psycho cut,icy wind,4.37,23.7,47,6.46,0.03,8.208463
+163,hoothoot,peck,sky attack,4.36,23.64,42,5.77,0.04,7.261333
+173,cleffa,zen headbutt,grass knot,4.36,23.64,32,4.4,0.03,5.640373
+220,swinub,tackle,body slam,4.36,23.64,27,3.71,0.03,4.72717
+220,swinub,powder snow,rock slide,4.36,23.64,27,3.71,0.03,4.72717
+194,wooper,water gun,mud bomb,4.35,23.59,30,4.12,0.03,5.200264
+343,baltoy,confusion,gyro ball,4.35,23.59,37,5.08,0.03,6.42258
+95,onix,tackle,heavy slam,4.34,23.54,68,9.34,0.04,11.95363
+161,sentret,scratch,brick break,4.34,23.54,21,2.88,0.03,3.601923
+113,chansey,zen headbutt,hyper beam,4.33,23.48,262,35.99,0.11,46.01828
+299,nosepass,spark,rock slide,4.32,23.43,50,6.87,0.04,8.717369
+95,onix,tackle,stone edge,4.31,23.37,68,9.34,0.04,11.95363
+307,meditite,rock smash,ice punch,4.31,23.37,24,3.3,0.03,4.219206
+316,gulpin,pound,ice beam,4.3,23.32,46,6.32,0.04,8.199981
+152,chikorita,tackle,body slam,4.29,23.26,38,5.22,0.03,6.664782
+98,krabby,mud shot,water pulse,4.28,23.21,33,4.53,0.02,5.927811
+316,gulpin,rock smash,sludge,4.28,23.21,46,6.32,0.04,8.199981
+299,nosepass,spark,rock blast,4.25,23.05,49,6.73,0.04,8.717369
+343,baltoy,extrasensory,psybeam,4.25,23.05,36,4.95,0.03,6.42258
+252,treecko,pound,energy ball,4.24,22.99,29,3.98,0.02,5.226652
+252,treecko,pound,grass knot,4.24,22.99,29,3.98,0.02,5.226652
+163,hoothoot,feint attack,sky attack,4.23,22.94,40,5.49,0.04,7.261333
+307,meditite,rock smash,low sweep,4.23,22.94,23,3.16,0.03,4.219206
+370,luvdisc,water gun,water pulse,4.22,22.89,39,5.36,0.03,6.973895
+29,nidoran female,bite,poison fang,4.2,22.78,35,4.81,0.03,6.310433
+316,gulpin,rock smash,ice beam,4.2,22.78,45,6.18,0.04,8.199981
+322,numel,ember,heat wave,4.2,22.78,33,4.53,0.02,6.061634
+29,nidoran female,poison sting,body slam,4.18,22.67,35,4.81,0.03,6.310433
+86,seel,water gun,aqua jet,4.17,22.61,53,7.28,0.04,9.635284
+218,slugma,ember,flame burst,4.17,22.61,21,2.88,0.02,3.764961
+218,slugma,ember,flame charge,4.17,22.61,21,2.88,0.02,3.764961
+218,slugma,ember,rock slide,4.17,22.61,21,2.88,0.02,3.764961
+333,swablu,peck,aerial ace,4.17,22.61,41,5.63,0.04,7.49788
+50,diglett,mud slap,dig,4.16,22.56,9,1.24,0.01,1.634153
+50,diglett,mud slap,mud bomb,4.16,22.56,9,1.24,0.01,1.634153
+50,diglett,mud slap,rock tomb,4.16,22.56,9,1.24,0.01,1.634153
+72,tentacool,poison sting,wrap,4.16,22.56,48,6.59,0.03,8.681557
+361,snorunt,hex,icy wind,4.15,22.51,32,4.4,0.03,5.855245
+39,jigglypuff,feint attack,gyro ball,4.13,22.4,36,4.95,0.03,6.668552
+41,zubat,bite,poison fang,4.12,22.34,22,3.02,0.02,3.986429
+86,seel,water gun,aurora beam,4.12,22.34,52,7.14,0.04,9.635284
+194,wooper,mud shot,mud bomb,4.12,22.34,28,3.85,0.03,5.200264
+4,charmander,ember,flame charge,4.11,22.29,26,3.57,0.02,4.768636
+4,charmander,ember,flame burst,4.11,22.29,26,3.57,0.02,4.768636
+4,charmander,ember,flamethrower,4.11,22.29,26,3.57,0.02,4.768636
+4,charmander,scratch,flame charge,4.11,22.29,26,3.57,0.02,4.768636
+4,charmander,scratch,flame burst,4.11,22.29,26,3.57,0.02,4.768636
+4,charmander,scratch,flamethrower,4.11,22.29,26,3.57,0.02,4.768636
+95,onix,tackle,iron head,4.11,22.29,65,8.93,0.04,11.95363
+155,cyndaquil,ember,flame charge,4.11,22.29,26,3.57,0.02,4.768636
+155,cyndaquil,ember,swift,4.11,22.29,26,3.57,0.02,4.768636
+155,cyndaquil,ember,flamethrower,4.11,22.29,26,3.57,0.02,4.768636
+333,swablu,peck,ice beam,4.09,22.18,40,5.49,0.04,7.49788
+343,baltoy,extrasensory,gyro ball,4.09,22.18,35,4.81,0.03,6.42258
+113,chansey,pound,dazzling gleam,4.07,22.07,246,33.79,0.11,46.01828
+285,shroomish,tackle,seed bomb,4.07,22.07,42,5.77,0.04,7.829611
+161,sentret,quick attack,brick break,4.06,22.02,19,2.61,0.02,3.601923
+220,swinub,powder snow,body slam,4.06,22.02,25,3.43,0.02,4.72717
+39,jigglypuff,feint attack,disarming voice,4.05,21.96,36,4.95,0.03,6.668552
+165,ledyba,bug bite,aerial ace,4.05,21.96,37,5.08,0.04,6.909811
+194,wooper,water gun,body slam,4.03,21.85,28,3.85,0.03,5.200264
+361,snorunt,powder snow,icy wind,4.03,21.85,31,4.26,0.03,5.855245
+52,meowth,scratch,dark pulse,4.02,21.8,22,3.02,0.02,4.207897
+52,meowth,scratch,foul play,4.02,21.8,22,3.02,0.02,4.207897
+281,kirlia,charge beam,shadow sneak,4.02,21.8,26,3.57,0.02,4.834606
+7,squirtle,tackle,aqua jet,4.01,21.75,34,4.67,0.03,6.536613
+63,abra,charge beam,psyshock,4,21.69,19,2.61,0.01,3.528414
+63,abra,charge beam,signal beam,4,21.69,19,2.61,0.01,3.528414
+63,abra,charge beam,shadow ball,4,21.69,19,2.61,0.01,3.528414
+273,seedot,quick attack,foul play,3.99,21.64,23,3.16,0.03,4.429366
+21,spearow,peck,aerial ace,3.98,21.58,17,2.34,0.02,3.322024
+21,spearow,peck,drill peck,3.98,21.58,17,2.34,0.02,3.322024
+21,spearow,peck,sky attack,3.98,21.58,17,2.34,0.02,3.322024
+21,spearow,peck,twister,3.98,21.58,17,2.34,0.02,3.322024
+21,spearow,quick attack,aerial ace,3.98,21.58,17,2.34,0.02,3.322024
+21,spearow,quick attack,drill peck,3.98,21.58,17,2.34,0.02,3.322024
+21,spearow,quick attack,sky attack,3.98,21.58,17,2.34,0.02,3.322024
+21,spearow,quick attack,twister,3.98,21.58,17,2.34,0.02,3.322024
+270,lotad,water gun,bubble beam,3.98,21.58,23,3.16,0.03,4.429366
+290,nincada,bug bite,aerial ace,3.98,21.58,31,4.26,0.03,5.980586
+120,staryu,tackle,swift,3.97,21.53,23,3.16,0.02,4.393554
+120,staryu,tackle,power gem,3.97,21.53,23,3.16,0.02,4.393554
+120,staryu,quick attack,swift,3.97,21.53,23,3.16,0.02,4.393554
+120,staryu,quick attack,power gem,3.97,21.53,23,3.16,0.02,4.393554
+29,nidoran female,poison sting,poison fang,3.96,21.48,33,4.53,0.03,6.310433
+299,nosepass,spark,thunderbolt,3.96,21.48,45,6.18,0.03,8.717369
+86,seel,lick,aqua jet,3.95,21.42,50,6.87,0.04,9.635284
+290,nincada,bug bite,night slash,3.93,21.31,31,4.26,0.03,5.980586
+41,zubat,quick attack,poison fang,3.92,21.26,21,2.88,0.02,3.986429
+173,cleffa,pound,psyshock,3.92,21.26,29,3.98,0.03,5.640373
+152,chikorita,vine whip,energy ball,3.91,21.2,34,4.67,0.03,6.664782
+293,whismur,pound,disarming voice,3.91,21.2,19,2.61,0.02,3.747055
+293,whismur,pound,flamethrower,3.91,21.2,19,2.61,0.02,3.747055
+54,psyduck,zen headbutt,psybeam,3.9,21.15,30,4.12,0.02,5.908962
+173,cleffa,pound,signal beam,3.9,21.15,29,3.98,0.03,5.640373
+220,swinub,powder snow,icy wind,3.9,21.15,24,3.3,0.02,4.72717
+285,shroomish,tackle,energy ball,3.9,21.15,40,5.49,0.04,7.829611
+177,natu,quick attack,night shade,3.89,21.1,23,3.16,0.02,4.562247
+329,vibrava,mud shot,sand tomb,3.89,21.1,31,4.26,0.02,6.070116
+329,vibrava,mud shot,bug buzz,3.89,21.1,31,4.26,0.02,6.070116
+50,diglett,scratch,dig,3.88,21.04,8,1.1,0.01,1.634153
+50,diglett,scratch,mud bomb,3.88,21.04,8,1.1,0.01,1.634153
+50,diglett,scratch,rock tomb,3.88,21.04,8,1.1,0.01,1.634153
+86,seel,ice shard,aqua jet,3.88,21.04,49,6.73,0.03,9.635284
+290,nincada,scratch,aerial ace,3.87,20.99,30,4.12,0.03,5.980586
+86,seel,lick,aurora beam,3.85,20.88,49,6.73,0.03,9.635284
+95,onix,tackle,sand tomb,3.85,20.88,61,8.38,0.04,11.95363
+370,luvdisc,water gun,draining kiss,3.85,20.88,35,4.81,0.03,6.973895
+74,geodude,tackle,dig,3.84,20.82,40,5.49,0.02,7.839977
+113,chansey,pound,psychic,3.84,20.82,232,31.87,0.1,46.01828
+370,luvdisc,water gun,aqua jet,3.83,20.77,35,4.81,0.03,6.973895
+163,hoothoot,peck,aerial ace,3.82,20.72,36,4.95,0.04,7.261333
+285,shroomish,bullet seed,energy ball,3.82,20.72,39,5.36,0.03,7.829611
+290,nincada,scratch,night slash,3.82,20.72,30,4.12,0.03,5.980586
+86,seel,water gun,icy wind,3.8,20.61,48,6.59,0.03,9.635284
+165,ledyba,bug bite,silver wind,3.8,20.61,35,4.81,0.03,6.909811
+273,seedot,bullet seed,foul play,3.8,20.61,22,3.02,0.03,4.429366
+86,seel,ice shard,aurora beam,3.79,20.55,48,6.59,0.03,9.635284
+173,cleffa,zen headbutt,psyshock,3.79,20.55,28,3.85,0.03,5.640373
+261,poochyena,snarl,crunch,3.79,20.55,15,2.06,0.02,3.047781
+261,poochyena,snarl,dig,3.79,20.55,15,2.06,0.02,3.047781
+261,poochyena,snarl,poison fang,3.79,20.55,15,2.06,0.02,3.047781
+276,taillow,peck,aerial ace,3.79,20.55,17,2.34,0.02,3.322024
+276,taillow,quick attack,aerial ace,3.79,20.55,17,2.34,0.02,3.322024
+278,wingull,water gun,water pulse,3.79,20.55,17,2.34,0.02,3.322024
+278,wingull,water gun,air cutter,3.79,20.55,17,2.34,0.02,3.322024
+278,wingull,water gun,ice beam,3.79,20.55,17,2.34,0.02,3.322024
+194,wooper,mud shot,body slam,3.78,20.5,26,3.57,0.03,5.200264
+187,hoppip,tackle,seed bomb,3.77,20.44,23,3.16,0.03,4.55188
+167,spinarak,bug bite,signal beam,3.76,20.39,19,2.61,0.02,3.853548
+173,cleffa,zen headbutt,signal beam,3.76,20.39,28,3.85,0.03,5.640373
+202,wobbuffet,counter,mirror coat,3.76,20.39,110,15.11,0.07,22.27877
+331,cacnea,poison sting,grass knot,3.73,20.23,23,3.16,0.01,4.72717
+35,clefairy,pound,moonblast,3.71,20.12,46,6.32,0.03,9.433607
+113,chansey,zen headbutt,dazzling gleam,3.71,20.12,225,30.91,0.1,46.01828
+187,hoppip,bullet seed,seed bomb,3.71,20.12,22,3.02,0.03,4.55188
+309,electrike,spark,thunderbolt,3.71,20.12,20,2.75,0.02,4.075016
+309,electrike,spark,swift,3.71,20.12,20,2.75,0.02,4.075016
+163,hoothoot,feint attack,aerial ace,3.7,20.07,35,4.81,0.03,7.261333
+19,rattata,tackle,dig,3.69,20.01,14,1.92,0.02,2.929036
+19,rattata,tackle,hyper fang,3.69,20.01,14,1.92,0.02,2.929036
+19,rattata,tackle,body slam,3.69,20.01,14,1.92,0.02,2.929036
+19,rattata,quick attack,dig,3.69,20.01,14,1.92,0.02,2.929036
+19,rattata,quick attack,hyper fang,3.69,20.01,14,1.92,0.02,2.929036
+19,rattata,quick attack,body slam,3.69,20.01,14,1.92,0.02,2.929036
+165,ledyba,tackle,aerial ace,3.69,20.01,34,4.67,0.03,6.909811
+258,mudkip,tackle,dig,3.68,19.96,28,3.85,0.02,5.747809
+280,ralts,confusion,psyshock,3.67,19.9,12,1.65,0.02,2.539817
+280,ralts,confusion,disarming voice,3.67,19.9,12,1.65,0.02,2.539817
+280,ralts,confusion,shadow sneak,3.67,19.9,12,1.65,0.02,2.539817
+307,meditite,confusion,psyshock,3.63,19.69,20,2.75,0.02,4.219206
+309,electrike,quick attack,thunderbolt,3.61,19.58,19,2.61,0.01,4.075016
+309,electrike,quick attack,swift,3.61,19.58,19,2.61,0.01,4.075016
+343,baltoy,confusion,dig,3.59,19.47,30,4.12,0.03,6.42258
+333,swablu,astonish,aerial ace,3.58,19.41,35,4.81,0.03,7.49788
+86,seel,lick,icy wind,3.53,19.14,45,6.18,0.03,9.635284
+355,duskull,hex,ominous wind,3.53,19.14,21,2.88,0.03,4.478372
+161,sentret,scratch,dig,3.52,19.09,17,2.34,0.02,3.601923
+161,sentret,scratch,grass knot,3.52,19.09,17,2.34,0.02,3.601923
+86,seel,ice shard,icy wind,3.5,18.98,44,6.04,0.03,9.635284
+165,ledyba,tackle,silver wind,3.5,18.98,32,4.4,0.03,6.909811
+322,numel,tackle,heat wave,3.5,18.98,28,3.85,0.02,6.061634
+270,lotad,razor leaf,energy ball,3.49,18.93,20,2.75,0.02,4.429366
+353,shuppet,astonish,night shade,3.49,18.93,18,2.47,0.01,3.845066
+353,shuppet,astonish,shadow sneak,3.49,18.93,18,2.47,0.01,3.845066
+236,tyrogue,tackle,brick break,3.48,18.87,14,1.92,0.02,3.087362
+333,swablu,astonish,ice beam,3.48,18.87,34,4.67,0.03,7.49788
+35,clefairy,zen headbutt,moonblast,3.47,18.82,43,5.91,0.03,9.433607
+333,swablu,peck,disarming voice,3.46,18.76,34,4.67,0.03,7.49788
+113,chansey,pound,psybeam,3.43,18.6,208,28.57,0.09,46.01828
+165,ledyba,bug bite,swift,3.43,18.6,31,4.26,0.03,6.909811
+90,shellder,ice shard,water pulse,3.42,18.55,29,3.98,0.02,6.346244
+90,shellder,tackle,water pulse,3.42,18.55,29,3.98,0.02,6.346244
+155,cyndaquil,tackle,flame charge,3.42,18.55,21,2.88,0.02,4.768636
+155,cyndaquil,tackle,swift,3.42,18.55,21,2.88,0.02,4.768636
+155,cyndaquil,tackle,flamethrower,3.42,18.55,21,2.88,0.02,4.768636
+283,surskit,bubble,signal beam,3.38,18.33,22,3.02,0.02,4.916596
+283,surskit,bug bite,signal beam,3.38,18.33,22,3.02,0.02,4.916596
+339,barboach,water gun,ice beam,3.38,18.33,23,3.16,0.02,5.21063
+355,duskull,astonish,ominous wind,3.36,18.22,20,2.75,0.02,4.478372
+52,meowth,bite,dark pulse,3.35,18.17,19,2.61,0.02,4.207897
+52,meowth,bite,foul play,3.35,18.17,19,2.61,0.02,4.207897
+307,meditite,rock smash,psyshock,3.35,18.17,19,2.61,0.02,4.219206
+113,chansey,zen headbutt,psychic,3.34,18.11,202,27.75,0.09,46.01828
+100,voltorb,spark,gyro ball,3.33,18.06,25,3.43,0.02,5.669588
+163,hoothoot,peck,night shade,3.33,18.06,32,4.4,0.03,7.261333
+25,pikachu,thunder shock,thunderbolt,3.32,18,20,2.75,0.02,4.55188
+25,pikachu,thunder shock,wild charge,3.32,18,20,2.75,0.02,4.55188
+25,pikachu,thunder shock,thunder,3.32,18,20,2.75,0.02,4.55188
+25,pikachu,quick attack,thunderbolt,3.32,18,20,2.75,0.02,4.55188
+25,pikachu,quick attack,wild charge,3.32,18,20,2.75,0.02,4.55188
+25,pikachu,quick attack,thunder,3.32,18,20,2.75,0.02,4.55188
+175,togepi,hidden power,psyshock,3.31,17.95,22,3.02,0.03,5.145604
+175,togepi,peck,psyshock,3.31,17.95,22,3.02,0.03,5.145604
+23,ekans,poison sting,sludge bomb,3.26,17.68,20,2.75,0.02,4.591462
+23,ekans,poison sting,gunk shot,3.26,17.68,20,2.75,0.02,4.591462
+50,diglett,mud shot,dig,3.24,17.57,7,0.96,0.01,1.634153
+50,diglett,mud shot,mud bomb,3.24,17.57,7,0.96,0.01,1.634153
+50,diglett,mud shot,rock tomb,3.24,17.57,7,0.96,0.01,1.634153
+100,voltorb,tackle,gyro ball,3.24,17.57,24,3.3,0.02,5.669588
+100,voltorb,tackle,signal beam,3.24,17.57,24,3.3,0.02,5.669588
+287,slakoth,yawn,body slam,3.23,17.52,32,4.4,0.02,7.450759
+163,hoothoot,feint attack,night shade,3.2,17.35,31,4.26,0.03,7.261333
+252,treecko,bullet seed,energy ball,3.17,17.19,22,3.02,0.02,5.226652
+278,wingull,quick attack,water pulse,3.16,17.14,14,1.92,0.01,3.322024
+278,wingull,quick attack,air cutter,3.16,17.14,14,1.92,0.01,3.322024
+278,wingull,quick attack,ice beam,3.16,17.14,14,1.92,0.01,3.322024
+16,pidgey,quick attack,twister,3.13,16.97,16,2.2,0.02,3.986429
+16,pidgey,quick attack,air cutter,3.13,16.97,16,2.2,0.02,3.986429
+16,pidgey,tackle,twister,3.13,16.97,16,2.2,0.02,3.986429
+16,pidgey,tackle,aerial ace,3.13,16.97,16,2.2,0.02,3.986429
+16,pidgey,tackle,air cutter,3.13,16.97,16,2.2,0.02,3.986429
+32,nidoran male,peck,sludge bomb,3.13,16.97,19,2.61,0.02,4.495335
+32,nidoran male,poison sting,sludge bomb,3.13,16.97,19,2.61,0.02,4.495335
+167,spinarak,poison sting,signal beam,3.13,16.97,16,2.2,0.01,3.853548
+343,baltoy,extrasensory,dig,3.13,16.97,26,3.57,0.02,6.42258
+223,remoraid,mud shot,aurora beam,3.09,16.76,13,1.79,0.01,3.28527
+223,remoraid,mud shot,water pulse,3.09,16.76,13,1.79,0.01,3.28527
+223,remoraid,mud shot,rock blast,3.09,16.76,13,1.79,0.01,3.28527
+300,skitty,tackle,dig,3.09,16.76,21,2.88,0.02,5.264348
+300,skitty,tackle,disarming voice,3.09,16.76,21,2.88,0.02,5.264348
+165,ledyba,tackle,swift,3.08,16.7,28,3.85,0.03,6.909811
+41,zubat,bite,air cutter,3.06,16.59,16,2.2,0.02,3.986429
+41,zubat,bite,swift,3.06,16.59,16,2.2,0.02,3.986429
+41,zubat,bite,sludge bomb,3.06,16.59,16,2.2,0.02,3.986429
+113,chansey,zen headbutt,psybeam,3.06,16.59,185,25.41,0.08,46.01828
+174,igglybuff,pound,shadow ball,3.06,16.59,18,2.47,0.02,4.387899
+174,igglybuff,pound,psychic,3.06,16.59,18,2.47,0.02,4.387899
+290,nincada,scratch,bug buzz,2.97,16.11,23,3.16,0.02,5.980586
+290,nincada,bug bite,bug buzz,2.97,16.11,23,3.16,0.02,5.980586
+161,sentret,quick attack,dig,2.94,15.94,14,1.92,0.02,3.601923
+161,sentret,quick attack,grass knot,2.94,15.94,14,1.92,0.02,3.601923
+261,poochyena,tackle,crunch,2.89,15.67,12,1.65,0.01,3.047781
+261,poochyena,tackle,dig,2.89,15.67,12,1.65,0.01,3.047781
+261,poochyena,tackle,poison fang,2.89,15.67,12,1.65,0.01,3.047781
+316,gulpin,pound,gunk shot,2.89,15.67,31,4.26,0.03,8.199981
+333,swablu,astonish,disarming voice,2.89,15.67,29,3.98,0.03,7.49788
+300,skitty,feint attack,dig,2.87,15.56,20,2.75,0.02,5.264348
+300,skitty,feint attack,disarming voice,2.87,15.56,20,2.75,0.02,5.264348
+316,gulpin,rock smash,gunk shot,2.85,15.46,31,4.26,0.03,8.199981
+236,tyrogue,rock smash,brick break,2.84,15.4,12,1.65,0.02,3.087362
+236,tyrogue,rock smash,rock slide,2.84,15.4,12,1.65,0.02,3.087362
+236,tyrogue,rock smash,low sweep,2.84,15.4,12,1.65,0.02,3.087362
+191,sunkern,razor leaf,energy ball,2.83,15.35,9,1.24,0.02,2.405994
+191,sunkern,razor leaf,grass knot,2.83,15.35,9,1.24,0.02,2.405994
+191,sunkern,razor leaf,seed bomb,2.83,15.35,9,1.24,0.02,2.405994
+339,barboach,mud shot,ice beam,2.82,15.29,19,2.61,0.02,5.21063
+194,wooper,water gun,dig,2.81,15.24,19,2.61,0.02,5.200264
+287,slakoth,yawn,brick break,2.81,15.24,28,3.85,0.02,7.450759
+152,chikorita,tackle,energy ball,2.79,15.13,24,3.3,0.02,6.664782
+183,marill,bubble,aqua tail,2.75,14.91,28,3.85,0.04,7.764584
+220,swinub,tackle,icy wind,2.74,14.86,17,2.34,0.02,4.72717
+220,swinub,tackle,rock slide,2.74,14.86,17,2.34,0.02,4.72717
+270,lotad,water gun,energy ball,2.68,14.53,16,2.2,0.02,4.429366
+360,wynaut,counter,mirror coat,2.61,14.15,33,4.53,0.04,9.612666
+183,marill,bubble,bubble beam,2.57,13.94,26,3.57,0.04,7.764584
+41,zubat,quick attack,air cutter,2.55,13.83,13,1.79,0.01,3.986429
+41,zubat,quick attack,swift,2.55,13.83,13,1.79,0.01,3.986429
+41,zubat,quick attack,sludge bomb,2.55,13.83,13,1.79,0.01,3.986429
+183,marill,tackle,aqua tail,2.55,13.83,26,3.57,0.04,7.764584
+281,kirlia,charge beam,psychic,2.51,13.61,16,2.2,0.01,4.834606
+281,kirlia,charge beam,disarming voice,2.51,13.61,16,2.2,0.01,4.834606
+287,slakoth,yawn,night slash,2.5,13.56,24,3.3,0.02,7.450759
+183,marill,bubble,body slam,2.45,13.29,25,3.43,0.04,7.764584
+174,igglybuff,feint attack,shadow ball,2.43,13.18,14,1.92,0.02,4.387899
+174,igglybuff,feint attack,psychic,2.43,13.18,14,1.92,0.02,4.387899
+172,pichu,thunder shock,thunderbolt,2.39,12.96,6,0.82,0.01,1.959288
+172,pichu,thunder shock,disarming voice,2.39,12.96,6,0.82,0.01,1.959288
+172,pichu,thunder shock,thunder punch,2.39,12.96,6,0.82,0.01,1.959288
+298,azurill,bubble,body slam,2.39,12.96,14,1.92,0.03,4.566016
+183,marill,tackle,bubble beam,2.38,12.91,24,3.3,0.04,7.764584
+194,wooper,mud shot,dig,2.34,12.69,16,2.2,0.02,5.200264
+263,zigzagoon,tackle,dig,2.27,12.31,12,1.65,0.02,3.986429
+263,zigzagoon,tackle,grass knot,2.27,12.31,12,1.65,0.02,3.986429
+263,zigzagoon,tackle,thunderbolt,2.27,12.31,12,1.65,0.02,3.986429
+183,marill,tackle,body slam,2.26,12.26,23,3.16,0.04,7.764584
+273,seedot,quick attack,energy ball,2.24,12.15,13,1.79,0.02,4.429366
+273,seedot,quick attack,grass knot,2.24,12.15,13,1.79,0.02,4.429366
+355,duskull,hex,night shade,2.21,11.98,13,1.79,0.02,4.478372
+355,duskull,hex,shadow sneak,2.21,11.98,13,1.79,0.02,4.478372
+263,zigzagoon,rock smash,dig,2.19,11.88,11,1.51,0.02,3.986429
+263,zigzagoon,rock smash,grass knot,2.19,11.88,11,1.51,0.02,3.986429
+263,zigzagoon,rock smash,thunderbolt,2.19,11.88,11,1.51,0.02,3.986429
+175,togepi,hidden power,ancient power,2.13,11.55,14,1.92,0.02,5.145604
+175,togepi,hidden power,dazzling gleam,2.13,11.55,14,1.92,0.02,5.145604
+175,togepi,peck,ancient power,2.13,11.55,14,1.92,0.02,5.145604
+175,togepi,peck,dazzling gleam,2.13,11.55,14,1.92,0.02,5.145604
+187,hoppip,tackle,grass knot,2.13,11.55,13,1.79,0.02,4.55188
+187,hoppip,tackle,dazzling gleam,2.13,11.55,13,1.79,0.02,4.55188
+236,tyrogue,tackle,rock slide,2.05,11.12,8,1.1,0.01,3.087362
+236,tyrogue,tackle,low sweep,2.05,11.12,8,1.1,0.01,3.087362
+293,whismur,astonish,disarming voice,2.03,11.01,10,1.37,0.01,3.747055
+293,whismur,astonish,flamethrower,2.03,11.01,10,1.37,0.01,3.747055
+298,azurill,bubble,bubble beam,2,10.85,12,1.65,0.02,4.566016
+273,seedot,bullet seed,energy ball,1.95,10.57,11,1.51,0.01,4.429366
+273,seedot,bullet seed,grass knot,1.95,10.57,11,1.51,0.01,4.429366
+355,duskull,astonish,night shade,1.93,10.47,11,1.51,0.01,4.478372
+355,duskull,astonish,shadow sneak,1.93,10.47,11,1.51,0.01,4.478372
+187,hoppip,bullet seed,grass knot,1.86,10.09,11,1.51,0.01,4.55188
+187,hoppip,bullet seed,dazzling gleam,1.86,10.09,11,1.51,0.01,4.55188
+191,sunkern,cut,energy ball,1.82,9.87,6,0.82,0.01,2.405994
+191,sunkern,cut,grass knot,1.82,9.87,6,0.82,0.01,2.405994
+191,sunkern,cut,seed bomb,1.82,9.87,6,0.82,0.01,2.405994
+280,ralts,charge beam,psyshock,1.78,9.65,6,0.82,0.01,2.539817
+280,ralts,charge beam,disarming voice,1.78,9.65,6,0.82,0.01,2.539817
+280,ralts,charge beam,shadow sneak,1.78,9.65,6,0.82,0.01,2.539817
+213,shuckle,rock throw,rock blast,1.57,8.51,22,3.02,0.05,10.43257
+213,shuckle,rock throw,gyro ball,1.48,8.03,20,2.75,0.04,10.43257
+298,azurill,bubble,ice beam,1.32,7.16,8,1.1,0.02,4.566016
+213,shuckle,rock throw,stone edge,1.31,7.1,18,2.47,0.04,10.43257
+349,feebas,tackle,mirror coat,1.13,6.13,4,0.55,0.01,2.951654
+386,deoxys,counter,psycho boost,0.53,2.87,0,0,0,0.106022
+386,deoxys,counter,zap cannon,0.53,2.87,0,0,0,0.106022
+386,deoxys,counter,swift,0.53,2.87,0,0,0,0.106022
+386,deoxys,zen headbutt,psycho boost,0.52,2.82,0,0,0,0.106022
+386,deoxys,zen headbutt,zap cannon,0.52,2.82,0,0,0,0.106022
+386,deoxys,zen headbutt,swift,0.52,2.82,0,0,0,0.106022
