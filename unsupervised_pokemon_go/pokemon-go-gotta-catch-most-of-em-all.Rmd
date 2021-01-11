@@ -89,7 +89,7 @@ were considered very insignificant in terms of playing capabilities.
 
 ```{r acquire_data, message = FALSE, warning = FALSE, results = "hide"}
 # ----- import base data - kaggle's PG data set -----
-pg01 <- as_tibble(read_csv("../input/pokemongo/pokemonGO.csv", 
+pg01 <- as_tibble(read_csv("pokemonGO.csv", 
         col_names = TRUE)) %>%
     dplyr::select(-`Image URL`) %>%
     rename(pm_nbr = `Pokemon No.`, typ1 = `Type 1`, typ2 = `Type 2`, 
@@ -100,7 +100,7 @@ summary(pg01)  # no missing values except for secondary type
 
 # ----- import base data - Game Press' IV spreadsheet -----
 pg02 <- as_tibble(read_csv(
-        "../input/pokemon-species-stats/TDO SHEET BY DPS - Sheet1.csv", 
+        "TDO SHEET BY DPS - Sheet1.csv", 
         col_names = TRUE)) %>%
     mutate(pm_nbr = ifelse(dex >= 100, as.character(dex),
         ifelse(dex >= 10, str_c("0", as.character(dex)),
@@ -147,10 +147,8 @@ glimpse(pg03)
 # ----- wrangle to combine data sets -----
 pg04 <- pg01 %>%
     left_join(pg02, by = "pm_nbr") %>%
-    select(pm_nbr, name, typ1, typ2, max_cp, max_hp, weave_dps, tdo, tdo_cp, 
-        surv_time) %>%
+    select(pm_nbr, name, typ1, typ2, weave_dps, tdo, tdo_cp, surv_time) %>%
     bind_cols(pg03) %>%
-    select(-max_cp1, -max_hp1) %>%
     filter(weave_dps >= 0)  # few small species missing
 ```
 
