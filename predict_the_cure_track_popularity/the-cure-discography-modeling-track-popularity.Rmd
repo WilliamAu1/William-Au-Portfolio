@@ -1,0 +1,250 @@
+---
+title: "The Cure Discography - Predicting and Explaining Track Popularity"
+author: "William Au"
+date: "November 20, 2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Introduction and Methodology
+The Cure is an English pop band that started in 1976. I was a big fan of their
+music from early childhood, so when I came across a dataset on Kaggle spanning 
+almost their entire discography, I knew I had to practice my data science and 
+analytics skills on it! The original data came from Spotify, and big thanks 
+goes to fellow Kaggler Xavier for making it available. He has has some really 
+cool kernels on this and more at https://www.kaggle.com/xvivancos/kernels.
+
+In this project, my objective was to predict and explain the predictors or 
+drivers of Spotify's track popularity score at a song-level, their proprietary score where a 
+higher or lower score meant the particular song was more or less popular, 
+respectively. To accomplish this objective, I built a machine learning model
+using the random forest method, an ensemble of decision tree models where each
+tree trains on bootstrapped data with a randomized subset of factors. I chose
+this methodology because it had been proven to be much improved by way of lower
+variance and decreased risk of overfitting. 
+
+## Data Acquisition and Description
+The metadata, documentation and storage of the dataset was taken from its 
+Kaggle dataset site at https://www.kaggle.com/xvivancos/the-cure-discography. 
+These were the variables I used, including 1 engineered variable:
+
+* Danceability score
+* Energy score
+* Music key
+* Loudness score
+* Major/minor mode
+* Speechiness score
+* Acousticness score
+* Instrumentalness score
+* Liveness score
+* Valence score
+* Tempo score
+* Duration
+* Time signature
+* Key mode
+* Album age as the difference between August 1, 2018 and the album release day
+* Track popularity (as response)
+
+It should be noted that I realized some of the variables above were not named after proper English words, 
+for example, "speechniess". I did not choose these names and assumed these were Spotify-specific 
+nomenclature. 
+
+## Admin
+First I loaded required packages, set seed for reproducibility and imported the
+base data to prepare the R environment for analyses.
+
+```{r admin, message = FALSE, warning = FALSE, results = "hide"}
+# ----- admin and load base data set -----
+rm(list = ls())
+library(rmarkdown)  
+library(knitr)  
+library(tidyverse)
+library(caret)
+library(gridExtra)
+library(GGally)
+library(RColorBrewer)
+gc()
+set.seed(888)
+c01_base <- as_tibble(read_csv('../input/thecure_discography.csv')) %>%
+    select(-album_uri, -album_img, -track_uri, -album_release_year) %>%
+    mutate(
+        track_id = as.character(X1),
+        album_age = as.numeric(as.Date("2018-08-01") - album_release_date, 
+            units = "days")
+        ) %>%
+    select(-X1, -album_release_date)
+```
+
+## Preliminary Exploratory Data Analysis
+From my preliminary EDA, I noted the following insights:
+
+* There were no missing values
+* Spotify scores of danceability, instrumentalness, liveness and valence seemed to be scaled from 0 to 1
+* The response track popularity score was scaled from 0 to 100, where 100 is most popular
+* Even though the band was considered successful, their median song was just an average of 22, with their max at 62; I suspect this had to do with a recency bias since their hits were relatively older releases
+* Univariate distribution insights:
+    + Right-skewed: speechiness, acousticness, instrumentalness, duration and track popularity 
+    + Left-skewed: energy, loudness and time signature
+    + Multi-modal: liveness (some live albums in there), time signature, album age (comeback albums with the smaller mode)
+    + Outliers: speechniess had some positive outliers, duration had 1 really long song, time signature had 1 positive and 1 negative outlier
+* Bivariate correlation insights:
+    + There was not much correlation between variables, relative to other datasets (absolute max of -45.4% with the loudness and age)
+    + Response variable was not correlated much with others, except for album age at 33.4%
+* The band had a very high diversity in songs, with noticeable variances in all metrics 
+
+```{r EDA, message = FALSE, warning = FALSE, fig.width = 10, fig.height = 10}
+# ----- univariate and bivariate visualized EDA -----
+glimpse(c01_base)
+summary(c01_base)  # no missing values
+ggpairs(c01_base, columns = c("danceability", "energy", "loudness", 
+    "speechiness", "acousticness", "instrumentalness", "liveness", "valence",
+    "tempo", "duration_ms", "time_signature", "album_age", "track_popularity"), 
+    aes(alpha = 0.1), upper = list("cor")) + theme_minimal()  
+```
+
+## Data Transformations
+Using the functions in the caret package, I centered and scaled the input variables between 0 and 1. I also performed one-hot encoding of the 
+dummy categorical variables (album name, key, mode and key mode).
+
+```{r transform, message = FALSE, warning = FALSE}
+# ----- transform data by centering/scaling and one-hot dummy encoding -----
+pp <- preProcess(c01_base, method = c("center", "scale"), thresh = 1.00, 
+    verbose = TRUE, rangeBounds = c(0, 1))
+c02_std <- predict(pp, newdata = c01_base) %>%
+    select(danceability, energy, key, loudness, mode, speechiness, 
+        acousticness, instrumentalness, liveness, valence, tempo, duration_ms,
+        time_signature,key_mode, album_age, album_name, track_popularity, 
+        track_id)
+dmy <- dummyVars("~ album_name + key + mode + key_mode", data = c02_std, 
+    fullRank = TRUE)
+c03_std <- as_tibble(predict(dmy, newdata = c02_std)) %>%
+    bind_cols(c02_std) %>%
+    select(-album_name, -key, -mode, -key_mode)
+```
+
+## Data Partition
+I created a data partition whereby 70% of the dataset would be used for training and validation, with the remaining 30% for testing. I ensured
+a balanced partition by using the createDataPartition function in the caret package.
+
+```{r partition, message = FALSE, warning = FALSE}
+# ----- partition data into training/validation and test sets -----
+trn <- createDataPartition(c03_std$track_popularity, p = 0.7, list = FALSE)
+c04_trn <- c03_std[trn, ][, 1:61]
+c04_tst <- c03_std[-trn, ]
+```
+
+## Feature Selection
+Again I used the caret package, this time leveraging the recursive feature elimination function to iteratively test the predictive performance
+of different subsets of factors. As its output below showed, this methodology only selected 5 album dummy variables. I knew this would be a 
+problem, as I wanted to model each song individually and not as a part of an album, but the feature selection step showed the actual album
+attributes (such as album popularity) were most important. Despite this and to achieve the modeling objective, I did not use the 5-feature subset
+the function output below; rather, I discarded the album popularity score and included all other features.
+
+```{r rfe, message = FALSE, warning = FALSE}
+# ----- variable selection using recursive feature elimination -----
+rfe_ctrl <- rfeControl(functions = rfFuncs, method = "repeatedcv", repeats = 5)
+rfe_vars <- rfe(x = c04_trn[, 1:45], y = c04_trn$track_popularity, 
+    sizes = c(2, 4, 8, 16, 32), rfeControl = rfe_ctrl)
+rfe_vars
+```
+
+## Model Training and Validation
+I used repeated cross-validation and hyperparameter grid search to tune the random forest ensemble to ensure I got an accurate, robust finalized 
+model. The specific tuning hyperparameter in random forests was "mtry", or the number of randomized predictors to try, and the output below showed
+the optimal value to be 21. 
+
+```{r train, message = FALSE, warning = FALSE, fig.width = 10, fig.height = 5}
+# ----- train random forest model -----
+trn_ctrl <- trainControl(method = "repeatedcv", number = 10, repeats = 5, 
+    search = "grid")
+c05_rf <- caret::train(track_popularity ~ ., 
+    data = c04_trn, method = "rf", metric = "RMSE", trControl = trn_ctrl, 
+    tuneLength = 10, importance = TRUE)
+c05_rf
+plot(c05_rf)
+```
+
+Looking at the variable importance, it was clear that album-specific features dominated, which was consistent with the feature selection step 
+previously. Interestingly, the top non-album attribute was the liveness score (i.e., the sureness that Spotify thought it was performed in front of
+a live audience). I would have hypothesized a negative relationship, that a live performance would be associated with a lower popularity score, 
+for various reasons such as the inability to fix errors in live events and high background noise. But there was a slight positive relationship 
+between liveness and track popularity, with a caveat that this may not even be close to causal.
+
+```{r varimp, message = FALSE, warning = FALSE, fig.width = 10, fig.height = 12}
+plot(varImp(c05_rf))
+```
+
+## Model Testing
+To quantify model performance, I processed the test dataset on the model object created above. As the output below showed, it achieved an MSE and
+root-MSE of 0.4917 and 0.7012, respectively. I knew and accepted the model performed OK, but not great. The errors were definitely not 
+identically distributed, as the model under-predicted the popularity of a few songs that were very popular. This also caused a heteroscedasticity
+problem, with higher error variance as the track popularity increased.
+
+```{r test, message = FALSE, warning = FALSE, fig.width = 10, fig.height = 5}
+# ----- predict on test data set -----
+c05_tst <- as_tibble(predict(c05_rf, newdata = c04_tst)) %>%
+    bind_cols(c04_tst) %>%
+    rename(pred = value) %>%
+    mutate(sq_err = (pred - track_popularity)**2)
+mean(c05_tst$sq_err)  # MSE = 0.4917346
+sqrt(mean(c05_tst$sq_err))  # RMSE = 0.7012379 (same normalized, scale-less as response)
+ggplot(c05_tst, aes(x = track_popularity, y = pred)) + geom_point() + 
+    geom_abline(slope = 1, intercept = 0) + theme_minimal()
+```
+
+## Explanatory Drill-Down
+I conducted post-analysis for explanatory drill-down on the entire dataset. As the faceted plot showed and consistent with the variable importance
+analysis, there was no clear formula for a hit song by The Cure. Popular and unpopular songs could have been long or short, happy or sad, live 
+or studio-recorded, new or old, verbose or concise, etc. As the ranked dot plots showed, the model did not perform any differently on the various
+albums but did grossly under-predict the track popularity of about 3-6 songs (histogram of error also depicted this insight).
+
+```{r drilldown, message = FALSE, warning = FALSE, fig.width = 10, fig.height = 10}
+# ----- drill-down -----
+tmp01 <- as_tibble(predict(c05_rf, newdata = c03_std)) %>%
+    bind_cols(c03_std) %>%
+    rename(pred = value) %>%
+    mutate(sq_err = (pred - track_popularity)**2)
+tmp01 %>%
+    select(-track_id, -sq_err) %>%
+    gather(-track_popularity, key = "var", value = "value") %>%
+    ggplot(aes(x = value, y = track_popularity)) + geom_point() + 
+        stat_smooth(method = "loess") + facet_wrap(var ~ .,
+        scales = "free") + theme_minimal()
+tmp02 <- tmp01 %>%
+    left_join(c01_base, by = "track_id") %>%
+    arrange(desc(sq_err)) %>%
+    mutate(id = row_number(), err = pred - track_popularity.x) %>%
+    select(id, track_id, album_name, track_name, pred, err, sq_err, 
+        track_popularity.x)
+ggplot(tmp02, aes(x = id, y = sq_err, color = album_name)) + geom_point() + 
+    theme_minimal()  # no obvious album error, 7 big and 12 total outliers
+ggplot(tmp02, aes(x = id, y = sq_err, color = err)) + geom_point() + 
+    theme_minimal()  # model error under-predicts popularity at outliers
+ggplot(tmp02, aes(err)) + geom_histogram() + theme_minimal()
+tmp03 <- tmp02 %>%
+    ungroup() %>%
+    select(track_name, track_popularity.x, pred, err, sq_err) %>%
+    arrange(desc(sq_err))
+```
+
+The songs below were the error outliers and were depicted from most to least under-predicted. If you were familiar with The Cure songs, you would
+recognize these as some of their biggest hits.
+
+```{r outliers, message = FALSE, warning = FALSE, fig.width = 10, fig.height = 10}
+print(grid.table(tmp03[1:6, ]))
+```
+
+## Conclusion
+This was a fun project, and I noted the following conclusions:
+
+* Track popularity was difficult to predict and explain, especially on the band's biggest hits. To improve on this, one may want to consider:
+    + Engineering more derived input variables
+    + Enhancing the dataset with more external data
+    + Trying a few different machine learning techniques, such as XGBoost or deep learning (note I iterated a few random forests and this kernel was the best performing iteration)
+* Because music represented a highly personalized choice of preferences and musical trends/fans were fickle, the recipe for a big hit was probably more "art" than "(data) science"
+* Depiste these challenges, I believed the model developed was a passable predictive and explanatory model for The Cure songs
+
+# ===== END OF ANALYSES =====
