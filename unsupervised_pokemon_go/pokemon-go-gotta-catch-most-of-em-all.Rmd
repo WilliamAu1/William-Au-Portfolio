@@ -400,6 +400,3 @@ tmp <- pg08_clus %>%
     arrange(cluster, pm_nbr, name)
 print(as.data.frame(tmp))
 ```
-
-
-## ===== END OF ANALYSIS =====
