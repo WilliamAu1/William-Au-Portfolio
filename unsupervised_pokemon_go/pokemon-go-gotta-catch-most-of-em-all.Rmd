@@ -2,7 +2,7 @@
 title: "Detecting Species Redundancy in Pokemon GO - Gotta Catch (Most of) 'Em All"
 author: "William Au"
 date: "October 11, 2018"
-output: html_document
+output: rmarkdown::github_document
 ---
 
 ```{r setup, include=FALSE}
