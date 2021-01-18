@@ -68,7 +68,7 @@ library(GGally)
 library(RColorBrewer)
 gc()
 set.seed(888)
-c01_base <- as_tibble(read_csv('../input/thecure_discography.csv')) %>%
+c01_base <- as_tibble(read_csv('thecure_discography.csv')) %>%
     select(-album_uri, -album_img, -track_uri, -album_release_year) %>%
     mutate(
         track_id = as.character(X1),
