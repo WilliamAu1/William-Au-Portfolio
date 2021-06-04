@@ -12,7 +12,7 @@ library(scales)
 library(ClusterR)
 memory.limit(size = 16141 * 4)
 gc()  # garbage collection
-# d
+
 # import 2019 data
 s01 <- as_tibble(read_csv(
     "Detect Anomalies in Ontario Sunshine List/tbs-pssd-compendium-2019-en-2020-12-21.csv", 
@@ -76,7 +76,7 @@ abline(h = 2500000, lty = 2, col = "red")  # eps = 2500000
 set.seed(888)
 s03_clus <- fpc::dbscan(
     data = s02_dist, 
-    eps = 2500000,
+    eps = 1000000,
     MinPts = 400,
     scale = FALSE,
     method = "hybrid",
@@ -97,7 +97,7 @@ tmp3 <- as_tibble(s03_clus$cluster) %>%
     select(-value)
 s04_clus <- tmp2 %>%
     left_join(tmp3, by = "km_cluster")
-s04_clus %>% group_by(db_cluster) %>% count() %>% arrange(n)  # 0.95%
+tmp <- s04_clus %>% group_by(db_cluster) %>% count() %>% arrange(n)  # 0.95%
 1510/(1510+156659)
 
 ggplot(
@@ -133,3 +133,9 @@ fviz_pca_biplot(tmp_pca, label = "var", habillage = s04_clus$db_cluster,
 fviz_cluster(s03_clus, data = s02_dist, stand = TRUE, ellipse = TRUE, 
     show.clust.cent = TRUE, palette = "paired", geom = "point", pointsize = 1,
     repel = TRUE, ggtheme = theme_minimal()) + coord_fixed() 
+
+s04_clus %>%
+    filter(db_cluster == "0") %>%
+    select(-`Calendar Year`, -km_cluster, -taxable_ben) %>%
+    arrange(desc(salary)) %>%
+    head(10)
