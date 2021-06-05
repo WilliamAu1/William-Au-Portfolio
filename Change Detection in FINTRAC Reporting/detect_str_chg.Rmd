@@ -11,7 +11,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 
 ## Introduction
-The Financial Transactions and Reports Analysis Centre (FINTRAC) is the Canada's regulator of proceeds of crime, such as money laundering, bribery and terrorist financing. Regulated sectors, such as banks, credit unions and insurance companies, must report certain transactions to FINTRAC to enable their investigations and enforcement. One such class of transactions are suspicious transactions, where the regulated sector entity must file a "suspicious transaction report" (STR) to FINTRAC whenever it suspects a particular transaction has a higher probability of being a proceed of crime.
+The Financial Transactions and Reports Analysis Centre (FINTRAC) is Canada's regulator of proceeds of crime, such as money laundering, bribery and terrorist financing. Regulated sectors, such as banks, credit unions and insurance companies, must report certain transactions to FINTRAC to enable their investigations and enforcement. One such class of transactions are suspicious transactions, where the regulated sector entity must file a "suspicious transaction report" (STR) to FINTRAC whenever it suspects a particular transaction has a higher probability of being a proceed of crime.
 
 Through the Government of Canada's Open Data portal, FINTRAC provides a public data set of aggregate reports by neighbourhood, defined as Canada Post's Forward Sortation Area (FSA) and by sector, updated on a monthly basis. This data set includes 3 classes of transactions: STRs, Large Cash Transaction Reports (LCTRs) and Electronic Funds Transfer Reports (EFTs). 
 
@@ -179,11 +179,14 @@ cusum_fsa <- function(C, T) {
             st = max(0, tmp),
             chg_ind = ifelse(st >= T, "Y", "N")) %>%
         ungroup() %>%
+        arrange(pc, rep_dt) %>%
         group_by(pc) %>%
-        filter(row_number() == n()) %>%
+        filter(row_number() >= (n() - 1)) %>%
         ungroup() %>%
-        select(pc, chg_ind) %>%
-        filter(chg_ind == "Y")
+        group_by(pc) %>%
+        filter(chg_ind == "Y" & lag(chg_ind, n = 1) == "N") %>%
+        ungroup() %>%
+        select(pc, chg_ind)
     invisible(as_tibble(tmp_fsa))
 }
 hyperparams = list(
@@ -205,12 +208,12 @@ ggplot(f3_fsa, aes(x = n)) + geom_histogram() + theme_minimal() +
     labs(title = "Change detection ensemble histogram")
 ggplot(f3_fsa, aes(x = 1, y = n)) + geom_violin(fill = "green") + 
     theme_minimal() + 
-    geom_jitter(shape = 16, position = position_jitter(0.1), size = 1,
-    alpha = 0.5, col = "red") + 
+    geom_jitter(shape = 16, position = position_jitter(0.1), size = 2,
+    alpha = 0.8, col = "red") + 
     labs(title = "Change detection ensemble violin jitter")
 ```
 
-The above 2 plots show that about 10-15 FSAs are anomalies in the most recent reporting month. By ordering the ensemble results and plotting the total votes versus this order, I look for an elbow point on the elbow plot below as another way to determine the change cut-off, which I set at 11 FSAs.
+The above 2 plots show that only a few FSAs are anomalies in the most recent reporting month. By ordering the ensemble results and plotting the total votes versus this order, I look for a cut-off point on the elbow plot below as another way to determine the change cut-off, which I set at 2 FSAs.
 
 ```{r fsa2, message = FALSE, warning = FALSE, echo = FALSE}
 ggplot(f3_fsa, aes(x = order, y = n)) + geom_line() + geom_point(col = "red") + 
@@ -222,7 +225,7 @@ So which are the neighbourhoods with the most suspicious recent spikes in STRs? 
 
 ```{r fsa3, message = FALSE, warning = FALSE, echo = FALSE}
 hit_list_fsa <- f3_fsa %>%
-    filter(order <= 11) %>%
+    filter(order <= 2) %>%
     mutate(Neighbourhood = 
         ifelse(pc == "M5K", "Downtown Toronto (TD Centre / Design Exchange)",
         ifelse(pc == "M1K", "Scaborough (Kennedy Park / Ionview / East Birchmount Park)",
@@ -240,7 +243,7 @@ print(hit_list_fsa)
 ```
 
 ## FSA-Sector
-Similar to the FSA-level model, I implemented ensemble CUSUM at the FSA-sector level, which is likely a more useful tool for investigation. Across all combinations of FSA, sector and increments in the grid space of C and T, this model is trained on almost 4 million iterations. Similar interpretation to the FSA-level implementation, the violin jitter plot shows 11 distinct anomalies (2 for trust and bank each, 4 for money services).
+Similar to the FSA-level model, I implemented ensemble CUSUM at the FSA-sector level, which is likely a more useful tool for investigation. Across all combinations of FSA, sector and increments in the grid space of C and T, this model is trained on almost 4 million iterations. Similar interpretation to the FSA-level implementation, the violin jitter plot shows 1 very distinct anomaly in the bank sector.
 
 ```{r sector, message = FALSE, warning = FALSE, echo = FALSE}
 # sector-level and FSA-level model ----------------------------------------
@@ -273,11 +276,14 @@ cusum_fsa_sector <- function(C, T) {
             st = max(0, tmp),
             chg_ind = ifelse(st >= T, "Y", "N")) %>%
         ungroup() %>%
-        group_by(pc) %>%
-        filter(row_number() == n()) %>%
+        arrange(pc, sector) %>%
+        group_by(pc, sector) %>%
+        filter(row_number() >= (n() - 1)) %>%
         ungroup() %>%
-        select(pc, sector, chg_ind) %>%
-        filter(chg_ind == "Y")
+        group_by(pc, sector) %>%
+        filter(chg_ind == "Y" & lag(chg_ind, n = 1) == "N") %>%
+        ungroup() %>%
+        select(pc, sector, chg_ind)
     invisible(as_tibble(tmp_fsa))
 }
 hyperparams = list(
@@ -296,17 +302,17 @@ f3_fsa_sector <- f2_fsa_sector %>%
     arrange(sector, desc(n), pc)
 ggplot(f3_fsa_sector, aes(x = sector, y = n)) + geom_violin(fill = "green") + 
     theme_minimal() + coord_flip() +
-    geom_jitter(shape = 16, position = position_jitter(0.2), size = 0.5,
-    alpha = 0.5, col = "red") +
+    geom_jitter(shape = 16, position = position_jitter(0.2), size = 2,
+    alpha = 0.8, col = "red") +
     labs(title = "Change detection elbow jitter")
 ```
 
-So which are the FSA-sector combinations that has the most anomalous recent results? Here they are:
+So which is this suspicious FSA-sector combination in the bank sector? Here it is:
 
 ```{r sector2, message = FALSE, warning = FALSE, echo = FALSE}
 # 2 trust, 4 money services, 2 bank
 hit_list_fsa_sector <- f3_fsa_sector %>%
-    filter(sector %in% c("TRUST", "BANK", "MONEY SERV") & n >= 13) %>%
+    filter(sector %in% c("BANK") & n >= 9) %>%
     mutate(Neighbourhood = 
         ifelse(pc == "M5H", "Downtown Toronto (Richmond / Adelaide / King)",
         ifelse(pc == "M2H", "North York (Hillcrest Village)",
@@ -323,8 +329,8 @@ hit_list_fsa_sector <- f3_fsa_sector %>%
 print(hit_list_fsa_sector)
 ```
 
-## Model Testing
-Since the data is not labeled, traditional model testing techniques could not be used. Instead, I use a "litmus" test by creating time-series visualizations of the change detection anomalies to ensure the most recent observation appears consistent with a positive change event. Below are the results, and while some visually may look more suspicious than others, all of them are defensible as strong candidates for targeted investigations:
+## Model Validation
+Since the data is not labeled, traditional model validation techniques could not be used. Instead, I use a "litmus" test by creating time-series visualizations of the change detection anomalies to ensure the most recent observation appears consistent with a positive change event. Below are the results, and all of them are defensible as strong candidates for targeted investigations:
 
 ```{r test, message = FALSE, warning = FALSE, echo = FALSE}
 # hit list viz ------------------------------------------------------------
@@ -332,10 +338,10 @@ tmp <- f1 %>%
     right_join(hit_list_fsa, by = "pc")
 ggplot(tmp, aes(x = rep_dt, y = rep_num)) + geom_line() + 
     theme_void() + facet_wrap(vars(order), ncol = 1, scales = "free") +
-    labs(title = "Top 11 most suspicious FSA neighbourhoods")
+    labs(title = "Top 2 most suspicious FSA neighbourhoods")
 tmp <- f1 %>%
     right_join(hit_list_fsa_sector, by = c("pc", "sector"))
 ggplot(tmp, aes(x = rep_dt, y = rep_num)) + geom_line() + 
-    theme_void() + facet_wrap(vars(order), ncol = 1, scales = "free") +
-    labs(title = "Top 8 most suspicious neighbourhood-sector combinations")
+    theme_void() + 
+    labs(title = "Top 1 most suspicious neighbourhood-sector combination")
 ```
