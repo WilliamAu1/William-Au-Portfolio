@@ -368,5 +368,7 @@ tmp <- tmp %>%
     mutate(rep_num_index = rep_num / grp_mean)
 ggplot(tmp, aes(x = rep_dt, y = rep_num_index, group = grp)) + 
     geom_line(aes(col = grp), size = 2) + theme_void() + 
-    labs(title = "Top 1 most suspicious neighbourhood-sector combination vs all observations (both indexed)")
+    labs(title = "Most suspicious neighbourhood-sector combination vs all (both indexed)")
 ```
+
+Interestingly, the above plots show that the FSA-level model alerts at much higher levels relative to the finer grain FSA-sector model. I would have expected the reverse, since the finer gain is likely to be more sensitive to changes in STR volumes. If I was a member of FINTRAC or some other enforcement agency, I would investigate the reason behind this, which be purely coincidental but may also be because of criminals adopting strategies to spread their transactions across multiple sectors in an attempt to evade detection.

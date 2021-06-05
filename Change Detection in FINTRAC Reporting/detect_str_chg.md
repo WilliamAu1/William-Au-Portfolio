@@ -179,3 +179,12 @@ event, relative to the overall data set. Below are the results, and all
 of them are defensible as strong candidates for targeted investigations:
 
 ![](detect_str_chg_files/figure-gfm/test-1.png)<!-- -->![](detect_str_chg_files/figure-gfm/test-2.png)<!-- -->
+
+Interestingly, the above plots show that the FSA-level model alerts at
+much higher levels relative to the finer grain FSA-sector model. I would
+have expected the reverse, since the finer gain is likely to be more
+sensitive to changes in STR volumes. If I was a member of FINTRAC or
+some other enforcement agency, I would investigate the reason behind
+this, which be purely coincidental but may also be because of criminals
+adopting strategies to spread their transactions across multiple sectors
+in an attempt to evade detection.
