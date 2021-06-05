@@ -34,8 +34,7 @@ The objective of this is to develop an change detection model to efficiently tar
 ## Methodology
 I modeled positive change detection at 2 grains: at the aggregate FSA and at the FSA-sector combination. The model uses a unique implementation of the cumulative sum (CUSUM) change detection algorithm. In CUSUM, the formula is as below: 
 
-St = max(0, St-1 + (xt - mu - C))
-Change event if St >= T
+St = max(0, St-1 + (xt - mu - C)); Change event if St >= T
 
 Note that St is the cumulative sum at time t, St-1 is the cumulative sum at the previous time period, xt is the measured metric at time t, mu is xt's long-term average, C is a hyperparameter to buffer out random noise and T is the threshold hyperparameter. 
 

@@ -6,7 +6,7 @@ June 5, 2021
 ## Introduction
 
 The Financial Transactions and Reports Analysis Centre (FINTRAC) is the
-country’s regulator of proceeds of crime, such as money laundering,
+Canada’s regulator of proceeds of crime, such as money laundering,
 bribery and terrorist financing. Regulated sectors, such as banks,
 credit unions and insurance companies, must report certain transactions
 to FINTRAC to enable their investigations and enforcement. One such
@@ -62,7 +62,7 @@ and at the FSA-sector combination. The model uses a unique
 implementation of the cumulative sum (CUSUM) change detection algorithm.
 In CUSUM, the formula is as below:
 
-St = max(0, St-1 + (xt - mu - C)) Change event if St \>= T
+St = max(0, St-1 + (xt - mu - C)); Change event if St \>= T
 
 Note that St is the cumulative sum at time t, St-1 is the cumulative sum
 at the previous time period, xt is the measured metric at time t, mu is
