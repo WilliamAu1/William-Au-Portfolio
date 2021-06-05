@@ -11,6 +11,8 @@ knitr::opts_chunk$set(echo = TRUE)
 
 
 ## Introduction
+As part of the Data for Good (Calgary chapter) / GeoWomen YYC's Datathon, participants chose data projects with an ESG focus using public data. This project represents my individual contribution, a project that implements a change detection ensemble model on suspicious transactions in order to target geographical areas and activity sectors for investigations.  
+
 The Financial Transactions and Reports Analysis Centre (FINTRAC) is Canada's regulator of proceeds of crime, such as money laundering, bribery and terrorist financing. Regulated sectors, such as banks, credit unions and insurance companies, must report certain transactions to FINTRAC to enable their investigations and enforcement. One such class of transactions are suspicious transactions, where the regulated sector entity must file a "suspicious transaction report" (STR) to FINTRAC whenever it suspects a particular transaction has a higher probability of being a proceed of crime.
 
 Through the Government of Canada's Open Data portal, FINTRAC provides a public data set of aggregate reports by neighbourhood, defined as Canada Post's Forward Sortation Area (FSA) and by sector, updated on a monthly basis. This data set includes 3 classes of transactions: STRs, Large Cash Transaction Reports (LCTRs) and Electronic Funds Transfer Reports (EFTs). 
@@ -204,7 +206,7 @@ f3_fsa <- f2_fsa %>%
     ungroup() %>%
     arrange(desc(n)) %>%
     mutate(order = row_number())
-ggplot(f3_fsa, aes(x = n)) + geom_histogram() + theme_minimal() +
+ggplot(f3_fsa, aes(x = n)) + geom_histogram(bins = 15) + theme_minimal() +
     labs(title = "Change detection ensemble histogram")
 ggplot(f3_fsa, aes(x = 1, y = n)) + geom_violin(fill = "green") + 
     theme_minimal() + 

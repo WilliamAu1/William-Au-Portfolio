@@ -5,6 +5,13 @@ June 5, 2021
 
 ## Introduction
 
+As part of the Data for Good (Calgary chapter) / GeoWomen YYC’s
+Datathon, participants chose data projects with an ESG focus using
+public data. This project represents my individual contribution, a
+project that implements a change detection ensemble model on suspicious
+transactions in order to target geographical areas and activity sectors
+for investigations.
+
 The Financial Transactions and Reports Analysis Centre (FINTRAC) is
 Canada’s regulator of proceeds of crime, such as money laundering,
 bribery and terrorist financing. Regulated sectors, such as banks,
