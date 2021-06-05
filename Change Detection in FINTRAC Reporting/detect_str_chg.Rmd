@@ -1,0 +1,342 @@
+---
+title: "Change Detection Ensemble Modeling for Suspicious Transactions"
+author: "William Au"
+date: "June 5, 2021"
+output: rmarkdown::github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+## Introduction
+The Financial Transactions and Reports Analysis Centre (FINTRAC) is the Canada's regulator of proceeds of crime, such as money laundering, bribery and terrorist financing. Regulated sectors, such as banks, credit unions and insurance companies, must report certain transactions to FINTRAC to enable their investigations and enforcement. One such class of transactions are suspicious transactions, where the regulated sector entity must file a "suspicious transaction report" (STR) to FINTRAC whenever it suspects a particular transaction has a higher probability of being a proceed of crime.
+
+Through the Government of Canada's Open Data portal, FINTRAC provides a public data set of aggregate reports by neighbourhood, defined as Canada Post's Forward Sortation Area (FSA) and by sector, updated on a monthly basis. This data set includes 3 classes of transactions: STRs, Large Cash Transaction Reports (LCTRs) and Electronic Funds Transfer Reports (EFTs). 
+
+
+## Motivation and Objective
+The motivation for implementing a change detection model is for 2 reasons:
+
+* Financial crime is often organized. For example, criminals may recruit "money mules" from vulnerable populations in certain areas to spread the risk of detection across multiple persons, often in a common geography. Another criminal strategy might involve spamming the financial system of criminal transactions to get as much value as quickly as possible before being detected.
+* Alternative methods for targeting investigations can be very inefficient. Statistical hypothesis testing may be one approach; however, when STRs get so large to become problematic with statistical significance, the time delay to detection may be quite long, allowing criminals to conduct their activities freely for longer. Sampling based approaches are another possibility, but these can be very inefficient as well since rare-event detection can be quite unlikely with sampling.
+
+The objective of this is to develop an change detection model to efficiently target investigations on a geographical and sector basis. This model must have these characteristics:
+
+* Must serve as a timely early-warning system, and not require long lags and delays before alerting
+* Must be able to be processed efficiently on commodity hardware with open source software
+* Must have low learner bias
+* Must have low human bias
+* Must have low data requirements (i.e., ideally no data sources outside of the FINTRAC-provided data set)
+
+
+## Methodology
+I modeled positive change detection at 2 grains: at the aggregate FSA and at the FSA-sector combination. The model uses a unique implementation of the cumulative sum (CUSUM) change detection algorithm. In CUSUM, the formula is as below: 
+
+St = max(0, St-1 + (xt - mu - C))
+Change event if St >= T
+
+Note that St is the cumulative sum at time t, St-1 is the cumulative sum at the previous time period, xt is the measured metric at time t, mu is xt's long-term average, C is a hyperparameter to buffer out random noise and T is the threshold hyperparameter. 
+
+Traditional implementations of CUSUM often relies on intuition or estimates of the cost of the change to set the hyperparameters C and T. In the STR use-case, intuition may be sub-optimal because criminals often act in novel ways, not to mention intuition introduces the risk of human bias. Cost estimates may be sub-optimal as well, because it can be very difficult and/or inaccurate to estimate costs due to rare-event contagion, social costs, victim costs, etc. 
+
+In my implementation, I leverage grid search over the entire search space of C and T in an ensemble manner. After each iteration of CUSUM within the grid, the model saves the FSAs or the FSA-sector combinations that have St >= T. And after the grid search is completed, the model counts all the occurences of FSAs or FSA-sector combinations as a "vote" to determine the most likely STR anomalies. 
+
+
+## Exploratory Data Analysis
+
+As the plot below shows, the aggregate number of STRs increases over time at an increasing rate. There is fairly large spikes in 2019 and 2021. 
+
+```{r eda1, message = FALSE, warning = FALSE, echo = FALSE}
+# admin -------------------------------------------------------------------
+# ctrl-shift R
+rm(list = ls())
+library(tidyverse)
+
+
+# import ------------------------------------------------------------------
+# import data, filter to include only FSA-lvl & STR's
+f1 <- as_tibble(read_csv(
+    "fintrac-canafe_data-donnees.csv", col_names = FALSE, skip = 1)) %>%
+    rename(activity_sector = X1, pc = X2, rep_typ = X3, rep_yr_mth = X4,
+        rep_num = X5) %>%
+    filter(
+        str_length(pc) == 3,
+        str_detect(rep_typ, "STR") == TRUE) %>%
+    mutate(rep_dt = 
+            lubridate::as_date(str_c(
+                str_sub(as.character(rep_yr_mth), 1, 4), 
+                "/",
+                str_sub(as.character(rep_yr_mth), 5, 6), 
+                "/",
+                "01")),
+        sector = 
+            ifelse(str_detect(activity_sector, "Banks") > 0, "BANK",
+            ifelse(str_detect(activity_sector, "Accountant") > 0, "ACCOUNTANT",
+            ifelse(str_detect(activity_sector, "Credit") > 0, "CREDIT UNION",
+            ifelse(str_detect(activity_sector, "precious") > 0, "PRECIOUS",
+            ifelse(str_detect(activity_sector, "Life") > 0, "LIFE INS",
+            ifelse(str_detect(activity_sector, "Money") > 0, "MONEY SERV",
+            ifelse(str_detect(activity_sector, "Real") > 0, "REAL EST",
+            ifelse(str_detect(activity_sector, "Securities") > 0, "SECURITIES",
+            ifelse(str_detect(activity_sector, "Trust") > 0, "TRUST", 
+            "UK")))))))))
+        ) %>%
+    select(-c(X6, rep_typ, rep_yr_mth, activity_sector))
+# EDA ---------------------------------------------------------------------
+tmp_eda <- f1 %>%
+    group_by(rep_dt) %>%
+    summarise(rep_num = sum(rep_num)) %>%
+    ungroup()
+ggplot(tmp_eda, aes(x = rep_dt, y = rep_num)) + geom_line() + theme_minimal() + 
+    labs(title = "Total STRs over time")
+```
+
+The plot below shows STRs over time for each activity sector, with the following insights: 
+
+* Banks, credit unions and trusts show increases over time in both STRs and the variance, the former 2 at an increasing rate
+* Precious metals show decreases over time
+* Real estate have shown a very recent spike 
+* Securities variance has decreased dramatically
+* Money services has not changed much over time
+
+
+```{r eda2, message = FALSE, warning = FALSE, echo = FALSE}
+tmp_eda <- f1 %>%
+    group_by(rep_dt, sector) %>%
+    summarise(rep_num = sum(rep_num)) %>%
+    ungroup()
+ggplot(tmp_eda, aes(x = rep_dt, y = rep_num)) + geom_line() + 
+    facet_wrap(vars(sector), ncol = 1, scales = "free") + 
+    theme_void() + 
+    labs(title = "Total STRs over time by activity sector")
+```
+
+The plot below shows the same data, but stacked. This view shows have banks and money services dwarf the other sectors in total STRs, by far.
+
+```{r eda3, message = FALSE, warning = FALSE, echo = FALSE}
+tmp_eda$sector <- factor(tmp_eda$sector , 
+    levels = c("BANK", "MONEY SERV", "CREDIT UNION", "TRUST", "SECURITIES", 
+    "LIFE INS", "PRECIOUS", "REAL EST"))
+ggplot(tmp_eda, aes(x = rep_dt, y = rep_num, fill = sector)) + 
+    geom_area(alpha = 0.6 , size = 1) + theme_void() +
+    labs(title = "Total STRs over time by activity sector (stacked view)")
+```
+
+The stacked percentage view also shows interesting insights. Not only are banks and money services the biggest senders of STRs, but over time banks and money services became far bigger and far smaller in proportion of STRs, respectively. 
+
+```{r eda4, message = FALSE, warning = FALSE, echo = FALSE}
+tmp_eda <- f1  %>%
+    group_by(rep_dt, sector) %>%
+    summarise(n = sum(rep_num)) %>%
+    mutate(percentage = n / sum(n)) %>%
+    ungroup()
+tmp_eda$sector <- factor(tmp_eda$sector , 
+    levels = c("BANK", "MONEY SERV", "CREDIT UNION", "TRUST", "SECURITIES", 
+    "LIFE INS", "PRECIOUS", "REAL EST"))
+ggplot(tmp_eda, aes(x = rep_dt, y = percentage, fill = sector)) + 
+    geom_area(alpha = 0.6 , size = 0.1, colour = "black") + theme_void() +
+    labs(title = "Total STRs over time by activity sector (stacked % view)")
+rm(tmp_eda)
+# lots more STR in recent times in aggregate (2018+)
+# banks and credit unions up, money services kind of up, precious down, 
+    # real estate spike, securities flat, trust up
+# magnitude in order of factor levels
+# banks became way bigger % over time and money services way less
+```
+
+## FSA Model
+The first implementation of the ensemble CUSUM model is at an FSA-level (i.e., regardless of sector). The voting outcome of the ensemble is depicted in the histogram and violin jitter plots below (note that each of the >1000 FSAs is scored almost 500 times each, for a total of over half a million iterations). 
+
+```{r fsa, message = FALSE, warning = FALSE, echo = FALSE}
+# FSA-level model ---------------------------------------------------------
+# aggregate FSA-lvl CUSUM with T and C hyperparam grid search
+tmp_mu <- f1 %>%    
+    group_by(pc) %>%
+    summarise(mu = mean(rep_num)) %>%
+    ungroup()
+# 235 is max mu, 36922 is max st when C==0, >9 trillion combinations of C-T-FSA
+# ggplot(tmp_mu, aes(x = mu)) + geom_histogram() + theme_minimal()
+# ggplot(f2_fsa, aes(x = st)) + geom_histogram() + theme_minimal()
+cusum_fsa <- function(C, T) {
+    tmp_fsa <- f1 %>%
+        group_by(pc, rep_dt) %>%
+        summarise(rep_num = sum(rep_num)) %>%
+        ungroup() %>%
+        arrange(pc, rep_dt) %>%
+        left_join(tmp_mu, by = "pc") %>%
+        group_by(pc) %>%
+        mutate(
+            xt = ifelse(is.na(lag(rep_num, n = 1)), rep_num, 
+                lag(rep_num, n = 1)),
+            cum_sum = cumsum(xt),
+            tmp = ifelse(is.na(
+                lag(cum_sum, n = 1) + (xt - mu - C)), mu,
+                lag(cum_sum, n = 1) + (xt - mu - C))) %>%
+        ungroup() %>%
+        rowwise() %>%
+        mutate(
+            st = max(0, tmp),
+            chg_ind = ifelse(st >= T, "Y", "N")) %>%
+        ungroup() %>%
+        group_by(pc) %>%
+        filter(row_number() == n()) %>%
+        ungroup() %>%
+        select(pc, chg_ind) %>%
+        filter(chg_ind == "Y")
+    invisible(as_tibble(tmp_fsa))
+}
+hyperparams = list(
+    C = seq(0, 240, by = 20),
+    T = seq(0, 37000, by = 1000))
+f2_fsa <- cusum_fsa(C = 5000, T = 40000)  # create empty tibble to row_bind
+for (i in hyperparams$C) {
+    for (j in hyperparams$T) {
+        tmp <- cusum_fsa(C = i, T = j)
+        f2_fsa <- f2_fsa %>% 
+            bind_rows(tmp)}}
+f3_fsa <- f2_fsa %>%
+    group_by(pc) %>%
+    count() %>%
+    ungroup() %>%
+    arrange(desc(n)) %>%
+    mutate(order = row_number())
+ggplot(f3_fsa, aes(x = n)) + geom_histogram() + theme_minimal() +
+    labs(title = "Change detection ensemble histogram")
+ggplot(f3_fsa, aes(x = 1, y = n)) + geom_violin(fill = "green") + 
+    theme_minimal() + 
+    geom_jitter(shape = 16, position = position_jitter(0.1), size = 1,
+    alpha = 0.5, col = "red") + 
+    labs(title = "Change detection ensemble violin jitter")
+```
+
+The above 2 plots show that about 10-15 FSAs are anomalies in the most recent reporting month. By ordering the ensemble results and plotting the total votes versus this order, I look for an elbow point on the elbow plot below as another way to determine the change cut-off, which I set at 11 FSAs.
+
+```{r fsa2, message = FALSE, warning = FALSE, echo = FALSE}
+ggplot(f3_fsa, aes(x = order, y = n)) + geom_line() + geom_point(col = "red") + 
+    theme_minimal() +
+    labs(title = "Change detection ensemble elbow plot")
+```
+
+So which are the neighbourhoods with the most suspicious recent spikes in STRs? Here they are below:
+
+```{r fsa3, message = FALSE, warning = FALSE, echo = FALSE}
+hit_list_fsa <- f3_fsa %>%
+    filter(order <= 11) %>%
+    mutate(Neighbourhood = 
+        ifelse(pc == "M5K", "Downtown Toronto (TD Centre / Design Exchange)",
+        ifelse(pc == "M1K", "Scaborough (Kennedy Park / Ionview / East Birchmount Park)",
+        ifelse(pc == "M5H", "Downtown Toronto (Richmond / Adelaide / King)",
+        ifelse(pc == "M2N", "North York (Willowdale) South",
+        ifelse(pc == "M8X", "Etobicoke (Kingsway / Montgomery Rd / Old Mill North",
+        ifelse(pc == "M5J", "Downtown Toronto (Harbourfront East / Union St / Toronto Islands",
+        ifelse(pc == "L3R", "Markham (Outer Southwest)",
+        ifelse(pc == "L4W", "Mississauga (Matheson / East Rathwood)",
+        ifelse(pc == "V6Y", "Richmond Central",
+        ifelse(pc == "V6X", "Richmond North",
+        ifelse(pc == "H3B", "Downtown Montreal East", "UK")))))))))))) %>%
+    select(pc, Neighbourhood, order)
+print(hit_list_fsa)
+```
+
+## FSA-Sector
+Similar to the FSA-level model, I implemented ensemble CUSUM at the FSA-sector level, which is likely a more useful tool for investigation. Across all combinations of FSA, sector and increments in the grid space of C and T, this model is trained on almost 4 million iterations. Similar interpretation to the FSA-level implementation, the violin jitter plot shows 11 distinct anomalies (2 for trust and bank each, 4 for money services).
+
+```{r sector, message = FALSE, warning = FALSE, echo = FALSE}
+# sector-level and FSA-level model ----------------------------------------
+# business- and FSA-lvl CUSUM with T and C hyperparam grid search
+tmp_mu <- f1 %>%
+    group_by(pc, sector) %>%
+    summarise(mu = mean(rep_num)) %>%
+    ungroup()
+# 493 is max mu, 36922 is max st when C==0, >9 trillion combinations of C-T-FSA
+# ggplot(tmp_mu, aes(x = mu)) + geom_histogram() + theme_minimal()
+# ggplot(f2_fsa_sector, aes(x = st)) + geom_histogram() + theme_minimal()
+cusum_fsa_sector <- function(C, T) {
+    tmp_fsa <- f1 %>%
+        group_by(pc, sector, rep_dt) %>%
+        summarise(rep_num = sum(rep_num)) %>%
+        ungroup() %>%
+        arrange(pc, sector, rep_dt) %>%
+        left_join(tmp_mu, by = c("pc", "sector")) %>%
+        group_by(pc, sector) %>%
+        mutate(
+            xt = ifelse(is.na(lag(rep_num, n = 1)), rep_num, 
+                lag(rep_num, n = 1)),
+            cum_sum = cumsum(xt),
+            tmp = ifelse(is.na(
+                lag(cum_sum, n = 1) + (xt - mu - C)), mu,
+                lag(cum_sum, n = 1) + (xt - mu - C))) %>%
+        ungroup() %>%
+        rowwise() %>%
+        mutate(
+            st = max(0, tmp),
+            chg_ind = ifelse(st >= T, "Y", "N")) %>%
+        ungroup() %>%
+        group_by(pc) %>%
+        filter(row_number() == n()) %>%
+        ungroup() %>%
+        select(pc, sector, chg_ind) %>%
+        filter(chg_ind == "Y")
+    invisible(as_tibble(tmp_fsa))
+}
+hyperparams = list(
+    C = seq(0, 500, by = 50),
+    T = seq(0, 40000, by = 5000))
+f2_fsa_sector <- cusum_fsa_sector(C = 999, T = 99999)  # create empty tibble to row_bind
+for (i in hyperparams$C) {
+    for (j in hyperparams$T) {
+        tmp <- cusum_fsa_sector(C = i, T = j)
+        f2_fsa_sector <- f2_fsa_sector %>% 
+        bind_rows(tmp)}}
+f3_fsa_sector <- f2_fsa_sector %>%
+    group_by(pc, sector) %>%
+    count() %>%
+    ungroup() %>%
+    arrange(sector, desc(n), pc)
+ggplot(f3_fsa_sector, aes(x = sector, y = n)) + geom_violin(fill = "green") + 
+    theme_minimal() + coord_flip() +
+    geom_jitter(shape = 16, position = position_jitter(0.2), size = 0.5,
+    alpha = 0.5, col = "red") +
+    labs(title = "Change detection elbow jitter")
+```
+
+So which are the FSA-sector combinations that has the most anomalous recent results? Here they are:
+
+```{r sector2, message = FALSE, warning = FALSE, echo = FALSE}
+# 2 trust, 4 money services, 2 bank
+hit_list_fsa_sector <- f3_fsa_sector %>%
+    filter(sector %in% c("TRUST", "BANK", "MONEY SERV") & n >= 13) %>%
+    mutate(Neighbourhood = 
+        ifelse(pc == "M5H", "Downtown Toronto (Richmond / Adelaide / King)",
+        ifelse(pc == "M2H", "North York (Hillcrest Village)",
+        ifelse(pc == "M4V", "Central Toronto (Summerhill West / Rathnelly / South Hill / Forest Hill SE / Deer Park",
+        ifelse(pc == "M3M", "North York (Downsview) Central",
+        ifelse(pc == "M9V", "Etobicoke (South Steeles / Silverstone / Humbergate / Jamestown / Mount Olive / Thistletown / Albion Gardens",
+        ifelse(pc == "M4W", "Downtown Toronto (Rosedale)",
+        ifelse(pc == "V3W", "Surrey Upper West",
+        ifelse(pc == "V6C", "Vancouver (Waterfront / Coal Harbour / Canada Place", 
+            "UK"))))))))) %>%
+    arrange(desc(n)) %>%
+    mutate(order = row_number()) %>%
+    select(pc, sector, Neighbourhood, order)
+print(hit_list_fsa_sector)
+```
+
+## Model Testing
+Since the data is not labeled, traditional model testing techniques could not be used. Instead, I use a "litmus" test by creating time-series visualizations of the change detection anomalies to ensure the most recent observation appears consistent with a positive change event. Below are the results, and while some visually may look more suspicious than others, all of them are defensible as strong candidates for targeted investigations:
+
+```{r test, message = FALSE, warning = FALSE, echo = FALSE}
+# hit list viz ------------------------------------------------------------
+tmp <- f1 %>%
+    right_join(hit_list_fsa, by = "pc")
+ggplot(tmp, aes(x = rep_dt, y = rep_num)) + geom_line() + 
+    theme_void() + facet_wrap(vars(order), ncol = 1, scales = "free") +
+    labs(title = "Top 11 most suspicious FSA neighbourhoods")
+tmp <- f1 %>%
+    right_join(hit_list_fsa_sector, by = c("pc", "sector"))
+ggplot(tmp, aes(x = rep_dt, y = rep_num)) + geom_line() + 
+    theme_void() + facet_wrap(vars(order), ncol = 1, scales = "free") +
+    labs(title = "Top 8 most suspicious neighbourhood-sector combinations")
+```
