@@ -175,7 +175,7 @@ Since the data is not labeled, traditional model validation techniques
 could not be used. Instead, I use a “litmus” test by creating
 time-series visualizations of the change detection anomalies to ensure
 the most recent observation appears consistent with a positive change
-event. Below are the results, and all of them are defensible as strong
-candidates for targeted investigations:
+event, relative to the overall data set. Below are the results, and all
+of them are defensible as strong candidates for targeted investigations:
 
 ![](detect_str_chg_files/figure-gfm/test-1.png)<!-- -->![](detect_str_chg_files/figure-gfm/test-2.png)<!-- -->

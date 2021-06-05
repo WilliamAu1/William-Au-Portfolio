@@ -332,18 +332,41 @@ print(hit_list_fsa_sector)
 ```
 
 ## Model Validation
-Since the data is not labeled, traditional model validation techniques could not be used. Instead, I use a "litmus" test by creating time-series visualizations of the change detection anomalies to ensure the most recent observation appears consistent with a positive change event. Below are the results, and all of them are defensible as strong candidates for targeted investigations:
+Since the data is not labeled, traditional model validation techniques could not be used. Instead, I use a "litmus" test by creating time-series visualizations of the change detection anomalies to ensure the most recent observation appears consistent with a positive change event, relative to the overall data set. Below are the results, and all of them are defensible as strong candidates for targeted investigations:
 
 ```{r test, message = FALSE, warning = FALSE, echo = FALSE}
 # hit list viz ------------------------------------------------------------
 tmp <- f1 %>%
-    right_join(hit_list_fsa, by = "pc")
-ggplot(tmp, aes(x = rep_dt, y = rep_num)) + geom_line() + 
-    theme_void() + facet_wrap(vars(order), ncol = 1, scales = "free") +
-    labs(title = "Top 2 most suspicious FSA neighbourhoods")
+    left_join(hit_list_fsa, by = "pc") %>%
+    mutate(grp = ifelse(is.na(order), "All", as.character(order))) %>%
+    group_by(grp, rep_dt) %>%
+    summarise(rep_num = sum(rep_num)) %>%
+    ungroup() 
+tmp_means <- tmp %>%
+    group_by(grp) %>%
+    summarise(grp_mean = mean(rep_num)) %>%
+    ungroup()
+tmp <- tmp %>%
+    left_join(tmp_means, by = "grp") %>%
+    mutate(rep_num_index = rep_num / grp_mean)
+ggplot(tmp, aes(x = rep_dt, y = rep_num_index, group = grp)) + 
+    geom_line(aes(col = grp), size = 2) + theme_void() + 
+    labs(title = "Top 2 most suspicious FSA neighbourhoods vs all observations (both indexed)")
+
 tmp <- f1 %>%
-    right_join(hit_list_fsa_sector, by = c("pc", "sector"))
-ggplot(tmp, aes(x = rep_dt, y = rep_num)) + geom_line() + 
-    theme_void() + 
-    labs(title = "Top 1 most suspicious neighbourhood-sector combination")
+    left_join(hit_list_fsa_sector, by = c("pc", "sector")) %>%
+    mutate(grp = ifelse(is.na(order), "All", as.character(order))) %>%
+    group_by(grp, rep_dt) %>%
+    summarise(rep_num = sum(rep_num)) %>%
+    ungroup() 
+tmp_means <- tmp %>%
+    group_by(grp) %>%
+    summarise(grp_mean = mean(rep_num)) %>%
+    ungroup()
+tmp <- tmp %>%
+    left_join(tmp_means, by = "grp") %>%
+    mutate(rep_num_index = rep_num / grp_mean)
+ggplot(tmp, aes(x = rep_dt, y = rep_num_index, group = grp)) + 
+    geom_line(aes(col = grp), size = 2) + theme_void() + 
+    labs(title = "Top 1 most suspicious neighbourhood-sector combination vs all observations (both indexed)")
 ```
