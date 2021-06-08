@@ -11,11 +11,11 @@ knitr::opts_chunk$set(echo = TRUE)
 
 
 ## Introduction
-As part of the Data for Good (Calgary chapter) / GeoWomen YYC's Datathon, participants chose data projects with an ESG focus using public data. This project represents my individual contribution, a project that implements a change detection ensemble model on suspicious transactions in order to target geographical areas and activity sectors for investigations.  
+As part of the Data for Good (Calgary chapter) / GeoWomen YYC's Datathon, participants chose data projects with an Economic, Social and Corporate Governance (ESG) focus using public data. This project represents my individual contribution, a project that implements a change detection ensemble model on suspicious transactions in order to target geographical areas and activity sectors for investigations.  
 
 The Financial Transactions and Reports Analysis Centre (FINTRAC) is Canada's regulator of proceeds of crime, such as money laundering, bribery and terrorist financing. Regulated sectors, such as banks, credit unions and insurance companies, must report certain transactions to FINTRAC to enable their investigations and enforcement. One such class of transactions are suspicious transactions, where the regulated sector entity must file a "suspicious transaction report" (STR) to FINTRAC whenever it suspects a particular transaction has a higher probability of being a proceed of crime.
 
-Through the Government of Canada's Open Data portal, FINTRAC provides a public data set of aggregate reports by neighbourhood, defined as Canada Post's Forward Sortation Area (FSA) and by sector, updated on a monthly basis. This data set includes 3 classes of transactions: STRs, Large Cash Transaction Reports (LCTRs) and Electronic Funds Transfer Reports (EFTs). 
+Through the Government of Canada's Open Data portal, FINTRAC provides a public data set of aggregate reports by neighbourhood, defined as Canada Post's Forward Sortation Area (FSA) and by sector, updated on a monthly basis. This data set includes 3 classes of transactions: STRs, Large Cash Transaction Reports (LCTRs) and Electronic Funds Transfer Reports (EFTs). The CSV data set is available for download here: https://open.canada.ca/data/en/dataset/81cc47ac-e88d-4b7f-9318-8774a2d919e6.
 
 
 ## Motivation and Objective
@@ -126,6 +126,9 @@ ggplot(tmp_eda, aes(x = rep_dt, y = rep_num, fill = sector)) +
 ```
 
 The stacked percentage view also shows interesting insights. Not only are banks and money services the biggest senders of STRs, but over time banks and money services became far bigger and far smaller in proportion of STRs, respectively. 
+
+Banks have the biggest, most dramatic change to their STR profile over the entire time-series, particularly after 2014. During this time, there was a large money-laundering case in Canada involving Manulife, that included a large fine and received international news coverage. This event created a lot of scrutiny towards the bank sector, likely leading to their employees becoming far more sensitive to submitting more STRs to minimize their regulatory and operational risks (note that there is no penalty in submitting false-positive STRs in good faith). 
+
 
 ```{r eda4, message = FALSE, warning = FALSE, echo = FALSE}
 tmp_eda <- f1  %>%
@@ -371,4 +374,19 @@ ggplot(tmp, aes(x = rep_dt, y = rep_num_index, group = grp)) +
     labs(title = "Most suspicious neighbourhood-sector combination vs all (both indexed)")
 ```
 
-Interestingly, the above plots show that the FSA-level model alerts at much higher levels relative to the finer grain FSA-sector model. I would have expected the reverse, since the finer gain is likely to be more sensitive to changes in STR volumes. If I was a member of FINTRAC or some other enforcement agency, I would investigate the reason behind this, which be purely coincidental but may also be because of criminals adopting strategies to spread their transactions across multiple sectors in an attempt to evade detection.
+Interestingly, the above plots show that the FSA-level model alerts at much higher levels relative to the finer grain FSA-sector model. I would have expected the reverse, since the finer gain is likely to be more sensitive to changes in STR volumes. If I was a member of FINTRAC or some other enforcement agency, I would investigate the reason behind this, which may be something systemic or purely coincidental, but may also be because of criminals adopting strategies to spread their transactions across multiple sectors in an attempt to evade detection.
+
+## Potential for Future Applications and Benefits
+FINTRAC, as well as other agencies tasked with financial crimes (e.g., CSIS, RCMP), could leverage this methodology and expand it to suit their investigative needs and lower-level data. Possible implementations could include (list is not mutually exclusive or exhaustive):
+
+* Reporting on lower-level geographies, such as postal walk or customer micro-neighbourhood to match their scope of investigations
+* Detecting changes in aggregate STRs where organized financial crime may be more probable to arise, such as by relevant filters/dimensions that are available in STR form fields (e.g., conductors, beneficiaries, holders, owners, directors/officers, relationships, transaction type, dollar amount)
+* Creating new metrics for change detection by transformations (e.g., STR:total transaction ratio, adding STRs with LCTRs and/or EFTs)
+* Outputting change events with their relevant data fields (e.g., pre/post change levels, conductors, dollar amounts, neighbourhoods) to rank the change events by investigative priority and/or to assign to investigation team
+* Using model output to create reports for investigators in the field as a job aid
+
+A successful implementation of ensemble CUSUM can bring a number of benefits, such as (again, list is not mutually exclusive or exhaustive):
+
+* Improved cost, time and/or resource efficiency for investigations
+* Reduced human bias in investigation selection, including potentially unconscious bias in ethnic or marginalized income neighbourhoods
+* Mitigated social and economic harm due to the ability to detect and stop criminal activity earlier
